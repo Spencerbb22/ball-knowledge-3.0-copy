@@ -1,0 +1,1312 @@
+[
+  {
+    "question": "Who won the AL MVP in 2012?",
+    "options": [
+      "Giancarlo Stanton",
+      "Shohei Ohtani",
+      "Clayton Kershaw",
+      "Miguel Cabrera"
+    ],
+    "answer": "Miguel Cabrera"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2018?",
+    "options": [
+      "Jake Arrieta",
+      "Jacob deGrom",
+      "Clayton Kershaw",
+      "Blake Snell"
+    ],
+    "answer": "Jacob deGrom"
+  },
+  {
+    "question": "Who won the AL MVP in 2020?",
+    "options": [
+      "Josh Hamilton",
+      "Jose Abreu",
+      "Shohei Ohtani",
+      "Mike Trout"
+    ],
+    "answer": "Jose Abreu"
+  },
+  {
+    "question": "Who hit the most home runs in a single MLB season?",
+    "options": [
+      "Barry Bonds",
+      "Mark McGwire",
+      "Sammy Sosa",
+      "Roger Maris"
+    ],
+    "answer": "Barry Bonds"
+  },
+  {
+    "question": "Who won the NL MVP in 2020?",
+    "options": [
+      "Jose Abreu",
+      "Josh Donaldson",
+      "Justin Verlander",
+      "Freddie Freeman"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the NL MVP in 2022?",
+    "options": [
+      "Cody Bellinger",
+      "Paul Goldschmidt",
+      "Aaron Judge",
+      "Kris Bryant"
+    ],
+    "answer": "Paul Goldschmidt"
+  },
+  {
+    "question": "Who won the NL MVP in 2017?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Giancarlo Stanton",
+      "Jose Abreu",
+      "Ryan Braun"
+    ],
+    "answer": "Giancarlo Stanton"
+  },
+  {
+    "question": "Which pitcher threw two no-hitters in 2021?",
+    "options": [
+      "Corbin Burnes",
+      "Joe Musgrove",
+      "Carlos Rodon",
+      "Corey Kluber"
+    ],
+    "answer": "Corbin Burnes"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2016?",
+    "options": [
+      "Michael Fulmer",
+      "Gunnar Henderson",
+      "Michael Harris II",
+      "Jeremy Hellickson"
+    ],
+    "answer": "Michael Fulmer"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2022?",
+    "options": [
+      "Jose Fernandez",
+      "Michael Harris II",
+      "Yordan Alvarez",
+      "Julio Rodriguez"
+    ],
+    "answer": "Julio Rodriguez"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2022?",
+    "options": [
+      "Corey Kluber",
+      "R.A. Dickey",
+      "Sandy Alcantara",
+      "Rick Porcello"
+    ],
+    "answer": "Sandy Alcantara"
+  },
+  {
+    "question": "Who led MLB in hits in 2011?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who was the MLB home run leader in 2023?",
+    "options": [
+      "Matt Olson",
+      "Pete Alonso",
+      "Shohei Ohtani",
+      "Aaron Judge"
+    ],
+    "answer": "Matt Olson"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2015?",
+    "options": [
+      "Dallas Keuchel",
+      "Jacob deGrom",
+      "Trevor Bauer",
+      "Robbie Ray"
+    ],
+    "answer": "Dallas Keuchel"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2017?",
+    "options": [
+      "Corey Kluber",
+      "Corbin Burnes",
+      "Sandy Alcantara",
+      "R.A. Dickey"
+    ],
+    "answer": "Corey Kluber"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2014?",
+    "options": [
+      "Jonathan India",
+      "Bryce Harper",
+      "Jacob deGrom",
+      "Jose Fernandez"
+    ],
+    "answer": "Jacob deGrom"
+  },
+  {
+    "question": "Who won the NL MVP in 2014?",
+    "options": [
+      "Christian Yelich",
+      "Clayton Kershaw",
+      "Paul Goldschmidt",
+      "Jose Altuve"
+    ],
+    "answer": "Clayton Kershaw"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2017?",
+    "options": [
+      "Cody Bellinger",
+      "Carlos Correa",
+      "Jacob deGrom",
+      "Michael Harris II"
+    ],
+    "answer": "Cody Bellinger"
+  },
+  {
+    "question": "Who won the AL Cy Young Award in 2011?",
+    "options": [
+      "Justin Verlander",
+      "C.C. Sabathia",
+      "Jered Weaver",
+      "James Shields"
+    ],
+    "answer": "Justin Verlander"
+  },
+  {
+    "question": "Who led MLB in hits in 2020?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2021?",
+    "options": [
+      "Julio Rodriguez",
+      "Ronald Acuna Jr.",
+      "Jacob deGrom",
+      "Randy Arozarena"
+    ],
+    "answer": "Randy Arozarena"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2010?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Wil Myers",
+      "Bryce Harper",
+      "Neftali Feliz"
+    ],
+    "answer": "Neftali Feliz"
+  },
+  {
+    "question": "Who won the NL MVP in 2019?",
+    "options": [
+      "Jose Abreu",
+      "Bryce Harper",
+      "Cody Bellinger",
+      "Jose Altuve"
+    ],
+    "answer": "Cody Bellinger"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2023?",
+    "options": [
+      "Gunnar Henderson",
+      "Kyle Lewis",
+      "Randy Arozarena",
+      "Neftali Feliz"
+    ],
+    "answer": "Gunnar Henderson"
+  },
+  {
+    "question": "Who led MLB in hits in 2014?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Jose Altuve"
+  },
+  {
+    "question": "Who won the AL MVP in 2016?",
+    "options": [
+      "Mike Trout",
+      "Josh Hamilton",
+      "Ryan Braun",
+      "Bryce Harper"
+    ],
+    "answer": "Mike Trout"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2023?",
+    "options": [
+      "Blake Snell",
+      "David Price",
+      "Gerrit Cole",
+      "Roy Halladay"
+    ],
+    "answer": "Gerrit Cole"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2020?",
+    "options": [
+      "Shohei Ohtani",
+      "Cody Bellinger",
+      "Devin Williams",
+      "Neftali Feliz"
+    ],
+    "answer": "Devin Williams"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2017?",
+    "options": [
+      "Aaron Judge",
+      "Neftali Feliz",
+      "Devin Williams",
+      "Kyle Lewis"
+    ],
+    "answer": "Aaron Judge"
+  },
+  {
+    "question": "Who won the AL MVP in 2014?",
+    "options": [
+      "Bryce Harper",
+      "Mike Trout",
+      "Buster Posey",
+      "Christian Yelich"
+    ],
+    "answer": "Mike Trout"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2015?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Kris Bryant",
+      "Jose Fernandez",
+      "Carlos Correa"
+    ],
+    "answer": "Kris Bryant"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2019?",
+    "options": [
+      "Sandy Alcantara",
+      "Jake Arrieta",
+      "Corey Kluber",
+      "Justin Verlander"
+    ],
+    "answer": "Justin Verlander"
+  },
+  {
+    "question": "Who led MLB in hits in 2022?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2018?",
+    "options": [
+      "Shohei Ohtani",
+      "Carlos Correa",
+      "Ronald Acuna Jr.",
+      "Jose Abreu"
+    ],
+    "answer": "Shohei Ohtani"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2021?",
+    "options": [
+      "Jonathan India",
+      "Pete Alonso",
+      "Neftali Feliz",
+      "Buster Posey"
+    ],
+    "answer": "Jonathan India"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2013?",
+    "options": [
+      "R.A. Dickey",
+      "Justin Verlander",
+      "Clayton Kershaw",
+      "Sandy Alcantara"
+    ],
+    "answer": "Clayton Kershaw"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2011?",
+    "options": [
+      "Michael Harris II",
+      "Buster Posey",
+      "Shohei Ohtani",
+      "Craig Kimbrel"
+    ],
+    "answer": "Craig Kimbrel"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2021?",
+    "options": [
+      "Clayton Kershaw",
+      "R.A. Dickey",
+      "Max Scherzer",
+      "Robbie Ray"
+    ],
+    "answer": "Robbie Ray"
+  },
+  {
+    "question": "Who holds the MLB record for most career home runs?",
+    "options": [
+      "Barry Bonds",
+      "Hank Aaron",
+      "Babe Ruth",
+      "Alex Rodriguez"
+    ],
+    "answer": "Barry Bonds"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2020?",
+    "options": [
+      "David Price",
+      "Jake Arrieta",
+      "Rick Porcello",
+      "Shane Bieber"
+    ],
+    "answer": "Shane Bieber"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2014?",
+    "options": [
+      "Corey Kluber",
+      "Felix Hernandez",
+      "Roy Halladay",
+      "Corbin Burnes"
+    ],
+    "answer": "Corey Kluber"
+  },
+  {
+    "question": "Who won the World Series MVP in 2021?",
+    "options": [
+      "Jorge Soler",
+      "Steve Pearce",
+      "Madison Bumgarner",
+      "Ben Zobrist"
+    ],
+    "answer": "Jorge Soler"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2011?",
+    "options": [
+      "Trevor Bauer",
+      "Justin Verlander",
+      "Felix Hernandez",
+      "Jacob deGrom"
+    ],
+    "answer": "Justin Verlander"
+  },
+  {
+    "question": "Who won the AL MVP in 2023?",
+    "options": [
+      "Cody Bellinger",
+      "Shohei Ohtani",
+      "Christian Yelich",
+      "Miguel Cabrera"
+    ],
+    "answer": "Shohei Ohtani"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2013?",
+    "options": [
+      "Michael Harris II",
+      "Jose Fernandez",
+      "Devin Williams",
+      "Jonathan India"
+    ],
+    "answer": "Jose Fernandez"
+  },
+  {
+    "question": "Who led MLB in hits in 2012?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who led the National League in home runs in 2019?",
+    "options": [
+      "Pete Alonso",
+      "Cody Bellinger",
+      "Ronald Acuna Jr.",
+      "Freddie Freeman"
+    ],
+    "answer": "Pete Alonso"
+  },
+  {
+    "question": "Who won the AL MVP in 2013?",
+    "options": [
+      "Joey Votto",
+      "Jose Altuve",
+      "Miguel Cabrera",
+      "Justin Verlander"
+    ],
+    "answer": "Miguel Cabrera"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2023?",
+    "options": [
+      "Sandy Alcantara",
+      "Jacob deGrom",
+      "Justin Verlander",
+      "Blake Snell"
+    ],
+    "answer": "Blake Snell"
+  },
+  {
+    "question": "Who won the World Series MVP in 2015?",
+    "options": [
+      "Salvador Perez",
+      "George Springer",
+      "Stephen Strasburg",
+      "Madison Bumgarner"
+    ],
+    "answer": "Salvador Perez"
+  },
+  {
+    "question": "Who led MLB in hits in 2015?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2015?",
+    "options": [
+      "Shane Bieber",
+      "R.A. Dickey",
+      "Jake Arrieta",
+      "Blake Snell"
+    ],
+    "answer": "Jake Arrieta"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2012?",
+    "options": [
+      "Cody Bellinger",
+      "Ronald Acuna Jr.",
+      "Yordan Alvarez",
+      "Bryce Harper"
+    ],
+    "answer": "Bryce Harper"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2021?",
+    "options": [
+      "Felix Hernandez",
+      "Corbin Burnes",
+      "Trevor Bauer",
+      "Shane Bieber"
+    ],
+    "answer": "Corbin Burnes"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2017?",
+    "options": [
+      "Max Scherzer",
+      "Corey Kluber",
+      "Roy Halladay",
+      "Felix Hernandez"
+    ],
+    "answer": "Max Scherzer"
+  },
+  {
+    "question": "Who won the AL MVP in 2017?",
+    "options": [
+      "Freddie Freeman",
+      "Bryce Harper",
+      "Justin Verlander",
+      "Jose Altuve"
+    ],
+    "answer": "Jose Altuve"
+  },
+  {
+    "question": "Who led MLB in home runs in 2017?",
+    "options": [
+      "Giancarlo Stanton",
+      "Aaron Judge",
+      "J.D. Martinez",
+      "Kris Bryant"
+    ],
+    "answer": "Giancarlo Stanton"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2011?",
+    "options": [
+      "Gerrit Cole",
+      "Clayton Kershaw",
+      "Corey Kluber",
+      "Rick Porcello"
+    ],
+    "answer": "Clayton Kershaw"
+  },
+  {
+    "question": "Who led MLB in RBIs in 2023?",
+    "options": [
+      "Matt Olson",
+      "Pete Alonso",
+      "Mookie Betts",
+      "Freddie Freeman"
+    ],
+    "answer": "Matt Olson"
+  },
+  {
+    "question": "Who won the NL MVP in 2016?",
+    "options": [
+      "Joey Votto",
+      "Josh Hamilton",
+      "Clayton Kershaw",
+      "Kris Bryant"
+    ],
+    "answer": "Kris Bryant"
+  },
+  {
+    "question": "Who broke Roger Maris's single-season HR record in 2001?",
+    "options": [
+      "Barry Bonds",
+      "Mark McGwire",
+      "Sammy Sosa",
+      "Alex Rodriguez"
+    ],
+    "answer": "Barry Bonds"
+  },
+  {
+    "question": "Who led the American League in RBIs in 2021?",
+    "options": [
+      "Salvador Perez",
+      "Jose Abreu",
+      "Aaron Judge",
+      "Vladimir Guerrero Jr."
+    ],
+    "answer": "Salvador Perez"
+  },
+  {
+    "question": "Who hit 70 home runs in the 1998 MLB season?",
+    "options": [
+      "Mark McGwire",
+      "Sammy Sosa",
+      "Barry Bonds",
+      "Ken Griffey Jr."
+    ],
+    "answer": "Mark McGwire"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2013?",
+    "options": [
+      "Corbin Carroll",
+      "Neftali Feliz",
+      "Wil Myers",
+      "Jose Fernandez"
+    ],
+    "answer": "Wil Myers"
+  },
+  {
+    "question": "Who won the World Series MVP in 2014?",
+    "options": [
+      "George Springer",
+      "Pablo Sandoval",
+      "Jeremy Pena",
+      "Madison Bumgarner"
+    ],
+    "answer": "Madison Bumgarner"
+  },
+  {
+    "question": "Who won the NL MVP in 2011?",
+    "options": [
+      "Miguel Cabrera",
+      "Ryan Braun",
+      "Joey Votto",
+      "Giancarlo Stanton"
+    ],
+    "answer": "Ryan Braun"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2010?",
+    "options": [
+      "Buster Posey",
+      "Aaron Judge",
+      "Michael Harris II",
+      "Kris Bryant"
+    ],
+    "answer": "Buster Posey"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2010?",
+    "options": [
+      "Justin Verlander",
+      "Corbin Burnes",
+      "David Price",
+      "Felix Hernandez"
+    ],
+    "answer": "Felix Hernandez"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2016?",
+    "options": [
+      "Rick Porcello",
+      "Jake Arrieta",
+      "Corbin Burnes",
+      "Roy Halladay"
+    ],
+    "answer": "Rick Porcello"
+  },
+  {
+    "question": "Who led the AL in hits in 2016?",
+    "options": [
+      "Jose Altuve",
+      "Mookie Betts",
+      "Francisco Lindor",
+      "Xander Bogaerts"
+    ],
+    "answer": "Jose Altuve"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2020?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Aaron Judge",
+      "Kyle Lewis",
+      "Shohei Ohtani"
+    ],
+    "answer": "Kyle Lewis"
+  },
+  {
+    "question": "Who won the AL MVP in 2021?",
+    "options": [
+      "Aaron Judge",
+      "Josh Hamilton",
+      "Shohei Ohtani",
+      "Mookie Betts"
+    ],
+    "answer": "Shohei Ohtani"
+  },
+  {
+    "question": "Who won the World Series MVP in 2011?",
+    "options": [
+      "Stephen Strasburg",
+      "David Freese",
+      "George Springer",
+      "Ben Zobrist"
+    ],
+    "answer": "David Freese"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2014?",
+    "options": [
+      "Clayton Kershaw",
+      "Blake Snell",
+      "Robbie Ray",
+      "Felix Hernandez"
+    ],
+    "answer": "Clayton Kershaw"
+  },
+  {
+    "question": "Who won the World Series MVP in 2010?",
+    "options": [
+      "Steve Pearce",
+      "Edgar Renteria",
+      "Madison Bumgarner",
+      "David Freese"
+    ],
+    "answer": "Edgar Renteria"
+  },
+  {
+    "question": "Who was the first unanimous MVP in MLB history?",
+    "options": [
+      "Hank Greenberg",
+      "Frank Robinson",
+      "Albert Pujols",
+      "Mike Trout"
+    ],
+    "answer": "Frank Robinson"
+  },
+  {
+    "question": "Who won the NL MVP in 2012?",
+    "options": [
+      "Buster Posey",
+      "Jose Altuve",
+      "Ryan Braun",
+      "Andrew McCutchen"
+    ],
+    "answer": "Buster Posey"
+  },
+  {
+    "question": "Who won the World Series MVP in 2019?",
+    "options": [
+      "Salvador Perez",
+      "Edgar Renteria",
+      "Madison Bumgarner",
+      "Stephen Strasburg"
+    ],
+    "answer": "Stephen Strasburg"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2020?",
+    "options": [
+      "Clayton Kershaw",
+      "Trevor Bauer",
+      "David Price",
+      "Shane Bieber"
+    ],
+    "answer": "Trevor Bauer"
+  },
+  {
+    "question": "Who won the AL MVP in 2022?",
+    "options": [
+      "Aaron Judge",
+      "Bryce Harper",
+      "Kris Bryant",
+      "Josh Donaldson"
+    ],
+    "answer": "Aaron Judge"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2011?",
+    "options": [
+      "Jacob deGrom",
+      "Neftali Feliz",
+      "Jeremy Hellickson",
+      "Yordan Alvarez"
+    ],
+    "answer": "Jeremy Hellickson"
+  },
+  {
+    "question": "Who led MLB in stolen bases in 2023?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Esteury Ruiz",
+      "Bobby Witt Jr.",
+      "Trea Turner"
+    ],
+    "answer": "Ronald Acuna Jr."
+  },
+  {
+    "question": "Who led MLB in hits in 2013?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the NL MVP in 2010?",
+    "options": [
+      "Josh Hamilton",
+      "Shohei Ohtani",
+      "Clayton Kershaw",
+      "Joey Votto"
+    ],
+    "answer": "Joey Votto"
+  },
+  {
+    "question": "Who has the most stolen bases in MLB history?",
+    "options": [
+      "Rickey Henderson",
+      "Lou Brock",
+      "Billy Hamilton",
+      "Ty Cobb"
+    ],
+    "answer": "Rickey Henderson"
+  },
+  {
+    "question": "Who won the NL MVP in 2015?",
+    "options": [
+      "Freddie Freeman",
+      "Bryce Harper",
+      "Jose Abreu",
+      "Miguel Cabrera"
+    ],
+    "answer": "Bryce Harper"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2016?",
+    "options": [
+      "Rick Porcello",
+      "Jacob deGrom",
+      "Max Scherzer",
+      "Jake Arrieta"
+    ],
+    "answer": "Max Scherzer"
+  },
+  {
+    "question": "Who won the AL MVP in 2018?",
+    "options": [
+      "Mookie Betts",
+      "Giancarlo Stanton",
+      "Mike Trout",
+      "Jose Altuve"
+    ],
+    "answer": "Mookie Betts"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2012?",
+    "options": [
+      "Corey Kluber",
+      "Justin Verlander",
+      "Dallas Keuchel",
+      "R.A. Dickey"
+    ],
+    "answer": "R.A. Dickey"
+  },
+  {
+    "question": "Who won the World Series MVP in 2012?",
+    "options": [
+      "Jorge Soler",
+      "Steve Pearce",
+      "Ben Zobrist",
+      "Pablo Sandoval"
+    ],
+    "answer": "Pablo Sandoval"
+  },
+  {
+    "question": "Who won the World Series MVP in 2017?",
+    "options": [
+      "Jeremy Pena",
+      "David Ortiz",
+      "Ben Zobrist",
+      "George Springer"
+    ],
+    "answer": "George Springer"
+  },
+  {
+    "question": "Who won the World Series MVP in 2018?",
+    "options": [
+      "Stephen Strasburg",
+      "Edgar Renteria",
+      "Madison Bumgarner",
+      "Steve Pearce"
+    ],
+    "answer": "Steve Pearce"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2018?",
+    "options": [
+      "Blake Snell",
+      "Dallas Keuchel",
+      "Rick Porcello",
+      "Trevor Bauer"
+    ],
+    "answer": "Blake Snell"
+  },
+  {
+    "question": "Which player was known as 'The Big Unit'?",
+    "options": [
+      "Randy Johnson",
+      "Roger Clemens",
+      "Greg Maddux",
+      "Pedro Martinez"
+    ],
+    "answer": "Randy Johnson"
+  },
+  {
+    "question": "Who led MLB in ERA in 2020?",
+    "options": [
+      "Trevor Bauer",
+      "Jacob deGrom",
+      "Shane Bieber",
+      "Yu Darvish"
+    ],
+    "answer": "Shane Bieber"
+  },
+  {
+    "question": "Who won the World Series MVP in 2020?",
+    "options": [
+      "Stephen Strasburg",
+      "Corey Seager",
+      "Madison Bumgarner",
+      "David Freese"
+    ],
+    "answer": "Corey Seager"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2015?",
+    "options": [
+      "Carlos Correa",
+      "Michael Harris II",
+      "Kyle Lewis",
+      "Neftali Feliz"
+    ],
+    "answer": "Carlos Correa"
+  },
+  {
+    "question": "Who led MLB in hits in 2019?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2012?",
+    "options": [
+      "Sandy Alcantara",
+      "Jacob deGrom",
+      "Felix Hernandez",
+      "David Price"
+    ],
+    "answer": "David Price"
+  },
+  {
+    "question": "Who won the World Series MVP in 2016?",
+    "options": [
+      "Jeremy Pena",
+      "David Freese",
+      "David Ortiz",
+      "Ben Zobrist"
+    ],
+    "answer": "Ben Zobrist"
+  },
+  {
+    "question": "Who has the most career strikeouts as a pitcher?",
+    "options": [
+      "Nolan Ryan",
+      "Randy Johnson",
+      "Roger Clemens",
+      "Steve Carlton"
+    ],
+    "answer": "Nolan Ryan"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2012?",
+    "options": [
+      "Julio Rodriguez",
+      "Jeremy Hellickson",
+      "Mike Trout",
+      "Neftali Feliz"
+    ],
+    "answer": "Mike Trout"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2022?",
+    "options": [
+      "Randy Arozarena",
+      "Michael Harris II",
+      "Shohei Ohtani",
+      "Jacob deGrom"
+    ],
+    "answer": "Michael Harris II"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2019?",
+    "options": [
+      "Blake Snell",
+      "Rick Porcello",
+      "Jacob deGrom",
+      "Sandy Alcantara"
+    ],
+    "answer": "Jacob deGrom"
+  },
+  {
+    "question": "Who won the AL MVP in 2010?",
+    "options": [
+      "Shohei Ohtani",
+      "Josh Hamilton",
+      "Clayton Kershaw",
+      "Josh Donaldson"
+    ],
+    "answer": "Josh Hamilton"
+  },
+  {
+    "question": "Who won the NL MVP in 2023?",
+    "options": [
+      "Cody Bellinger",
+      "Ronald Acuna Jr.",
+      "Kris Bryant",
+      "Jose Abreu"
+    ],
+    "answer": "Ronald Acuna Jr."
+  },
+  {
+    "question": "Who won the NL MVP in 2018?",
+    "options": [
+      "Shohei Ohtani",
+      "Christian Yelich",
+      "Mike Trout",
+      "Buster Posey"
+    ],
+    "answer": "Christian Yelich"
+  },
+  {
+    "question": "Who won the AL MVP in 2019?",
+    "options": [
+      "Ronald Acuna Jr.",
+      "Mike Trout",
+      "Christian Yelich",
+      "Andrew McCutchen"
+    ],
+    "answer": "Mike Trout"
+  },
+  {
+    "question": "Who won the NL MVP in 2021?",
+    "options": [
+      "Justin Verlander",
+      "Kris Bryant",
+      "Bryce Harper",
+      "Shohei Ohtani"
+    ],
+    "answer": "Bryce Harper"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2023?",
+    "options": [
+      "Pete Alonso",
+      "Corbin Carroll",
+      "Jonathan India",
+      "Yordan Alvarez"
+    ],
+    "answer": "Corbin Carroll"
+  },
+  {
+    "question": "Who led MLB in hits in 2017?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Jose Altuve"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2014?",
+    "options": [
+      "Jose Abreu",
+      "Mike Trout",
+      "Michael Harris II",
+      "Randy Arozarena"
+    ],
+    "answer": "Jose Abreu"
+  },
+  {
+    "question": "Who hit 62 home runs for the Yankees in 2022?",
+    "options": [
+      "Aaron Judge",
+      "Giancarlo Stanton",
+      "Anthony Rizzo",
+      "Gleyber Torres"
+    ],
+    "answer": "Aaron Judge"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2016?",
+    "options": [
+      "Kris Bryant",
+      "Neftali Feliz",
+      "Gunnar Henderson",
+      "Corey Seager"
+    ],
+    "answer": "Corey Seager"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2019?",
+    "options": [
+      "Pete Alonso",
+      "Carlos Correa",
+      "Julio Rodriguez",
+      "Michael Fulmer"
+    ],
+    "answer": "Pete Alonso"
+  },
+  {
+    "question": "Who was the World Series MVP in 2014?",
+    "options": [
+      "Madison Bumgarner",
+      "Pablo Sandoval",
+      "Buster Posey",
+      "Hunter Pence"
+    ],
+    "answer": "Madison Bumgarner"
+  },
+  {
+    "question": "Who won the World Series MVP in 2013?",
+    "options": [
+      "Pablo Sandoval",
+      "David Ortiz",
+      "Madison Bumgarner",
+      "Jeremy Pena"
+    ],
+    "answer": "David Ortiz"
+  },
+  {
+    "question": "Who won the World Series MVP in 2022?",
+    "options": [
+      "Ben Zobrist",
+      "Corey Seager",
+      "David Ortiz",
+      "Jeremy Pena"
+    ],
+    "answer": "Jeremy Pena"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2013?",
+    "options": [
+      "Max Scherzer",
+      "Corbin Burnes",
+      "Felix Hernandez",
+      "Rick Porcello"
+    ],
+    "answer": "Max Scherzer"
+  },
+  {
+    "question": "Who led MLB in hits in 2021?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who won the NL Rookie of the Year in 2018?",
+    "options": [
+      "Corey Seager",
+      "Ronald Acuna Jr.",
+      "Randy Arozarena",
+      "Aaron Judge"
+    ],
+    "answer": "Ronald Acuna Jr."
+  },
+  {
+    "question": "Who led MLB in hits in 2018?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Which MLB team has won the most World Series titles?",
+    "options": [
+      "New York Yankees",
+      "St. Louis Cardinals",
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "answer": "New York Yankees"
+  },
+  {
+    "question": "Who led the NL in stolen bases in 2022?",
+    "options": [
+      "Jon Berti",
+      "Trea Turner",
+      "Ronald Acuna Jr.",
+      "Cedric Mullins"
+    ],
+    "answer": "Jon Berti"
+  },
+  {
+    "question": "Who led MLB in batting average in 2022?",
+    "options": [
+      "Luis Arraez",
+      "Freddie Freeman",
+      "Paul Goldschmidt",
+      "Trea Turner"
+    ],
+    "answer": "Luis Arraez"
+  },
+  {
+    "question": "Who led MLB in hits in 2010?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Freddie Freeman"
+  },
+  {
+    "question": "Who led MLB in hits in 2016?",
+    "options": [
+      "Jose Altuve",
+      "Freddie Freeman",
+      "Mookie Betts",
+      "Trea Turner"
+    ],
+    "answer": "Jose Altuve"
+  },
+  {
+    "question": "Who won the NL Cy Young in 2010?",
+    "options": [
+      "Max Scherzer",
+      "Sandy Alcantara",
+      "Roy Halladay",
+      "Jake Arrieta"
+    ],
+    "answer": "Roy Halladay"
+  },
+  {
+    "question": "Who won the AL MVP in 2011?",
+    "options": [
+      "Mookie Betts",
+      "Mike Trout",
+      "Josh Hamilton",
+      "Justin Verlander"
+    ],
+    "answer": "Justin Verlander"
+  },
+  {
+    "question": "Who won the AL Rookie of the Year in 2019?",
+    "options": [
+      "Yordan Alvarez",
+      "Wil Myers",
+      "Aaron Judge",
+      "Jeremy Hellickson"
+    ],
+    "answer": "Yordan Alvarez"
+  },
+  {
+    "question": "Who won the AL Cy Young in 2022?",
+    "options": [
+      "Roy Halladay",
+      "Clayton Kershaw",
+      "Corey Kluber",
+      "Justin Verlander"
+    ],
+    "answer": "Justin Verlander"
+  }
+]

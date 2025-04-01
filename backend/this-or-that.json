@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 2,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 3,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 4,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 5,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 6,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 7,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 8,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 9,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 10,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 11,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 12,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 13,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 14,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 15,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 16,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 17,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 18,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 19,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 20,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 21,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 22,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 23,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 24,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 25,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 26,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 27,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 28,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 29,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 30,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 31,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 32,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 33,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 34,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 35,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 36,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 37,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 38,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 39,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 40,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 41,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 42,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 43,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 44,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 45,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 46,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 47,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 48,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 49,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 50,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 51,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 52,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 53,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 54,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 55,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 56,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 57,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 58,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 59,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 60,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 61,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 62,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 63,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 64,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 65,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 66,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 67,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 68,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 69,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 70,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 71,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 72,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 73,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 74,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 75,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 76,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 77,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 78,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 79,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 80,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 81,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 82,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 83,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 84,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 85,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 86,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 87,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 88,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 89,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 90,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 91,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 92,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 93,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 94,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 95,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 96,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 97,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 98,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 99,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 100,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 101,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 102,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 103,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 104,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 105,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 106,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 107,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 108,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 109,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 110,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 111,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 112,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 113,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 114,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 115,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 116,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 117,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 118,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 119,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 120,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 121,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 122,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 123,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 124,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 125,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 126,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 127,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 128,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 129,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 130,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 131,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 132,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 133,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 134,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 135,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 136,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 137,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 138,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 139,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 140,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 141,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 142,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 143,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 144,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 145,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 146,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 147,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 148,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 149,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 150,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 151,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 152,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 153,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 154,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 155,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 156,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 157,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 158,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 159,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 160,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 161,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 162,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 163,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 164,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 165,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 166,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 167,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 168,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 169,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 170,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 171,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 172,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 173,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 174,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 175,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 176,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 177,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 178,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 179,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 180,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 181,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 182,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 183,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 184,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 185,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 186,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 187,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 188,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 189,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 190,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  },
+  {
+    "id": 191,
+    "question": "Who had more career passing yards?",
+    "choices": [
+      "Tom Brady",
+      "Drew Brees"
+    ],
+    "answer": "Tom Brady",
+    "details": {
+      "Tom Brady": "89,214 yards",
+      "Drew Brees": "80,358 yards"
+    }
+  },
+  {
+    "id": 192,
+    "question": "Who had more career rushing yards?",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton"
+    ],
+    "answer": "Emmitt Smith",
+    "details": {
+      "Emmitt Smith": "18,355 yards",
+      "Walter Payton": "16,726 yards"
+    }
+  },
+  {
+    "id": 193,
+    "question": "Who had more Premier League goals?",
+    "choices": [
+      "Alan Shearer",
+      "Wayne Rooney"
+    ],
+    "answer": "Alan Shearer",
+    "details": {
+      "Alan Shearer": "260 goals",
+      "Wayne Rooney": "208 goals"
+    }
+  },
+  {
+    "id": 194,
+    "question": "Who had more career NBA points?",
+    "choices": [
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "answer": "Kobe Bryant",
+    "details": {
+      "Kobe Bryant": "33,643 points",
+      "Michael Jordan": "32,292 points"
+    }
+  },
+  {
+    "id": 195,
+    "question": "Who had more MLB home runs?",
+    "choices": [
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "answer": "Barry Bonds",
+    "details": {
+      "Barry Bonds": "762 HR",
+      "Hank Aaron": "755 HR"
+    }
+  },
+  {
+    "id": 196,
+    "question": "Who had more NFL receiving yards?",
+    "choices": [
+      "Jerry Rice",
+      "Larry Fitzgerald"
+    ],
+    "answer": "Jerry Rice",
+    "details": {
+      "Jerry Rice": "22,895 yards",
+      "Larry Fitzgerald": "17,492 yards"
+    }
+  },
+  {
+    "id": 197,
+    "question": "Who had more NBA assists?",
+    "choices": [
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "answer": "John Stockton",
+    "details": {
+      "John Stockton": "15,806 assists",
+      "Jason Kidd": "12,091 assists"
+    }
+  },
+  {
+    "id": 198,
+    "question": "Who had more Premier League assists?",
+    "choices": [
+      "Ryan Giggs",
+      "Cesc Fabregas"
+    ],
+    "answer": "Ryan Giggs",
+    "details": {
+      "Ryan Giggs": "162 assists",
+      "Cesc Fabregas": "111 assists"
+    }
+  },
+  {
+    "id": 199,
+    "question": "Who had more career strikeouts (MLB)?",
+    "choices": [
+      "Nolan Ryan",
+      "Randy Johnson"
+    ],
+    "answer": "Nolan Ryan",
+    "details": {
+      "Nolan Ryan": "5,714 K",
+      "Randy Johnson": "4,875 K"
+    }
+  },
+  {
+    "id": 200,
+    "question": "Who had more NBA 3-pointers made?",
+    "choices": [
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "answer": "Stephen Curry",
+    "details": {
+      "Stephen Curry": "3,747 3PM (as of 2024)",
+      "Ray Allen": "2,973 3PM"
+    }
+  }
+]

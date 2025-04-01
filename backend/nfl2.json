@@ -1,0 +1,922 @@
+[
+  {
+    "question": "Which tight end had 88 receptions, 884 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Hunter Henry (NE)",
+      "Isaiah Likely (BAL)",
+      "George Kittle (SF)",
+      "Jonnu Smith (MIA)"
+    ],
+    "correct_answer": "Jonnu Smith (MIA)"
+  },
+  {
+    "question": "Which running back had 1079 rushing yards and 5 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Chase Brown",
+      "Najee Harris",
+      "Tony Pollard",
+      "Rico Dowdle"
+    ],
+    "correct_answer": "Tony Pollard"
+  },
+  {
+    "question": "Which quarterback had 3568 passing yards, 25 passing touchdowns, and 9 interceptions in the 2024 season?",
+    "choices": [
+      "Aaron Rodgers",
+      "Tua Tagovailoa",
+      "Patrick Mahomes",
+      "C.J. Stroud"
+    ],
+    "correct_answer": "C.J. Stroud"
+  },
+  {
+    "question": "Which tight end had 78 receptions, 1106 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Trey McBride (ARI)",
+      "George Kittle (SF)",
+      "Isaiah Likely (BAL)",
+      "Pat Freiermuth (PIT)"
+    ],
+    "correct_answer": "George Kittle (SF)"
+  },
+  {
+    "question": "Which wide receiver had 100 receptions, 1130 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Mike Evans",
+      "Calvin Ridley",
+      "George Pickens",
+      "Jaxon Smith-Njigba"
+    ],
+    "correct_answer": "Jaxon Smith-Njigba"
+  },
+  {
+    "question": "Which quarterback had 3508 passing yards, 18 passing touchdowns, and 16 interceptions in the 2024 season?",
+    "choices": [
+      "Kirk Cousins",
+      "Bryce Young",
+      "Caleb Williams",
+      "Sam Darnold"
+    ],
+    "correct_answer": "Caleb Williams"
+  },
+  {
+    "question": "Which quarterback had 3541 passing yards, 20 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "choices": [
+      "Jayden Daniels",
+      "Lamar Jackson",
+      "Jared Goff",
+      "Jordan Love"
+    ],
+    "correct_answer": "Jayden Daniels"
+  },
+  {
+    "question": "Which running back had 1079 rushing yards and 2 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Rico Dowdle",
+      "James Cook",
+      "Jonathan Taylor",
+      "James Conner"
+    ],
+    "correct_answer": "Rico Dowdle"
+  },
+  {
+    "question": "Which quarterback had 3037 passing yards, 16 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "choices": [
+      "Matthew Stafford",
+      "Bo Nix",
+      "C.J. Stroud",
+      "Russell Wilson"
+    ],
+    "correct_answer": "Russell Wilson"
+  },
+  {
+    "question": "Which wide receiver had 66 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
+    "choices": [
+      "A.J. Brown",
+      "Puka Nacua",
+      "DK Metcalf",
+      "Nico Collins"
+    ],
+    "correct_answer": "Nico Collins"
+  },
+  {
+    "question": "Which wide receiver had 73 receptions, 911 yards, and 10 touchdowns in the 2024 season?",
+    "choices": [
+      "Puka Nacua",
+      "Garrett Wilson",
+      "Terry McLaurin",
+      "Jauan Jennings"
+    ],
+    "correct_answer": "Puka Nacua"
+  },
+  {
+    "question": "Which running back had 1456 rushing yards and 14 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Jahmyr Gibbs",
+      "Najee Harris",
+      "J.K. Dobbins",
+      "Bijan Robinson"
+    ],
+    "correct_answer": "Bijan Robinson"
+  },
+  {
+    "question": "Which wide receiver had 37 receptions, 824 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Amon-Ra St. Brown",
+      "Brian Thomas Jr.",
+      "Calvin Ridley",
+      "Marvin Harrison Jr."
+    ],
+    "correct_answer": "Marvin Harrison Jr."
+  },
+  {
+    "question": "Which wide receiver had 59 receptions, 900 yards, and 3 touchdowns in the 2024 season?",
+    "choices": [
+      "CeeDee Lamb",
+      "Rome Odunze",
+      "Jauan Jennings",
+      "DJ Moore"
+    ],
+    "correct_answer": "Jauan Jennings"
+  },
+  {
+    "question": "Which running back had 959 rushing yards and 6 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Saquon Barkley",
+      "Kyren Williams",
+      "D'Andre Swift",
+      "Tony Pollard"
+    ],
+    "correct_answer": "D'Andre Swift"
+  },
+  {
+    "question": "Which tight end had 42 receptions, 477 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "George Kittle (SF)",
+      "Isaiah Likely (BAL)",
+      "Travis Kelce (KC)",
+      "Jonnu Smith (MIA)"
+    ],
+    "correct_answer": "Isaiah Likely (BAL)"
+  },
+  {
+    "question": "Which tight end had 111 receptions, 1146 yards, and 2 touchdowns in the 2024 season?",
+    "choices": [
+      "Zach Ertz (WAS)",
+      "George Kittle (SF)",
+      "Tucker Kraft (GB)",
+      "Trey McBride (ARI)"
+    ],
+    "correct_answer": "Trey McBride (ARI)"
+  },
+  {
+    "question": "Which tight end had 55 receptions, 673 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Mark Andrews (BAL)",
+      "Zach Ertz (WAS)",
+      "Hunter Henry (NE)",
+      "Travis Kelce (KC)"
+    ],
+    "correct_answer": "Mark Andrews (BAL)"
+  },
+  {
+    "question": "Which running back had 1043 rushing yards and 6 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Najee Harris",
+      "Saquon Barkley",
+      "De'Von Achane",
+      "Tony Pollard"
+    ],
+    "correct_answer": "Najee Harris"
+  },
+  {
+    "question": "Which tight end had 23 receptions, 187 yards, and 0 touchdowns in the 2024 season?",
+    "choices": [
+      "Jonnu Smith (MIA)",
+      "Taysom Hill (NO)",
+      "Pat Freiermuth (PIT)",
+      "Sam LaPorta (DET)"
+    ],
+    "correct_answer": "Taysom Hill (NO)"
+  },
+  {
+    "question": "Which wide receiver had 115 receptions, 1263 yards, and 12 touchdowns in the 2024 season?",
+    "choices": [
+      "Jakobi Meyers",
+      "Jauan Jennings",
+      "Amon-Ra St. Brown",
+      "Terry McLaurin"
+    ],
+    "correct_answer": "Amon-Ra St. Brown"
+  },
+  {
+    "question": "Which tight end had 60 receptions, 726 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Jonnu Smith (MIA)",
+      "Isaiah Likely (BAL)",
+      "Sam LaPorta (DET)",
+      "Tucker Kraft (GB)"
+    ],
+    "correct_answer": "Sam LaPorta (DET)"
+  },
+  {
+    "question": "Which running back had 1016 rushing yards and 11 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Derrick Henry",
+      "Joe Mixon",
+      "Najee Harris",
+      "Jahmyr Gibbs"
+    ],
+    "correct_answer": "Joe Mixon"
+  },
+  {
+    "question": "Which running back had 1921 rushing yards and 16 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Bucky Irving",
+      "De'Von Achane",
+      "D'Andre Swift",
+      "Derrick Henry"
+    ],
+    "correct_answer": "Derrick Henry"
+  },
+  {
+    "question": "Which wide receiver had 82 receptions, 1096 yards, and 13 touchdowns in the 2024 season?",
+    "choices": [
+      "Tyreek Hill",
+      "Terry McLaurin",
+      "Drake London",
+      "Amon-Ra St. Brown"
+    ],
+    "correct_answer": "Terry McLaurin"
+  },
+  {
+    "question": "Which quarterback had 4500 passing yards, 41 passing touchdowns, and 16 interceptions in the 2024 season?",
+    "choices": [
+      "Sam Darnold",
+      "Joe Burrow",
+      "Justin Herbert",
+      "Baker Mayfield"
+    ],
+    "correct_answer": "Baker Mayfield"
+  },
+  {
+    "question": "Which tight end had 47 receptions, 602 yards, and 4 touchdowns in the 2024 season?",
+    "choices": [
+      "Trey McBride (ARI)",
+      "George Kittle (SF)",
+      "Kyle Pitts (ATL)",
+      "Jonnu Smith (MIA)"
+    ],
+    "correct_answer": "Kyle Pitts (ATL)"
+  },
+  {
+    "question": "Which running back had 1412 rushing yards and 16 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Jahmyr Gibbs",
+      "Breece Hall",
+      "D'Andre Swift",
+      "Joe Mixon"
+    ],
+    "correct_answer": "Jahmyr Gibbs"
+  },
+  {
+    "question": "Which wide receiver had 87 receptions, 1282 yards, and 10 touchdowns in the 2024 season?",
+    "choices": [
+      "Brian Thomas Jr.",
+      "Ja'Marr Chase",
+      "Marvin Harrison Jr.",
+      "Jerry Jeudy"
+    ],
+    "correct_answer": "Brian Thomas Jr."
+  },
+  {
+    "question": "Which wide receiver had 68 receptions, 833 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Marvin Harrison Jr.",
+      "George Pickens",
+      "A.J. Brown",
+      "Amon-Ra St. Brown"
+    ],
+    "correct_answer": "George Pickens"
+  },
+  {
+    "question": "Which running back had 1009 rushing yards and 16 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Kyren Williams",
+      "Alvin Kamara",
+      "James Cook",
+      "Joe Mixon"
+    ],
+    "correct_answer": "James Cook"
+  },
+  {
+    "question": "Which tight end had 65 receptions, 653 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Pat Freiermuth (PIT)",
+      "Kyle Pitts (ATL)",
+      "Travis Kelce (KC)",
+      "Trey McBride (ARI)"
+    ],
+    "correct_answer": "Pat Freiermuth (PIT)"
+  },
+  {
+    "question": "Which wide receiver had 103 receptions, 1533 yards, and 10 touchdowns in the 2024 season?",
+    "choices": [
+      "Justin Jefferson",
+      "Brian Thomas Jr.",
+      "Amon-Ra St. Brown",
+      "CeeDee Lamb"
+    ],
+    "correct_answer": "Justin Jefferson"
+  },
+  {
+    "question": "Which quarterback had 3202 passing yards, 22 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "choices": [
+      "Kyler Murray",
+      "Caleb Williams",
+      "Joe Burrow",
+      "Jalen Hurts"
+    ],
+    "correct_answer": "Jalen Hurts"
+  },
+  {
+    "question": "Which running back had 1431 rushing yards and 11 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "J.K. Dobbins",
+      "Jonathan Taylor",
+      "Najee Harris",
+      "Josh Jacobs"
+    ],
+    "correct_answer": "Jonathan Taylor"
+  },
+  {
+    "question": "Which quarterback had 4918 passing yards, 43 passing touchdowns, and 9 interceptions in the 2024 season?",
+    "choices": [
+      "Sam Darnold",
+      "Jayden Daniels",
+      "Joe Burrow",
+      "Matthew Stafford"
+    ],
+    "correct_answer": "Joe Burrow"
+  },
+  {
+    "question": "Which running back had 1299 rushing yards and 14 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Bucky Irving",
+      "Aaron Jones",
+      "Kyren Williams",
+      "Bijan Robinson"
+    ],
+    "correct_answer": "Kyren Williams"
+  },
+  {
+    "question": "Which quarterback had 3143 passing yards, 25 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "choices": [
+      "Geno Smith",
+      "Brock Purdy",
+      "Tua Tagovailoa",
+      "Russell Wilson"
+    ],
+    "correct_answer": "Tua Tagovailoa"
+  },
+  {
+    "question": "Which wide receiver had 101 receptions, 1194 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "CeeDee Lamb",
+      "A.J. Brown",
+      "Justin Jefferson",
+      "DK Metcalf"
+    ],
+    "correct_answer": "CeeDee Lamb"
+  },
+  {
+    "question": "Which quarterback had 3864 passing yards, 20 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "choices": [
+      "Sam Darnold",
+      "Baker Mayfield",
+      "Jared Goff",
+      "Brock Purdy"
+    ],
+    "correct_answer": "Brock Purdy"
+  },
+  {
+    "question": "Which quarterback had 3389 passing yards, 25 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "choices": [
+      "Kirk Cousins",
+      "Jayden Daniels",
+      "Sam Darnold",
+      "Brock Purdy"
+    ],
+    "correct_answer": "Kirk Cousins"
+  },
+  {
+    "question": "Which wide receiver had 79 receptions, 990 yards, and 3 touchdowns in the 2024 season?",
+    "choices": [
+      "Rome Odunze",
+      "Mike Evans",
+      "Nico Collins",
+      "A.J. Brown"
+    ],
+    "correct_answer": "Mike Evans"
+  },
+  {
+    "question": "Which tight end had 66 receptions, 674 yards, and 2 touchdowns in the 2024 season?",
+    "choices": [
+      "Kyle Pitts (ATL)",
+      "Hunter Henry (NE)",
+      "Brock Bowers (LV)",
+      "Sam LaPorta (DET)"
+    ],
+    "correct_answer": "Hunter Henry (NE)"
+  },
+  {
+    "question": "Which quarterback had 3928 passing yards, 26 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "choices": [
+      "Russell Wilson",
+      "Jared Goff",
+      "Baker Mayfield",
+      "Patrick Mahomes"
+    ],
+    "correct_answer": "Patrick Mahomes"
+  },
+  {
+    "question": "Which wide receiver had 100 receptions, 1271 yards, and 9 touchdowns in the 2024 season?",
+    "choices": [
+      "DJ Moore",
+      "Courtland Sutton",
+      "Marvin Harrison Jr.",
+      "Drake London"
+    ],
+    "correct_answer": "Drake London"
+  },
+  {
+    "question": "Which wide receiver had 64 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
+    "choices": [
+      "Calvin Ridley",
+      "Tee Higgins",
+      "Jauan Jennings",
+      "CeeDee Lamb"
+    ],
+    "correct_answer": "Calvin Ridley"
+  },
+  {
+    "question": "Which quarterback had 3731 passing yards, 28 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "choices": [
+      "Russell Wilson",
+      "Jordan Love",
+      "Matthew Stafford",
+      "Lamar Jackson"
+    ],
+    "correct_answer": "Matthew Stafford"
+  },
+  {
+    "question": "Which quarterback had 4172 passing yards, 41 passing touchdowns, and 4 interceptions in the 2024 season?",
+    "choices": [
+      "Aaron Rodgers",
+      "Jalen Hurts",
+      "Lamar Jackson",
+      "Jared Goff"
+    ],
+    "correct_answer": "Lamar Jackson"
+  },
+  {
+    "question": "Which tight end had 97 receptions, 823 yards, and 3 touchdowns in the 2024 season?",
+    "choices": [
+      "George Kittle (SF)",
+      "Hunter Henry (NE)",
+      "Travis Kelce (KC)",
+      "Pat Freiermuth (PIT)"
+    ],
+    "correct_answer": "Travis Kelce (KC)"
+  },
+  {
+    "question": "Which tight end had 66 receptions, 654 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "David Njoku (CLE)",
+      "Cade Otton (TB)",
+      "Zach Ertz (WAS)",
+      "Tucker Kraft (GB)"
+    ],
+    "correct_answer": "Zach Ertz (WAS)"
+  },
+  {
+    "question": "Which wide receiver had 74 receptions, 1059 yards, and 4 touchdowns in the 2024 season?",
+    "choices": [
+      "Courtland Sutton",
+      "Zay Flowers",
+      "Terry McLaurin",
+      "Calvin Ridley"
+    ],
+    "correct_answer": "Zay Flowers"
+  },
+  {
+    "question": "Which wide receiver had 55 receptions, 857 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Ladd McConkey",
+      "Davante Adams",
+      "Jauan Jennings",
+      "Tee Higgins"
+    ],
+    "correct_answer": "Tee Higgins"
+  },
+  {
+    "question": "Which quarterback had 4320 passing yards, 21 passing touchdowns, and 15 interceptions in the 2024 season?",
+    "choices": [
+      "C.J. Stroud",
+      "Jalen Hurts",
+      "Geno Smith",
+      "Patrick Mahomes"
+    ],
+    "correct_answer": "Geno Smith"
+  },
+  {
+    "question": "Which running back had 905 rushing yards and 9 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Aaron Jones",
+      "Jonathan Taylor",
+      "J.K. Dobbins",
+      "Alvin Kamara"
+    ],
+    "correct_answer": "J.K. Dobbins"
+  },
+  {
+    "question": "Which running back had 1122 rushing yards and 8 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "De'Von Achane",
+      "J.K. Dobbins",
+      "Jonathan Taylor",
+      "Bucky Irving"
+    ],
+    "correct_answer": "Bucky Irving"
+  },
+  {
+    "question": "Which running back had 907 rushing yards and 6 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Tony Pollard",
+      "Josh Jacobs",
+      "De'Von Achane",
+      "Najee Harris"
+    ],
+    "correct_answer": "De'Von Achane"
+  },
+  {
+    "question": "Which wide receiver had 81 receptions, 1081 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Ja'Marr Chase",
+      "Jaxon Smith-Njigba",
+      "Darnell Mooney",
+      "Courtland Sutton"
+    ],
+    "correct_answer": "Courtland Sutton"
+  },
+  {
+    "question": "Which running back had 839 rushing yards and 5 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "James Conner",
+      "James Cook",
+      "Tony Pollard",
+      "Breece Hall"
+    ],
+    "correct_answer": "Breece Hall"
+  },
+  {
+    "question": "Which quarterback had 3870 passing yards, 23 passing touchdowns, and 3 interceptions in the 2024 season?",
+    "choices": [
+      "Aaron Rodgers",
+      "Kyler Murray",
+      "Sam Darnold",
+      "Justin Herbert"
+    ],
+    "correct_answer": "Justin Herbert"
+  },
+  {
+    "question": "Which tight end had 59 receptions, 600 yards, and 4 touchdowns in the 2024 season?",
+    "choices": [
+      "Sam LaPorta (DET)",
+      "Trey McBride (ARI)",
+      "Taysom Hill (NO)",
+      "Cade Otton (TB)"
+    ],
+    "correct_answer": "Cade Otton (TB)"
+  },
+  {
+    "question": "Which tight end had 50 receptions, 707 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Tucker Kraft (GB)",
+      "Travis Kelce (KC)",
+      "Pat Freiermuth (PIT)",
+      "Kyle Pitts (ATL)"
+    ],
+    "correct_answer": "Tucker Kraft (GB)"
+  },
+  {
+    "question": "Which running back had 2005 rushing yards and 13 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Derrick Henry",
+      "Najee Harris",
+      "J.K. Dobbins",
+      "Saquon Barkley"
+    ],
+    "correct_answer": "Saquon Barkley"
+  },
+  {
+    "question": "Which running back had 1138 rushing yards and 5 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Aaron Jones",
+      "Kyren Williams",
+      "Saquon Barkley",
+      "James Cook"
+    ],
+    "correct_answer": "Aaron Jones"
+  },
+  {
+    "question": "Which wide receiver had 76 receptions, 821 yards, and 4 touchdowns in the 2024 season?",
+    "choices": [
+      "Calvin Ridley",
+      "Jaxon Smith-Njigba",
+      "DJ Moore",
+      "Rome Odunze"
+    ],
+    "correct_answer": "Rome Odunze"
+  },
+  {
+    "question": "Which wide receiver had 82 receptions, 1149 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Ladd McConkey",
+      "Tyreek Hill",
+      "Jauan Jennings",
+      "Jaxon Smith-Njigba"
+    ],
+    "correct_answer": "Ladd McConkey"
+  },
+  {
+    "question": "Which running back had 1329 rushing yards and 15 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Najee Harris",
+      "Josh Jacobs",
+      "Derrick Henry",
+      "Kyren Williams"
+    ],
+    "correct_answer": "Josh Jacobs"
+  },
+  {
+    "question": "Which tight end had 112 receptions, 1194 yards, and 5 touchdowns in the 2024 season?",
+    "choices": [
+      "Zach Ertz (WAS)",
+      "George Kittle (SF)",
+      "David Njoku (CLE)",
+      "Brock Bowers (LV)"
+    ],
+    "correct_answer": "Brock Bowers (LV)"
+  },
+  {
+    "question": "Which wide receiver had 81 receptions, 959 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Jerry Jeudy",
+      "Jameson Williams",
+      "Amon-Ra St. Brown",
+      "DK Metcalf"
+    ],
+    "correct_answer": "DK Metcalf"
+  },
+  {
+    "question": "Which wide receiver had 70 receptions, 875 yards, and 9 touchdowns in the 2024 season?",
+    "choices": [
+      "Amon-Ra St. Brown",
+      "Jaxon Smith-Njigba",
+      "DJ Moore",
+      "Tyreek Hill"
+    ],
+    "correct_answer": "Tyreek Hill"
+  },
+  {
+    "question": "Which running back had 1195 rushing yards and 10 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Najee Harris",
+      "D'Andre Swift",
+      "James Cook",
+      "Chuba Hubbard"
+    ],
+    "correct_answer": "Chuba Hubbard"
+  },
+  {
+    "question": "Which quarterback had 2935 passing yards, 18 passing touchdowns, and 5 interceptions in the 2024 season?",
+    "choices": [
+      "Kirk Cousins",
+      "Justin Herbert",
+      "Caleb Williams",
+      "Bryce Young"
+    ],
+    "correct_answer": "Bryce Young"
+  },
+  {
+    "question": "Which running back had 990 rushing yards and 7 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Tony Pollard",
+      "Chase Brown",
+      "Jahmyr Gibbs",
+      "Chuba Hubbard"
+    ],
+    "correct_answer": "Chase Brown"
+  },
+  {
+    "question": "Which wide receiver had 90 receptions, 1229 yards, and 4 touchdowns in the 2024 season?",
+    "choices": [
+      "Jerry Jeudy",
+      "Marvin Harrison Jr.",
+      "Garrett Wilson",
+      "Ja'Marr Chase"
+    ],
+    "correct_answer": "Jerry Jeudy"
+  },
+  {
+    "question": "Which wide receiver had 127 receptions, 1708 yards, and 17 touchdowns in the 2024 season?",
+    "choices": [
+      "Zay Flowers",
+      "DJ Moore",
+      "Jakobi Meyers",
+      "Ja'Marr Chase"
+    ],
+    "correct_answer": "Ja'Marr Chase"
+  },
+  {
+    "question": "Which running back had 1094 rushing yards and 8 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "James Conner",
+      "Bijan Robinson",
+      "Saquon Barkley",
+      "D'Andre Swift"
+    ],
+    "correct_answer": "James Conner"
+  },
+  {
+    "question": "Which quarterback had 3727 passing yards, 20 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "choices": [
+      "Kyler Murray",
+      "Josh Allen",
+      "Brock Purdy",
+      "Jayden Daniels"
+    ],
+    "correct_answer": "Josh Allen"
+  },
+  {
+    "question": "Which wide receiver had 58 receptions, 1001 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "A.J. Brown",
+      "Nico Collins",
+      "Rome Odunze",
+      "Jakobi Meyers"
+    ],
+    "correct_answer": "Jakobi Meyers"
+  },
+  {
+    "question": "Which quarterback had 4319 passing yards, 35 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "choices": [
+      "Bryce Young",
+      "Justin Herbert",
+      "Caleb Williams",
+      "Sam Darnold"
+    ],
+    "correct_answer": "Sam Darnold"
+  },
+  {
+    "question": "Which quarterback had 3317 passing yards, 18 passing touchdowns, and 7 interceptions in the 2024 season?",
+    "choices": [
+      "Caleb Williams",
+      "Matthew Stafford",
+      "Josh Allen",
+      "Jordan Love"
+    ],
+    "correct_answer": "Jordan Love"
+  },
+  {
+    "question": "Which tight end had 64 receptions, 505 yards, and 5 touchdowns in the 2024 season?",
+    "choices": [
+      "Sam LaPorta (DET)",
+      "Zach Ertz (WAS)",
+      "Mark Andrews (BAL)",
+      "David Njoku (CLE)"
+    ],
+    "correct_answer": "David Njoku (CLE)"
+  },
+  {
+    "question": "Which quarterback had 3762 passing yards, 20 passing touchdowns, and 8 interceptions in the 2024 season?",
+    "choices": [
+      "Bo Nix",
+      "Bryce Young",
+      "Jordan Love",
+      "Kyler Murray"
+    ],
+    "correct_answer": "Bo Nix"
+  },
+  {
+    "question": "Which quarterback had 3897 passing yards, 28 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "choices": [
+      "Brock Purdy",
+      "C.J. Stroud",
+      "Aaron Rodgers",
+      "Kyler Murray"
+    ],
+    "correct_answer": "Aaron Rodgers"
+  },
+  {
+    "question": "Which wide receiver had 77 receptions, 975 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Tee Higgins",
+      "Jameson Williams",
+      "Nico Collins",
+      "Davante Adams"
+    ],
+    "correct_answer": "Jameson Williams"
+  },
+  {
+    "question": "Which quarterback had 4629 passing yards, 37 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "choices": [
+      "Kyler Murray",
+      "Jordan Love",
+      "Jared Goff",
+      "Tua Tagovailoa"
+    ],
+    "correct_answer": "Jared Goff"
+  },
+  {
+    "question": "Which wide receiver had 109 receptions, 1204 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "Nico Collins",
+      "Malik Nabers",
+      "A.J. Brown",
+      "Jauan Jennings"
+    ],
+    "correct_answer": "Malik Nabers"
+  },
+  {
+    "question": "Which wide receiver had 64 receptions, 966 yards, and 6 touchdowns in the 2024 season?",
+    "choices": [
+      "Calvin Ridley",
+      "Darnell Mooney",
+      "Puka Nacua",
+      "Courtland Sutton"
+    ],
+    "correct_answer": "Darnell Mooney"
+  },
+  {
+    "question": "Which wide receiver had 67 receptions, 1079 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "A.J. Brown",
+      "George Pickens",
+      "Malik Nabers",
+      "Nico Collins"
+    ],
+    "correct_answer": "A.J. Brown"
+  },
+  {
+    "question": "Which wide receiver had 101 receptions, 1104 yards, and 7 touchdowns in the 2024 season?",
+    "choices": [
+      "DK Metcalf",
+      "Darnell Mooney",
+      "Jakobi Meyers",
+      "Garrett Wilson"
+    ],
+    "correct_answer": "Garrett Wilson"
+  },
+  {
+    "question": "Which quarterback had 3755 passing yards, 29 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "choices": [
+      "Russell Wilson",
+      "Kyler Murray",
+      "Baker Mayfield",
+      "Patrick Mahomes"
+    ],
+    "correct_answer": "Kyler Murray"
+  },
+  {
+    "question": "Which wide receiver had 62 receptions, 885 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Rome Odunze",
+      "DJ Moore",
+      "Courtland Sutton",
+      "Amon-Ra St. Brown"
+    ],
+    "correct_answer": "DJ Moore"
+  },
+  {
+    "question": "Which running back had 950 rushing yards and 6 rushing touchdowns in the 2024 season?",
+    "choices": [
+      "Jahmyr Gibbs",
+      "Alvin Kamara",
+      "Kyren Williams",
+      "Chuba Hubbard"
+    ],
+    "correct_answer": "Alvin Kamara"
+  },
+  {
+    "question": "Which wide receiver had 85 receptions, 1063 yards, and 8 touchdowns in the 2024 season?",
+    "choices": [
+      "Davante Adams",
+      "Ja'Marr Chase",
+      "Jerry Jeudy",
+      "A.J. Brown"
+    ],
+    "correct_answer": "Davante Adams"
+  }
+]

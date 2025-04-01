@@ -1,0 +1,872 @@
+[
+  {
+    "question": "Who was the top scorer in the 2023/24 Premier League season?",
+    "options": [
+      "Erling Haaland",
+      "Mohamed Salah",
+      "Son Heung-min",
+      "Ollie Watkins"
+    ],
+    "answer": "Erling Haaland"
+  },
+  {
+    "question": "Which team won the Premier League in the 2023/24 season?",
+    "options": [
+      "Manchester City",
+      "Liverpool",
+      "Arsenal",
+      "Tottenham"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who provided the most assists in the 2023/24 Premier League season?",
+    "options": [
+      "Kevin De Bruyne",
+      "Bukayo Saka",
+      "Martin Odegaard",
+      "James Maddison"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Which goalkeeper kept the most clean sheets in 2023/24?",
+    "options": [
+      "Alisson",
+      "David Raya",
+      "Ederson",
+      "Nick Pope"
+    ],
+    "answer": "David Raya"
+  },
+  {
+    "question": "Who scored a hat-trick against Manchester United in the 2023/24 season?",
+    "options": [
+      "Erling Haaland",
+      "Phil Foden",
+      "Mohamed Salah",
+      "Callum Wilson"
+    ],
+    "answer": "Phil Foden"
+  },
+  {
+    "question": "Which club finished 4th in the 2023/24 Premier League season?",
+    "options": [
+      "Tottenham",
+      "Aston Villa",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "answer": "Aston Villa"
+  },
+  {
+    "question": "Who was named Premier League Player of the Season for 2023/24?",
+    "options": [
+      "Erling Haaland",
+      "Bukayo Saka",
+      "Phil Foden",
+      "Martin Odegaard"
+    ],
+    "answer": "Phil Foden"
+  },
+  {
+    "question": "Which promoted team had the best finish in 2023/24?",
+    "options": [
+      "Luton Town",
+      "Sheffield United",
+      "Burnley",
+      "None of them survived"
+    ],
+    "answer": "None of them survived"
+  },
+  {
+    "question": "Which club conceded the most goals in 2023/24?",
+    "options": [
+      "Sheffield United",
+      "Luton Town",
+      "Burnley",
+      "Nottingham Forest"
+    ],
+    "answer": "Sheffield United"
+  },
+  {
+    "question": "Who managed Tottenham Hotspur in the 2023/24 season?",
+    "options": [
+      "Ange Postecoglou",
+      "Antonio Conte",
+      "Ryan Mason",
+      "Jose Mourinho"
+    ],
+    "answer": "Ange Postecoglou"
+  },
+  {
+    "question": "Which midfielder had the most goal contributions in 2023/24?",
+    "options": [
+      "Phil Foden",
+      "Martin Odegaard",
+      "James Maddison",
+      "Declan Rice"
+    ],
+    "answer": "Phil Foden"
+  },
+  {
+    "question": "Which club had the longest winning streak in the 2023/24 Premier League season?",
+    "options": [
+      "Manchester City",
+      "Arsenal",
+      "Liverpool",
+      "Tottenham"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who scored the winning goal on the final day of the 2023/24 season for Manchester City?",
+    "options": [
+      "Phil Foden",
+      "Kevin De Bruyne",
+      "Erling Haaland",
+      "Rodri"
+    ],
+    "answer": "Rodri"
+  },
+  {
+    "question": "Which club had the highest possession average in the 2023/24 season?",
+    "options": [
+      "Manchester City",
+      "Arsenal",
+      "Liverpool",
+      "Chelsea"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Which manager won the Premier League Manager of the Season in 2023/24?",
+    "options": [
+      "Pep Guardiola",
+      "Unai Emery",
+      "Mikel Arteta",
+      "Jurgen Klopp"
+    ],
+    "answer": "Pep Guardiola"
+  },
+  {
+    "question": "Which striker scored the fastest hat-trick in the 2023/24 Premier League season?",
+    "options": [
+      "Erling Haaland",
+      "Ollie Watkins",
+      "Callum Wilson",
+      "Dominic Solanke"
+    ],
+    "answer": "Ollie Watkins"
+  },
+  {
+    "question": "Which club had the best defensive record in the 2023/24 season?",
+    "options": [
+      "Arsenal",
+      "Manchester City",
+      "Liverpool",
+      "Newcastle"
+    ],
+    "answer": "Arsenal"
+  },
+  {
+    "question": "How many points did Manchester City finish with in 2023/24?",
+    "options": [
+      "89",
+      "90",
+      "91",
+      "93"
+    ],
+    "answer": "91"
+  },
+  {
+    "question": "Which team had the most draws in 2023/24?",
+    "options": [
+      "Brentford",
+      "Crystal Palace",
+      "Everton",
+      "Wolves"
+    ],
+    "answer": "Brentford"
+  },
+  {
+    "question": "Who finished 2nd in the Premier League in the 2023/24 season?",
+    "options": [
+      "Arsenal",
+      "Liverpool",
+      "Tottenham",
+      "Manchester United"
+    ],
+    "answer": "Arsenal"
+  },
+  {
+    "question": "Who won the Premier League in the 2010/11 season?",
+    "options": [
+      "Manchester City",
+      "Manchester United",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who was the top scorer in the 2011/12 Premier League season?",
+    "options": [
+      "Wayne Rooney",
+      "Sergio Aguero",
+      "Demba Ba",
+      "Robin van Persie"
+    ],
+    "answer": "Robin van Persie"
+  },
+  {
+    "question": "Who had the most assists in the 2012/13 Premier League season?",
+    "options": [
+      "Juan Mata",
+      "David Silva",
+      "Santi Cazorla",
+      "Steven Gerrard"
+    ],
+    "answer": "Juan Mata"
+  },
+  {
+    "question": "Who won the Premier League in the 2013/14 season?",
+    "options": [
+      "Liverpool",
+      "Manchester City",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who was the top scorer in the 2014/15 Premier League season?",
+    "options": [
+      "Alexis Sanchez",
+      "Sergio Aguero",
+      "Diego Costa",
+      "Harry Kane"
+    ],
+    "answer": "Sergio Aguero"
+  },
+  {
+    "question": "Who had the most assists in the 2015/16 Premier League season?",
+    "options": [
+      "Christian Eriksen",
+      "Mesut Ozil",
+      "Cesc Fabregas",
+      "Riyad Mahrez"
+    ],
+    "answer": "Mesut Ozil"
+  },
+  {
+    "question": "Who won the Premier League in the 2016/17 season?",
+    "options": [
+      "Manchester City",
+      "Liverpool",
+      "Tottenham",
+      "Chelsea"
+    ],
+    "answer": "Chelsea"
+  },
+  {
+    "question": "Who was the top scorer in the 2017/18 Premier League season?",
+    "options": [
+      "Harry Kane",
+      "Romelu Lukaku",
+      "Mohamed Salah",
+      "Sergio Aguero"
+    ],
+    "answer": "Mohamed Salah"
+  },
+  {
+    "question": "Who had the most assists in the 2018/19 Premier League season?",
+    "options": [
+      "Trent Alexander-Arnold",
+      "Eden Hazard",
+      "Kevin De Bruyne",
+      "Christian Eriksen"
+    ],
+    "answer": "Eden Hazard"
+  },
+  {
+    "question": "Who won the Premier League in the 2019/20 season?",
+    "options": [
+      "Manchester City",
+      "Chelsea",
+      "Liverpool",
+      "Leicester City"
+    ],
+    "answer": "Liverpool"
+  },
+  {
+    "question": "Who was the top scorer in the 2020/21 Premier League season?",
+    "options": [
+      "Bruno Fernandes",
+      "Patrick Bamford",
+      "Harry Kane",
+      "Mohamed Salah"
+    ],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Who had the most assists in the 2021/22 Premier League season?",
+    "options": [
+      "Trent Alexander-Arnold",
+      "Kevin De Bruyne",
+      "Harry Kane",
+      "Bukayo Saka"
+    ],
+    "answer": "Trent Alexander-Arnold"
+  },
+  {
+    "question": "Who won the Premier League in the 2022/23 season?",
+    "options": [
+      "Newcastle",
+      "Manchester City",
+      "Manchester United",
+      "Arsenal"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who was the top scorer in the 2022/23 Premier League season?",
+    "options": [
+      "Harry Kane",
+      "Marcus Rashford",
+      "Mohamed Salah",
+      "Erling Haaland"
+    ],
+    "answer": "Erling Haaland"
+  },
+  {
+    "question": "Who had the most assists in the 2022/23 Premier League season?",
+    "options": [
+      "Kevin De Bruyne",
+      "Bukayo Saka",
+      "Bruno Fernandes",
+      "James Maddison"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Who won the Premier League in the 2011/12 season?",
+    "options": [
+      "Manchester United",
+      "Manchester City",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who won the Premier League in the 2012/13 season?",
+    "options": [
+      "Chelsea",
+      "Arsenal",
+      "Manchester United",
+      "Liverpool"
+    ],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who won the Premier League in the 2014/15 season?",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "answer": "Chelsea"
+  },
+  {
+    "question": "Who won the Premier League in the 2015/16 season?",
+    "options": [
+      "Leicester City",
+      "Liverpool",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "answer": "Leicester City"
+  },
+  {
+    "question": "Who won the Premier League in the 2017/18 season?",
+    "options": [
+      "Chelsea",
+      "Arsenal",
+      "Manchester City",
+      "Liverpool"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who won the Premier League in the 2018/19 season?",
+    "options": [
+      "Arsenal",
+      "Manchester City",
+      "Manchester United",
+      "Liverpool"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who won the Premier League in the 2020/21 season?",
+    "options": [
+      "Manchester City",
+      "Chelsea",
+      "Liverpool",
+      "Arsenal"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who won the Premier League in the 2021/22 season?",
+    "options": [
+      "Chelsea",
+      "Arsenal",
+      "Manchester City",
+      "Manchester United"
+    ],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Who had the most assists in the 2010/11 season?",
+    "options": [
+      "Bruno Fernandes",
+      "James Maddison",
+      "Christian Eriksen",
+      "Nani"
+    ],
+    "answer": "Nani"
+  },
+  {
+    "question": "Who had the most assists in the 2011/12 season?",
+    "options": [
+      "Bruno Fernandes",
+      "Mohamed Salah",
+      "Christian Eriksen",
+      "David Silva"
+    ],
+    "answer": "David Silva"
+  },
+  {
+    "question": "Who had the most assists in the 2012/13 season?",
+    "options": [
+      "Juan Mata",
+      "Mohamed Salah",
+      "James Maddison",
+      "Bruno Fernandes"
+    ],
+    "answer": "Juan Mata"
+  },
+  {
+    "question": "Who had the most assists in the 2014/15 season?",
+    "options": [
+      "Christian Eriksen",
+      "Cesc Fabregas",
+      "Mohamed Salah",
+      "Bruno Fernandes"
+    ],
+    "answer": "Cesc Fabregas"
+  },
+  {
+    "question": "Who had the most assists in the 2015/16 season?",
+    "options": [
+      "Christian Eriksen",
+      "Mohamed Salah",
+      "James Maddison",
+      "Mesut Ozil"
+    ],
+    "answer": "Mesut Ozil"
+  },
+  {
+    "question": "Who had the most assists in the 2016/17 season?",
+    "options": [
+      "Bruno Fernandes",
+      "Kevin De Bruyne",
+      "Mohamed Salah",
+      "Christian Eriksen"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Who had the most assists in the 2017/18 season?",
+    "options": [
+      "Christian Eriksen",
+      "Kevin De Bruyne",
+      "Bruno Fernandes",
+      "James Maddison"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Who had the most assists in the 2018/19 season?",
+    "options": [
+      "James Maddison",
+      "Christian Eriksen",
+      "Mohamed Salah",
+      "Eden Hazard"
+    ],
+    "answer": "Eden Hazard"
+  },
+  {
+    "question": "Who had the most assists in the 2019/20 season?",
+    "options": [
+      "Bruno Fernandes",
+      "Christian Eriksen",
+      "Mohamed Salah",
+      "Kevin De Bruyne"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Who had the most assists in the 2020/21 season?",
+    "options": [
+      "Bruno Fernandes",
+      "Christian Eriksen",
+      "Harry Kane",
+      "Mohamed Salah"
+    ],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Who had the most assists in the 2021/22 season?",
+    "options": [
+      "James Maddison",
+      "Christian Eriksen",
+      "Mohamed Salah",
+      "Trent Alexander-Arnold"
+    ],
+    "answer": "Trent Alexander-Arnold"
+  },
+  {
+    "question": "Who had the most assists in the 2022/23 season?",
+    "options": [
+      "Bruno Fernandes",
+      "Mohamed Salah",
+      "Kevin De Bruyne",
+      "Christian Eriksen"
+    ],
+    "answer": "Kevin De Bruyne"
+  },
+  {
+    "question": "Who won the Premier League in the 1994/95 season?",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Arsenal",
+      "Blackburn Rovers"
+    ],
+    "answer": "Blackburn Rovers"
+  },
+  {
+    "question": "Who won the Premier League in the 1998/99 season?",
+    "options": [
+      "Liverpool",
+      "Arsenal",
+      "Chelsea",
+      "Manchester United"
+    ],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who won the Premier League in the 2001/02 season?",
+    "options": [
+      "Arsenal",
+      "Manchester United",
+      "Chelsea",
+      "Liverpool"
+    ],
+    "answer": "Arsenal"
+  },
+  {
+    "question": "Who won the Premier League in the 2003/04 season?",
+    "options": [
+      "Manchester United",
+      "Arsenal",
+      "Liverpool",
+      "Chelsea"
+    ],
+    "answer": "Arsenal"
+  },
+  {
+    "question": "Who won the Premier League in the 2004/05 season?",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Manchester United",
+      "Arsenal"
+    ],
+    "answer": "Chelsea"
+  },
+  {
+    "question": "Who won the Premier League in the 2005/06 season?",
+    "options": [
+      "Manchester United",
+      "Liverpool",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "answer": "Chelsea"
+  },
+  {
+    "question": "Who won the Premier League in the 2007/08 season?",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who won the Premier League in the 2008/09 season?",
+    "options": [
+      "Chelsea",
+      "Manchester United",
+      "Liverpool",
+      "Arsenal"
+    ],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who won the Premier League in the 2009/10 season?",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Arsenal",
+      "Manchester United"
+    ],
+    "answer": "Chelsea"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 1994/95 season?",
+    "options": [
+      "Jamie Vardy",
+      "Alan Shearer",
+      "Mohamed Salah",
+      "Cristiano Ronaldo"
+    ],
+    "answer": "Alan Shearer"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 1999/00 season?",
+    "options": [
+      "Jamie Vardy",
+      "Kevin Phillips",
+      "Cristiano Ronaldo",
+      "Mohamed Salah"
+    ],
+    "answer": "Kevin Phillips"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2001/02 season?",
+    "options": [
+      "Mohamed Salah",
+      "Thierry Henry",
+      "Jamie Vardy",
+      "Cristiano Ronaldo"
+    ],
+    "answer": "Thierry Henry"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2003/04 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Mohamed Salah",
+      "Thierry Henry"
+    ],
+    "answer": "Thierry Henry"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2004/05 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Jamie Vardy",
+      "Thierry Henry"
+    ],
+    "answer": "Thierry Henry"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2005/06 season?",
+    "options": [
+      "Thierry Henry",
+      "Mohamed Salah",
+      "Harry Kane",
+      "Jamie Vardy"
+    ],
+    "answer": "Thierry Henry"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2006/07 season?",
+    "options": [
+      "Harry Kane",
+      "Cristiano Ronaldo",
+      "Jamie Vardy",
+      "Didier Drogba"
+    ],
+    "answer": "Didier Drogba"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2007/08 season?",
+    "options": [
+      "Mohamed Salah",
+      "Cristiano Ronaldo",
+      "Jamie Vardy",
+      "Harry Kane"
+    ],
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2008/09 season?",
+    "options": [
+      "Nicolas Anelka",
+      "Mohamed Salah",
+      "Jamie Vardy",
+      "Cristiano Ronaldo"
+    ],
+    "answer": "Nicolas Anelka"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2009/10 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Didier Drogba",
+      "Mohamed Salah"
+    ],
+    "answer": "Didier Drogba"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2010/11 season?",
+    "options": [
+      "Mohamed Salah",
+      "Harry Kane",
+      "Carlos Tevez",
+      "Jamie Vardy"
+    ],
+    "answer": "Carlos Tevez"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2011/12 season?",
+    "options": [
+      "Mohamed Salah",
+      "Robin van Persie",
+      "Jamie Vardy",
+      "Cristiano Ronaldo"
+    ],
+    "answer": "Robin van Persie"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2012/13 season?",
+    "options": [
+      "Mohamed Salah",
+      "Robin van Persie",
+      "Cristiano Ronaldo",
+      "Jamie Vardy"
+    ],
+    "answer": "Robin van Persie"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2013/14 season?",
+    "options": [
+      "Mohamed Salah",
+      "Harry Kane",
+      "Jamie Vardy",
+      "Luis Suarez"
+    ],
+    "answer": "Luis Suarez"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2014/15 season?",
+    "options": [
+      "Mohamed Salah",
+      "Harry Kane",
+      "Sergio Aguero",
+      "Jamie Vardy"
+    ],
+    "answer": "Sergio Aguero"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2015/16 season?",
+    "options": [
+      "Mohamed Salah",
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Jamie Vardy"
+    ],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2016/17 season?",
+    "options": [
+      "Jamie Vardy",
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Mohamed Salah"
+    ],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2017/18 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Mohamed Salah",
+      "Jamie Vardy",
+      "Harry Kane"
+    ],
+    "answer": "Mohamed Salah"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2018/19 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Mohamed Salah",
+      "Pierre-Emerick Aubameyang"
+    ],
+    "answer": "Pierre-Emerick Aubameyang"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2019/20 season?",
+    "options": [
+      "Jamie Vardy",
+      "Cristiano Ronaldo",
+      "Mohamed Salah",
+      "Harry Kane"
+    ],
+    "answer": "Jamie Vardy"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2020/21 season?",
+    "options": [
+      "Mohamed Salah",
+      "Harry Kane",
+      "Cristiano Ronaldo",
+      "Jamie Vardy"
+    ],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2021/22 season?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Son Heung-min",
+      "Harry Kane",
+      "Mohamed Salah"
+    ],
+    "answer": "Son Heung-min"
+  },
+  {
+    "question": "Who was the Premier League top scorer in the 2022/23 season?",
+    "options": [
+      "Jamie Vardy",
+      "Cristiano Ronaldo",
+      "Erling Haaland",
+      "Harry Kane"
+    ],
+    "answer": "Erling Haaland"
+  }
+]

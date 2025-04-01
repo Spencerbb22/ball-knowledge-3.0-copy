@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Who did Auburn beat in this game and what year was it?",
+    "options": [
+      "2013 vs Michigan",
+      "2013 vs Alabama",
+      "2015 vs Alabama",
+      "2016 vs Ohio State"
+    ],
+    "answer": "2013 vs Alabama",
+    "audio": "final-play-iron-bowl-2013-wauburn-radio-call.mp3"
+  },
+  {
+    "question": "Why was this slip so detrimental to Liverpool's title hopes?",
+    "options": [
+      "It meant Arsenal would win the league",
+      "It meant Chelsea would win the league",
+      "It meant Manchester City would win the league",
+      "It meant Manchester United would win the league"
+    ],
+    "answer": "It meant Manchester City would win the league",
+    "audio": "steven-gerrard-slip.mp3"
+  },
+  {
+    "question": "What competition was this Gareth Bale goal scored in?",
+    "options": [
+      "Copa del rey final",
+      "Champions League final",
+      "last game of league season",
+      "Europa League"
+    ],
+    "answer": "Copa del rey final",
+    "audio": "gareth-bale-goal-vs-barcelona---barcelona-1---2-real-madrid.mp3"
+  },
+  {
+    "question": "What game did this famous non call happen in?",
+    "options": [
+      "Saints vs Rams last game of regular season",
+      "Saints vs Rams Super Bowl",
+      "Saints vs Rams Wildcard game",
+      "Saints vs Rams NFC championship game"
+    ],
+    "answer": "Saints vs Rams NFC championship game",
+    "audio": "saints-no-flag-pi.mp3"
+  },
+  {
+    "question": "What game of the finals was this?",
+    "options": [
+      "Game 6",
+      "Game 7",
+      "Game 1",
+      "Game 3"
+    ],
+    "answer": "Game 7",
+    "audio": "lebron-blocks-iguodala--shorts.mp3"
+  },
+  {
+    "question": "This is a famous Steph Curry Three from the regular season vs OKC. What year was it?",
+    "options": [
+      "2015",
+      "2018",
+      "2019",
+      "2016"
+    ],
+    "answer": "2016",
+    "audio": "winner-vs-oklahoma-city-thunder.mp3"
+  },
+  {
+    "question": "This is Ray Allen's clutch three in the 2013 finals vs The San Antonio Spurs. What game of the series was this?",
+    "options": [
+      "Game 6",
+      "Game 5",
+      "Game 7",
+      "Game 1"
+    ],
+    "answer": "Game 6",
+    "audio": "ray-allen-clutch-3-pointer-2013-game-6-vs-the-spurs.mp3"
+  },
+  {
+    "question": "Who were the Cubs playing in this game?",
+    "options": [
+      "Yankees",
+      "Red sox",
+      "Cleveland Guardians(formerly indians)",
+      "Dodgers"
+    ],
+    "answer": "Cleveland Guardians(formerly indians)",
+    "audio": "this-cubs-win-the-world-series.mp3"
+  },
+  {
+    "question": "When Wayne Rooney scored this bicycle kick, who were they playing?",
+    "options": [
+      "Everton",
+      "Manchester City",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "answer": "Manchester City",
+    "audio": "wayne-rooney-bicycle-kick-12022011-rooney-manchesterunited.mp3"
+  },
+  {
+    "question": "What year was this and who were the Packers playing?",
+    "options": [
+      "vs Lions in 2015",
+      "vs the Bears in 2016",
+      "vs the Lions in 2013",
+      "vs the Bears in 2015"
+    ],
+    "answer": "vs the Lions in 2015",
+    "audio": "aaron-rodgers-hail-mary.mp3"
+  },
+  {
+    "question": "What year was the Marshawn 'BeastQuake'?",
+    "options": [
+      "2010",
+      "2014",
+      "2013",
+      "2011"
+    ],
+    "answer": "2011",
+    "audio": "marshawn-beast-quake.mp3"
+  },
+  {
+    "question": "Name this game?",
+    "options": [
+      "Watford vs Leicester 2013",
+      "Watford vs Crystal Palace 2013",
+      "Watford vs Hull City 2013",
+      "Leicester vs Crystal Palace 2013"
+    ],
+    "answer": "Watford vs Leicester 2013",
+    "audio": "best-end-to-a-football-match-ever.mp3"
+  },
+  {
+    "question": "This is when Sergio Aguero won the title for Manchester City. What year was it?",
+    "options": [
+      "2010",
+      "2013",
+      "2012",
+      "2015"
+    ],
+    "answer": "2012",
+    "audio": "aguero-title.mp3"
+  },
+  {
+    "question": "Who was Castellanos playing for at the time?",
+    "options": [
+      "tigers",
+      "Cubs",
+      "Phillies",
+      "Reds"
+    ],
+    "answer": "Reds",
+    "audio": "a-drive-into-deep-left-field-by-castellanosreds.mp3"
+  },
+  {
+    "question": "Who were the Vikings playing in this game?",
+    "options": [
+      "Falcons",
+      "Saints",
+      "Packers",
+      "Giants"
+    ],
+    "answer": "Saints",
+    "audio": "diggs-sideline.mp3"
+  }
+]

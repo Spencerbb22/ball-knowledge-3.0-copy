@@ -1,0 +1,1092 @@
+[
+  {
+    "question": "Who won NFL MVP in 2023?",
+    "options": [
+      "Lamar Jackson",
+      "Dak Prescott",
+      "Christian McCaffrey",
+      "Brock Purdy"
+    ],
+    "answer": "Lamar Jackson"
+  },
+  {
+    "question": "Which team had the best record in the 2023 regular season?",
+    "options": [
+      "Baltimore Ravens",
+      "San Francisco 49ers",
+      "Dallas Cowboys",
+      "Kansas City Chiefs"
+    ],
+    "answer": "Baltimore Ravens"
+  },
+  {
+    "question": "Who led the NFL in passing touchdowns in 2023?",
+    "options": [
+      "Dak Prescott",
+      "Josh Allen",
+      "Patrick Mahomes",
+      "Jared Goff"
+    ],
+    "answer": "Dak Prescott"
+  },
+  {
+    "question": "Which rookie quarterback led the Texans to a playoff win in 2023?",
+    "options": [
+      "C.J. Stroud",
+      "Bryce Young",
+      "Will Levis",
+      "Anthony Richardson"
+    ],
+    "answer": "C.J. Stroud"
+  },
+  {
+    "question": "Who was the head coach of the 2023 Detroit Lions?",
+    "options": [
+      "Dan Campbell",
+      "Matt LaFleur",
+      "Mike McCarthy",
+      "Robert Saleh"
+    ],
+    "answer": "Dan Campbell"
+  },
+  {
+    "question": "Who won Super Bowl LVIII in 2024?",
+    "options": [
+      "Kansas City Chiefs",
+      "San Francisco 49ers",
+      "Philadelphia Eagles",
+      "Buffalo Bills"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Which team won the AFC Championship in 2023?",
+    "options": [
+      "Kansas City Chiefs",
+      "Baltimore Ravens",
+      "Cincinnati Bengals",
+      "Buffalo Bills"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who led the NFL in receiving yards in 2023?",
+    "options": [
+      "Tyreek Hill",
+      "CeeDee Lamb",
+      "Amon-Ra St. Brown",
+      "Justin Jefferson"
+    ],
+    "answer": "Tyreek Hill"
+  },
+  {
+    "question": "Which player had the most interceptions in the 2023 season?",
+    "options": [
+      "DaRon Bland",
+      "Jessie Bates III",
+      "Kyle Hamilton",
+      "Jalen Ramsey"
+    ],
+    "answer": "DaRon Bland"
+  },
+  {
+    "question": "Which team drafted Puka Nacua?",
+    "options": [
+      "Los Angeles Rams",
+      "Seattle Seahawks",
+      "Cincinnati Bengals",
+      "Houston Texans"
+    ],
+    "answer": "Los Angeles Rams"
+  },
+  {
+    "question": "Who won NFL MVP in 2014?",
+    "options": [
+      "J.J. Watt",
+      "Aaron Rodgers",
+      "Tony Romo",
+      "Andrew Luck"
+    ],
+    "answer": "Aaron Rodgers"
+  },
+  {
+    "question": "Who won NFL MVP in 2015?",
+    "options": [
+      "Cam Newton",
+      "Tom Brady",
+      "Russell Wilson",
+      "Carson Palmer"
+    ],
+    "answer": "Cam Newton"
+  },
+  {
+    "question": "Who won NFL MVP in 2016?",
+    "options": [
+      "Derek Carr",
+      "Tom Brady",
+      "Matt Ryan",
+      "Aaron Rodgers"
+    ],
+    "answer": "Matt Ryan"
+  },
+  {
+    "question": "Who won NFL MVP in 2017?",
+    "options": [
+      "Carson Wentz",
+      "Drew Brees",
+      "Tom Brady",
+      "Todd Gurley"
+    ],
+    "answer": "Tom Brady"
+  },
+  {
+    "question": "Who won NFL MVP in 2018?",
+    "options": [
+      "Patrick Mahomes",
+      "Todd Gurley",
+      "Drew Brees",
+      "Andrew Luck"
+    ],
+    "answer": "Patrick Mahomes"
+  },
+  {
+    "question": "Who won NFL MVP in 2019?",
+    "options": [
+      "Aaron Rodgers",
+      "Lamar Jackson",
+      "Christian McCaffrey",
+      "Russell Wilson"
+    ],
+    "answer": "Lamar Jackson"
+  },
+  {
+    "question": "Who won NFL MVP in 2020?",
+    "options": [
+      "Tom Brady",
+      "Josh Allen",
+      "Patrick Mahomes",
+      "Aaron Rodgers"
+    ],
+    "answer": "Aaron Rodgers"
+  },
+  {
+    "question": "Who won NFL MVP in 2021?",
+    "options": [
+      "Tom Brady",
+      "Aaron Rodgers",
+      "Cooper Kupp",
+      "Joe Burrow"
+    ],
+    "answer": "Aaron Rodgers"
+  },
+  {
+    "question": "Who won NFL MVP in 2022?",
+    "options": [
+      "Jalen Hurts",
+      "Patrick Mahomes",
+      "Josh Allen",
+      "Joe Burrow"
+    ],
+    "answer": "Patrick Mahomes"
+  },
+  {
+    "question": "Who won the Super Bowl in 2014?",
+    "options": [
+      "Seattle Seahawks",
+      "Green Bay Packers",
+      "Denver Broncos",
+      "New England Patriots"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Who won the Super Bowl in 2015?",
+    "options": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Arizona Cardinals",
+      "New England Patriots"
+    ],
+    "answer": "Denver Broncos"
+  },
+  {
+    "question": "Who won the Super Bowl in 2016?",
+    "options": [
+      "Green Bay Packers",
+      "Atlanta Falcons",
+      "New England Patriots",
+      "Pittsburgh Steelers"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Who won the Super Bowl in 2017?",
+    "options": [
+      "Philadelphia Eagles",
+      "New England Patriots",
+      "Minnesota Vikings",
+      "Jacksonville Jaguars"
+    ],
+    "answer": "Philadelphia Eagles"
+  },
+  {
+    "question": "Who won the Super Bowl in 2018?",
+    "options": [
+      "Chicago Bears",
+      "Kansas City Chiefs",
+      "New England Patriots",
+      "Los Angeles Rams"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Who won the Super Bowl in 2019?",
+    "options": [
+      "Kansas City Chiefs",
+      "Tennessee Titans",
+      "Baltimore Ravens",
+      "San Francisco 49ers"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who won the Super Bowl in 2020?",
+    "options": [
+      "Green Bay Packers",
+      "Buffalo Bills",
+      "Tampa Bay Buccaneers",
+      "Kansas City Chiefs"
+    ],
+    "answer": "Tampa Bay Buccaneers"
+  },
+  {
+    "question": "Who won the Super Bowl in 2021?",
+    "options": [
+      "Los Angeles Rams",
+      "Tampa Bay Buccaneers",
+      "Cincinnati Bengals",
+      "San Francisco 49ers"
+    ],
+    "answer": "Los Angeles Rams"
+  },
+  {
+    "question": "Who won the Super Bowl in 2022?",
+    "options": [
+      "Kansas City Chiefs",
+      "Philadelphia Eagles",
+      "Buffalo Bills",
+      "Cincinnati Bengals"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who won the Super Bowl in 2023?",
+    "options": [
+      "San Francisco 49ers",
+      "Kansas City Chiefs",
+      "Detroit Lions",
+      "Baltimore Ravens"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who holds the record for most rushing yards in a single NFL season?",
+    "options": [
+      "Eric Dickerson",
+      "Adrian Peterson",
+      "Barry Sanders",
+      "OJ Simpson"
+    ],
+    "answer": "Eric Dickerson"
+  },
+  {
+    "question": "Who holds the record for most career receiving yards?",
+    "options": [
+      "Terrell Owens",
+      "Jerry Rice",
+      "Larry Fitzgerald",
+      "Randy Moss"
+    ],
+    "answer": "Jerry Rice"
+  },
+  {
+    "question": "Which player has won the most Super Bowl MVP awards?",
+    "options": [
+      "Bart Starr",
+      "Terry Bradshaw",
+      "Tom Brady",
+      "Joe Montana"
+    ],
+    "answer": "Tom Brady"
+  },
+  {
+    "question": "Which NFL team has the most Super Bowl wins?",
+    "options": [
+      "New England Patriots",
+      "San Francisco 49ers",
+      "Pittsburgh Steelers",
+      "Dallas Cowboys"
+    ],
+    "answer": "Pittsburgh Steelers"
+  },
+  {
+    "question": "Who has the most career passing yards in NFL history?",
+    "options": [
+      "Drew Brees",
+      "Tom Brady",
+      "Peyton Manning",
+      "Brett Favre"
+    ],
+    "answer": "Tom Brady"
+  },
+  {
+    "question": "Who set the single-season reception record with 149 catches in 2019?",
+    "options": [
+      "Michael Thomas",
+      "Julio Jones",
+      "DeAndre Hopkins",
+      "Davante Adams"
+    ],
+    "answer": "Michael Thomas"
+  },
+  {
+    "question": "Which QB threw for 5,477 yards in a single season, setting the NFL record in 2013?",
+    "options": [
+      "Peyton Manning",
+      "Drew Brees",
+      "Tom Brady",
+      "Ben Roethlisberger"
+    ],
+    "answer": "Peyton Manning"
+  },
+  {
+    "question": "Who was the first overall pick in the 2016 NFL Draft?",
+    "options": [
+      "Jared Goff",
+      "Carson Wentz",
+      "Joey Bosa",
+      "Ezekiel Elliott"
+    ],
+    "answer": "Jared Goff"
+  },
+  {
+    "question": "Which team selected Patrick Mahomes in the 2017 NFL Draft?",
+    "options": [
+      "Kansas City Chiefs",
+      "Houston Texans",
+      "Chicago Bears",
+      "Cleveland Browns"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who won Super Bowl XLVIII in 2014?",
+    "options": [
+      "Seattle Seahawks",
+      "Denver Broncos",
+      "New England Patriots",
+      "San Francisco 49ers"
+    ],
+    "answer": "Seattle Seahawks"
+  },
+  {
+    "question": "Which RB rushed for over 2,000 yards in the 2020 season?",
+    "options": [
+      "Derrick Henry",
+      "Dalvin Cook",
+      "Jonathan Taylor",
+      "Nick Chubb"
+    ],
+    "answer": "Derrick Henry"
+  },
+  {
+    "question": "Who was named Offensive Rookie of the Year in 2022?",
+    "options": [
+      "Garrett Wilson",
+      "Chris Olave",
+      "Kenneth Walker III",
+      "Brock Purdy"
+    ],
+    "answer": "Garrett Wilson"
+  },
+  {
+    "question": "Which defensive player was selected second overall in the 2022 NFL Draft?",
+    "options": [
+      "Aidan Hutchinson",
+      "Travon Walker",
+      "Kayvon Thibodeaux",
+      "Derek Stingley Jr."
+    ],
+    "answer": "Aidan Hutchinson"
+  },
+  {
+    "question": "Which QB led the Eagles to Super Bowl LII victory?",
+    "options": [
+      "Nick Foles",
+      "Carson Wentz",
+      "Jalen Hurts",
+      "Mark Sanchez"
+    ],
+    "answer": "Nick Foles"
+  },
+  {
+    "question": "Who caught the 'Helmet Catch' in Super Bowl XLII?",
+    "options": [
+      "David Tyree",
+      "Plaxico Burress",
+      "Victor Cruz",
+      "Mario Manningham"
+    ],
+    "answer": "David Tyree"
+  },
+  {
+    "question": "Who led the NFL in rushing touchdowns in the 2022 season?",
+    "options": [
+      "Jamaal Williams",
+      "Derrick Henry",
+      "Austin Ekeler",
+      "Josh Jacobs"
+    ],
+    "answer": "Jamaal Williams"
+  },
+  {
+    "question": "Which kicker set the record for the longest field goal in 2021?",
+    "options": [
+      "Justin Tucker",
+      "Matt Prater",
+      "Daniel Carlson",
+      "Harrison Butker"
+    ],
+    "answer": "Justin Tucker"
+  },
+  {
+    "question": "Who led the NFL in sacks in 2021?",
+    "options": [
+      "T.J. Watt",
+      "Myles Garrett",
+      "Nick Bosa",
+      "Aaron Donald"
+    ],
+    "answer": "T.J. Watt"
+  },
+  {
+    "question": "Which WR was traded from the Packers to the Raiders in 2022?",
+    "options": [
+      "Davante Adams",
+      "Marquez Valdes-Scantling",
+      "Randall Cobb",
+      "Allen Lazard"
+    ],
+    "answer": "Davante Adams"
+  },
+  {
+    "question": "Who won Defensive Rookie of the Year in 2021?",
+    "options": [
+      "Micah Parsons",
+      "Patrick Surtain II",
+      "Azeez Ojulari",
+      "Jeremiah Owusu-Koramoah"
+    ],
+    "answer": "Micah Parsons"
+  },
+  {
+    "question": "Which player was the #1 pick in the 2018 NFL Draft?",
+    "options": [
+      "Baker Mayfield",
+      "Sam Darnold",
+      "Josh Allen",
+      "Saquon Barkley"
+    ],
+    "answer": "Baker Mayfield"
+  },
+  {
+    "question": "Who did the Rams beat in the NFC Championship Game to reach Super Bowl LVI?",
+    "options": [
+      "San Francisco 49ers",
+      "Tampa Bay Buccaneers",
+      "Green Bay Packers",
+      "Arizona Cardinals"
+    ],
+    "answer": "San Francisco 49ers"
+  },
+  {
+    "question": "Which QB broke the rookie passing TD record in 2020?",
+    "options": [
+      "Justin Herbert",
+      "Joe Burrow",
+      "Tua Tagovailoa",
+      "Jalen Hurts"
+    ],
+    "answer": "Justin Herbert"
+  },
+  {
+    "question": "Which WR led the league in touchdowns in 2020?",
+    "options": [
+      "Davante Adams",
+      "Tyreek Hill",
+      "Stefon Diggs",
+      "Mike Evans"
+    ],
+    "answer": "Davante Adams"
+  },
+  {
+    "question": "Who won Comeback Player of the Year in 2020?",
+    "options": [
+      "Alex Smith",
+      "Ben Roethlisberger",
+      "Dak Prescott",
+      "Rob Gronkowski"
+    ],
+    "answer": "Alex Smith"
+  },
+  {
+    "question": "Which team drafted Josh Allen in 2018?",
+    "options": [
+      "Buffalo Bills",
+      "Denver Broncos",
+      "Cleveland Browns",
+      "New York Jets"
+    ],
+    "answer": "Buffalo Bills"
+  },
+  {
+    "question": "Who won Super Bowl XLIX in 2015?",
+    "options": [
+      "New England Patriots",
+      "Seattle Seahawks",
+      "Carolina Panthers",
+      "Indianapolis Colts"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which team won Super Bowl 50?",
+    "options": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "New England Patriots",
+      "Seattle Seahawks"
+    ],
+    "answer": "Denver Broncos"
+  },
+  {
+    "question": "Which WR had 1,964 yards in 2022, the second-most in NFL history?",
+    "options": [
+      "Justin Jefferson",
+      "Tyreek Hill",
+      "Davante Adams",
+      "Stefon Diggs"
+    ],
+    "answer": "Justin Jefferson"
+  },
+  {
+    "question": "Which head coach led the Eagles to Super Bowl LVII?",
+    "options": [
+      "Nick Sirianni",
+      "Doug Pederson",
+      "Andy Reid",
+      "Kyle Shanahan"
+    ],
+    "answer": "Nick Sirianni"
+  },
+  {
+    "question": "Who was the first wide receiver selected in the 2020 NFL Draft?",
+    "options": [
+      "Henry Ruggs III",
+      "Jerry Jeudy",
+      "CeeDee Lamb",
+      "Justin Jefferson"
+    ],
+    "answer": "Henry Ruggs III"
+  },
+  {
+    "question": "Who was the #2 overall pick in the 2015 NFL Draft?",
+    "options": [
+      "Marcus Mariota",
+      "Jameis Winston",
+      "Amari Cooper",
+      "Todd Gurley"
+    ],
+    "answer": "Marcus Mariota"
+  },
+  {
+    "question": "Which kicker made a 61-yard game-winning field goal for the Eagles in 2017?",
+    "options": [
+      "Jake Elliott",
+      "Caleb Sturgis",
+      "Cody Parkey",
+      "David Akers"
+    ],
+    "answer": "Jake Elliott"
+  },
+  {
+    "question": "Which QB led the Falcons to Super Bowl LI?",
+    "options": [
+      "Matt Ryan",
+      "Michael Vick",
+      "Kirk Cousins",
+      "Josh McCown"
+    ],
+    "answer": "Matt Ryan"
+  },
+  {
+    "question": "Which team did the Patriots defeat in Super Bowl LIII?",
+    "options": [
+      "Los Angeles Rams",
+      "Philadelphia Eagles",
+      "Atlanta Falcons",
+      "Carolina Panthers"
+    ],
+    "answer": "Los Angeles Rams"
+  },
+  {
+    "question": "Who was the 2015 NFL Defensive Rookie of the Year?",
+    "options": [
+      "Marcus Peters",
+      "Joey Bosa",
+      "Aaron Donald",
+      "Landon Collins"
+    ],
+    "answer": "Marcus Peters"
+  },
+  {
+    "question": "Who led the NFL in receiving TDs in 2021?",
+    "options": [
+      "Cooper Kupp",
+      "Ja'Marr Chase",
+      "Mike Evans",
+      "Davante Adams"
+    ],
+    "answer": "Cooper Kupp"
+  },
+  {
+    "question": "Which QB led the Jaguars to the AFC Championship Game in the 2017 season?",
+    "options": [
+      "Blake Bortles",
+      "Chad Henne",
+      "Gardner Minshew",
+      "Trevor Lawrence"
+    ],
+    "answer": "Blake Bortles"
+  },
+  {
+    "question": "Who caught Tom Brady\u2019s last career touchdown pass?",
+    "options": [
+      "Julio Jones",
+      "Mike Evans",
+      "Chris Godwin",
+      "Rob Gronkowski"
+    ],
+    "answer": "Julio Jones"
+  },
+  {
+    "question": "Which coach was hired by the Raiders in 2022?",
+    "options": [
+      "Josh McDaniels",
+      "Rich Bisaccia",
+      "Jon Gruden",
+      "Dennis Allen"
+    ],
+    "answer": "Josh McDaniels"
+  },
+  {
+    "question": "Who won the 2014 Comeback Player of the Year?",
+    "options": [
+      "Rob Gronkowski",
+      "DeMarco Murray",
+      "Jeremy Maclin",
+      "Peyton Manning"
+    ],
+    "answer": "Rob Gronkowski"
+  },
+  {
+    "question": "Which player scored the first touchdown of Super Bowl 50?",
+    "options": [
+      "Jonathan Stewart",
+      "C.J. Anderson",
+      "Owen Daniels",
+      "Emmanuel Sanders"
+    ],
+    "answer": "Jonathan Stewart"
+  },
+  {
+    "question": "Who led the league in interceptions thrown in 2019?",
+    "options": [
+      "Jameis Winston",
+      "Baker Mayfield",
+      "Philip Rivers",
+      "Sam Darnold"
+    ],
+    "answer": "Jameis Winston"
+  },
+  {
+    "question": "Who was the #1 overall pick in the 2012 NFL Draft?",
+    "options": [
+      "Andrew Luck",
+      "Robert Griffin III",
+      "Ryan Tannehill",
+      "Russell Wilson"
+    ],
+    "answer": "Andrew Luck"
+  },
+  {
+    "question": "Which team selected Nick Bosa in the NFL Draft?",
+    "options": [
+      "San Francisco 49ers",
+      "Los Angeles Chargers",
+      "Seattle Seahawks",
+      "Dallas Cowboys"
+    ],
+    "answer": "San Francisco 49ers"
+  },
+  {
+    "question": "Which WR had 14 receptions in Super Bowl LVII?",
+    "options": [
+      "Cooper Kupp",
+      "Travis Kelce",
+      "A.J. Brown",
+      "JuJu Smith-Schuster"
+    ],
+    "answer": "Travis Kelce"
+  },
+  {
+    "question": "Who was the first defensive player drafted in 2023?",
+    "options": [
+      "Will Anderson Jr.",
+      "Jalen Carter",
+      "Tyree Wilson",
+      "Devon Witherspoon"
+    ],
+    "answer": "Will Anderson Jr."
+  },
+  {
+    "question": "Who intercepted Russell Wilson in Super Bowl XLIX?",
+    "options": [
+      "Malcolm Butler",
+      "Devin McCourty",
+      "Logan Ryan",
+      "Patrick Chung"
+    ],
+    "answer": "Malcolm Butler"
+  },
+  {
+    "question": "Which QB won Offensive Rookie of the Year in 2016?",
+    "options": [
+      "Dak Prescott",
+      "Carson Wentz",
+      "Jared Goff",
+      "Paxton Lynch"
+    ],
+    "answer": "Dak Prescott"
+  },
+  {
+    "question": "Who was the 2021 first overall pick?",
+    "options": [
+      "Trevor Lawrence",
+      "Zach Wilson",
+      "Justin Fields",
+      "Trey Lance"
+    ],
+    "answer": "Trevor Lawrence"
+  },
+  {
+    "question": "Which kicker missed a 27-yard field goal in the 2015 playoffs?",
+    "options": [
+      "Blair Walsh",
+      "Dan Bailey",
+      "Sebastian Janikowski",
+      "Robbie Gould"
+    ],
+    "answer": "Blair Walsh"
+  },
+  {
+    "question": "Which WR led the league in receptions in 2018?",
+    "options": [
+      "Michael Thomas",
+      "DeAndre Hopkins",
+      "Antonio Brown",
+      "Julio Jones"
+    ],
+    "answer": "Michael Thomas"
+  },
+  {
+    "question": "Who replaced Peyton Manning as Broncos starter in 2016?",
+    "options": [
+      "Trevor Siemian",
+      "Brock Osweiler",
+      "Paxton Lynch",
+      "Case Keenum"
+    ],
+    "answer": "Trevor Siemian"
+  },
+  {
+    "question": "Who was the Saints head coach before Dennis Allen?",
+    "options": [
+      "Sean Payton",
+      "Jim Haslett",
+      "Mike Ditka",
+      "Pete Carmichael"
+    ],
+    "answer": "Sean Payton"
+  },
+  {
+    "question": "Who led the Bears to a 12\u20134 season in 2018?",
+    "options": [
+      "Mitchell Trubisky",
+      "Jay Cutler",
+      "Kyle Orton",
+      "Nick Foles"
+    ],
+    "answer": "Mitchell Trubisky"
+  },
+  {
+    "question": "Which NFL team has the most Super Bowl appearances?",
+    "options": [
+      "New England Patriots",
+      "Pittsburgh Steelers",
+      "Dallas Cowboys",
+      "San Francisco 49ers"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which player holds the record for most touchdowns in a single season?",
+    "options": [
+      "LaDainian Tomlinson",
+      "Randy Moss",
+      "Jerry Rice",
+      "Marshall Faulk"
+    ],
+    "answer": "LaDainian Tomlinson"
+  },
+  {
+    "question": "Which stadium is the oldest in the NFL?",
+    "options": [
+      "Soldier Field",
+      "Lambeau Field",
+      "Arrowhead Stadium",
+      "MetLife Stadium"
+    ],
+    "answer": "Soldier Field"
+  },
+  {
+    "question": "What team did the Colts originally play in before moving to Indianapolis?",
+    "options": [
+      "Baltimore",
+      "Cleveland",
+      "Houston",
+      "St. Louis"
+    ],
+    "answer": "Baltimore"
+  },
+  {
+    "question": "Which QB has the most career playoff wins?",
+    "options": [
+      "Tom Brady",
+      "Joe Montana",
+      "Peyton Manning",
+      "Terry Bradshaw"
+    ],
+    "answer": "Tom Brady"
+  },
+  {
+    "question": "What year did the NFL and AFL officially merge?",
+    "options": [
+      "1970",
+      "1967",
+      "1963",
+      "1974"
+    ],
+    "answer": "1970"
+  },
+  {
+    "question": "Which franchise drafted Eli Manning?",
+    "options": [
+      "San Diego Chargers",
+      "New York Giants",
+      "Buffalo Bills",
+      "Miami Dolphins"
+    ],
+    "answer": "San Diego Chargers"
+  },
+  {
+    "question": "Which team went undefeated in the regular season in 2007?",
+    "options": [
+      "New England Patriots",
+      "Indianapolis Colts",
+      "Pittsburgh Steelers",
+      "Seattle Seahawks"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which NFL player was known as 'Megatron'?",
+    "options": [
+      "Calvin Johnson",
+      "Randy Moss",
+      "Julio Jones",
+      "Andre Johnson"
+    ],
+    "answer": "Calvin Johnson"
+  },
+  {
+    "question": "Who was the NFL commissioner before Roger Goodell?",
+    "options": [
+      "Paul Tagliabue",
+      "Pete Rozelle",
+      "Jim Thorpe",
+      "Burt Bell"
+    ],
+    "answer": "Paul Tagliabue"
+  },
+  {
+    "question": "What team plays at Arrowhead Stadium?",
+    "options": [
+      "Kansas City Chiefs",
+      "Cleveland Browns",
+      "Chicago Bears",
+      "Tennessee Titans"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Who was the first player to rush for 2,000 yards in a season?",
+    "options": [
+      "O.J. Simpson",
+      "Eric Dickerson",
+      "Barry Sanders",
+      "Terrell Davis"
+    ],
+    "answer": "O.J. Simpson"
+  },
+  {
+    "question": "Which team holds the record for most consecutive playoff appearances?",
+    "options": [
+      "New England Patriots",
+      "Dallas Cowboys",
+      "Pittsburgh Steelers",
+      "Green Bay Packers"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which team has never appeared in a Super Bowl?",
+    "options": [
+      "Detroit Lions",
+      "New York Jets",
+      "Chicago Bears",
+      "Miami Dolphins"
+    ],
+    "answer": "Detroit Lions"
+  },
+  {
+    "question": "Which team won the first ever Super Bowl?",
+    "options": [
+      "Green Bay Packers",
+      "Kansas City Chiefs",
+      "Chicago Bears",
+      "New York Giants"
+    ],
+    "answer": "Green Bay Packers"
+  },
+  {
+    "question": "Which QB was known for the 'Hail Mary' pass?",
+    "options": [
+      "Roger Staubach",
+      "Joe Namath",
+      "Fran Tarkenton",
+      "Dan Marino"
+    ],
+    "answer": "Roger Staubach"
+  },
+  {
+    "question": "What team did Brett Favre retire with?",
+    "options": [
+      "Minnesota Vikings",
+      "Green Bay Packers",
+      "New York Jets",
+      "Atlanta Falcons"
+    ],
+    "answer": "Minnesota Vikings"
+  },
+  {
+    "question": "Who is the NFL all-time leader in interceptions thrown?",
+    "options": [
+      "Brett Favre",
+      "George Blanda",
+      "Peyton Manning",
+      "Vinny Testaverde"
+    ],
+    "answer": "Brett Favre"
+  },
+  {
+    "question": "What year did the NFL introduce instant replay reviews?",
+    "options": [
+      "1986",
+      "1991",
+      "1999",
+      "2002"
+    ],
+    "answer": "1986"
+  },
+  {
+    "question": "Who holds the record for longest field goal in NFL history?",
+    "options": [
+      "Justin Tucker",
+      "Matt Prater",
+      "Tom Dempsey",
+      "Jason Elam"
+    ],
+    "answer": "Justin Tucker"
+  },
+  {
+    "question": "Who is the only coach to win Super Bowls with two different teams?",
+    "options": [
+      "Don Shula",
+      "Bill Parcells",
+      "Tom Coughlin",
+      "Don Shula"
+    ],
+    "answer": "Don Shula"
+  },
+  {
+    "question": "Which running back was known for wearing a neck roll?",
+    "options": [
+      "Mike Alstott",
+      "Jerome Bettis",
+      "Earl Campbell",
+      "John Riggins"
+    ],
+    "answer": "Earl Campbell"
+  },
+  {
+    "question": "Which city has hosted the most Super Bowls?",
+    "options": [
+      "Miami",
+      "New Orleans",
+      "Los Angeles",
+      "Tampa Bay"
+    ],
+    "answer": "Miami"
+  },
+  {
+    "question": "Which quarterback was known as 'The Snake'?",
+    "options": [
+      "Ken Stabler",
+      "Terry Bradshaw",
+      "Joe Namath",
+      "Jim Plunkett"
+    ],
+    "answer": "Ken Stabler"
+  },
+  {
+    "question": "Which wide receiver had a record 7 TDs in a single game?",
+    "options": [
+      "Jerry Rice",
+      "Del Shofner",
+      "Kellen Winslow",
+      "Bob Shaw"
+    ],
+    "answer": "Bob Shaw"
+  }
+]
