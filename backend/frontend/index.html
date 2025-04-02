@@ -157,23 +157,16 @@
       document.getElementById('sport-menu').classList.add('hidden');
 
       if (mode === 'mixed') {
-        Promise.all([
-          fetch('/api/nfl').then(res => res.json()),
-          fetch('/api/nba').then(res => res.json()),
-          fetch('/api/mlb').then(res => res.json()),
-          fetch('/api/epl').then(res => res.json()),
-          fetch('/api/this-or-that').then(res => res.json()),
-          fetch('/api/draft').then(res => res.json())
-        ])
-        .then(([nfl, nba, mlb, epl, tot, draft]) => {
-          const all = [...nfl, ...nba, ...mlb, ...epl, ...tot, ...draft];
-          const questions = getUniqueQuestions(all, usedQuestions['mixed']);
-          showQuiz(questions, mode);
-        })
-        .catch(err => {
-          console.error(err);
-          container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
-        });
+        fetch('/api/mixed')
+          .then(res => res.json())
+          .then(data => {
+            const questions = getUniqueQuestions(data, usedQuestions['mixed']);
+            showQuiz(questions, mode);
+          })
+          .catch(err => {
+            console.error(err);
+            container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
+          });
       } else {
         fetch(`/api/${mode}`)
           .then(res => res.json())
