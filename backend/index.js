@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
-// Serve frontend files (now located inside backend/frontend)
+// Serve frontend files
 app.use(express.static(path.join(__dirname, 'frontend')));
 
 app.get('/', (req, res) => {
@@ -29,6 +29,7 @@ app.get('/api/nfl', (req, res) => {
       options: q.options || q.choices || [],
       answer: q.answer || q.correct_answer || ""
     }));
+
     const combined = [...data1, ...data2];
     res.json(combined);
   } catch (err) {
@@ -70,8 +71,9 @@ app.get('/api/calls', (req, res) => {
   });
 });
 
+// ✅ TEMP FIX: Return an empty array instead of 501 error
 app.get('/api/nba', (req, res) => {
-  res.status(501).send('NBA mode coming soon!');
+  res.json([]);
 });
 
 app.get('/api/draft', (req, res) => {
@@ -106,48 +108,34 @@ app.get('/api/mixed', (req, res) => {
   }
 });
 
-// ✅ NEW: Daily Challenge API (3 random Qs that last 24 hours)
-let cachedDaily = null;
-let lastGenerated = 0;
-
 app.get('/api/daily-challenge', (req, res) => {
-  const now = Date.now();
-  const ONE_DAY = 24 * 60 * 60 * 1000;
+  const cacheFile = path.join(__dirname, 'daily-challenge-cache.json');
+  const now = new Date();
 
-  if (cachedDaily && now - lastGenerated < ONE_DAY) {
-    return res.json(cachedDaily);
+  if (fs.existsSync(cacheFile)) {
+    const { date, questions } = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
+    const today = now.toISOString().slice(0, 10);
+    if (date === today) {
+      return res.json(questions);
+    }
   }
 
   try {
-    const sources = [
-      'nfl1.json',
-      'nfl2.json',
-      'mlb.json',
-      'epl.json',
-      'draft.json',
-      'this-or-that.json'
-    ];
+    const nfl1 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl1.json'), 'utf-8'));
+    const nfl2 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl2.json'), 'utf-8'));
+    const mlb = JSON.parse(fs.readFileSync(path.join(__dirname, 'mlb.json'), 'utf-8'));
+    const epl = JSON.parse(fs.readFileSync(path.join(__dirname, 'epl.json'), 'utf-8'));
+    const draft = JSON.parse(fs.readFileSync(path.join(__dirname, 'draft.json'), 'utf-8'));
+    const thisOrThat = JSON.parse(fs.readFileSync(path.join(__dirname, 'this-or-that.json'), 'utf-8'));
 
-    let all = [];
+    const all = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft, ...thisOrThat];
+    const shuffled = all.sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, 3);
 
-    for (const file of sources) {
-      const filePath = path.join(__dirname, file);
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-
-      const normalized = data.map(q => ({
-        question: q.question,
-        answer: q.answer || q.correct_answer || ''
-      }));
-
-      all = all.concat(normalized);
-    }
-
-    cachedDaily = all.sort(() => Math.random() - 0.5).slice(0, 3);
-    lastGenerated = now;
-
-    res.json(cachedDaily);
+    fs.writeFileSync(cacheFile, JSON.stringify({ date: now.toISOString().slice(0, 10), questions: selected }, null, 2));
+    res.json(selected);
   } catch (err) {
-    console.error('❌ Error building daily challenge:', err);
+    console.error('❌ Error generating Daily Challenge:', err);
     res.status(500).send('Error generating daily challenge');
   }
 });
