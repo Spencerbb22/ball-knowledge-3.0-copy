@@ -97,14 +97,13 @@
       <button onclick="showSportMenu()">Pick Your Sport</button>
       <button onclick="loadMode('this-or-that')">This or That</button>
       <button onclick="loadMode('calls')">Famous Calls</button>
-      <!-- New button for Draft Trivia mode -->
       <button onclick="loadMode('draft')">Draft Trivia</button>
     </div>
 
     <div class="sub-menu hidden" id="sport-menu">
       <button onclick="loadSport('nfl')">🏈 NFL</button>
       <button onclick="loadSport('mlb')">⚾️ MLB</button>
-      <button onclick="loadSport('epl')">⚽ English Premier League</button>
+      <button onclick="loadSport('epl')">⚽️ English Premier League</button>
       <button onclick="loadSport('nba')">🏀 NBA</button>
       <button onclick="backToMain()">⬅️ Back</button>
     </div>
@@ -162,43 +161,36 @@
           const questions = getUniqueQuestions(data, usedQuestions[mode]);
           let index = 0;
           let score = 0;
-          let callAudio = null;
 
           function showQuestion() {
             if (index >= questions.length) {
-              container.innerHTML = `<div class="score">🏆 You scored ${score} out of ${questions.length}!</div>
-                <button class="replay-button" onclick="loadMode('${mode}')">Play Again</button>`;
+              container.innerHTML = `
+                <div class="score">🏆 You scored ${score} out of ${questions.length}!</div>
+                <button class="replay-button" onclick="loadMode('${mode}')">Play Again</button>
+                <button class="replay-button" onclick="backToMain()">⬅️ Back</button>
+              `;
               return;
             }
             const q = questions[index];
             const allOptions = shuffleArray(q.options || q.choices);
-            const audioHtml = (mode === 'calls' && q.audio) ? `<audio id="call-audio" controls><source src="${q.audio}" type="audio/mp3"></audio>` : '';
-            container.innerHTML = `<div class="question-card">
-              ${audioHtml}
-              <p>${q.question}</p>
-              ${allOptions.map(choice => `
-                <button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>
-              `).join('')}
-              <div class="result" id="result"></div>
-            </div>`;
-
-            if (mode === 'calls' && q.audio) {
-              callAudio = document.getElementById('call-audio');
-              callAudio.load();
-            }
+            container.innerHTML = `
+              <div class="question-card">
+                ${mode === 'calls' ? `<audio controls><source src="${q.audio}" type="audio/mp3"></audio>` : ''}
+                <p>${q.question}</p>
+                ${allOptions.map(choice => `
+                  <button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>
+                `).join('')}
+                <div class="result" id="result"></div>
+              </div>
+              <button class="replay-button" onclick="backToMain()">⬅️ Back</button>
+            `;
           }
 
           window.handleAnswer = function(selected, correct) {
             const resultDiv = document.getElementById('result');
             if (selected === correct) {
               resultDiv.innerHTML = mode === 'calls' ? '✅ Correct!' : '🔊 <strong>BANG! ✅ Correct!</strong>';
-              if (mode === 'calls') {
-                if (callAudio) {
-                  callAudio.play().catch(err => {
-                    console.error("🔇 Audio play failed:", err);
-                  });
-                }
-              } else {
+              if (mode !== 'calls') {
                 bangAudio.currentTime = 0;
                 bangAudio.play();
               }
