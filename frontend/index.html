@@ -11,7 +11,6 @@
       font-family: Arial, sans-serif;
       color: white;
     }
-
     .overlay {
       background-color: rgba(90, 20, 20, 0.85);
       min-height: 100vh;
@@ -21,12 +20,10 @@
       justify-content: flex-start;
       padding-top: 40px;
     }
-
     h1 {
       font-size: 48px;
       margin-bottom: 30px;
     }
-
     .menu, .sub-menu {
       background: #5e1e1e;
       padding: 20px 30px;
@@ -38,7 +35,6 @@
       gap: 15px;
       margin-bottom: 30px;
     }
-
     .menu button, .sub-menu button, .replay-button {
       background: white;
       color: #5e1e1e;
@@ -51,29 +47,24 @@
       width: 220px;
       transition: background 0.3s ease;
     }
-
     .menu button:hover, .sub-menu button:hover, .replay-button:hover {
       background: #f3dada;
     }
-
     #question-container {
       width: 80%;
       max-width: 700px;
       text-align: center;
     }
-
     .question-card {
       background: rgba(255, 255, 255, 0.1);
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 30px;
     }
-
     .question-card p {
       font-size: 20px;
       margin-bottom: 15px;
     }
-
     .question-card button {
       margin: 6px;
       padding: 10px 20px;
@@ -84,17 +75,14 @@
       border-radius: 6px;
       cursor: pointer;
     }
-
     .question-card button:hover {
       background-color: #f5e6e6;
     }
-
     .score {
       font-size: 24px;
       margin-top: 20px;
       color: #ffd;
     }
-
     .hidden {
       display: none;
     }
@@ -109,6 +97,8 @@
       <button onclick="showSportMenu()">Pick Your Sport</button>
       <button onclick="loadMode('this-or-that')">This or That</button>
       <button onclick="loadMode('calls')">Famous Calls</button>
+      <!-- New button for Draft Trivia mode -->
+      <button onclick="loadMode('draft')">Draft Trivia</button>
     </div>
 
     <div class="sub-menu hidden" id="sport-menu">
@@ -132,7 +122,8 @@
       'nfl': [],
       'mlb': [],
       'epl': [],
-      'nba': []
+      'nba': [],
+      'draft': []  // Added for Draft Trivia mode
     };
 
     function showSportMenu() {

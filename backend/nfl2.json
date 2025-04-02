@@ -1,5 +1,725 @@
 [
   {
+    "question": "Who was selected 1st overall in the 2023 NFL Draft?",
+    "options": [
+      "Bryce Young",
+      "C.J. Stroud",
+      "Anthony Richardson",
+      "Will Anderson Jr."
+    ],
+    "answer": "Bryce Young"
+  },
+  {
+    "question": "Who was selected 1st overall in the 2020 NFL Draft?",
+    "options": [
+      "Joe Burrow",
+      "Chase Young",
+      "Tua Tagovailoa",
+      "Justin Herbert"
+    ],
+    "answer": "Joe Burrow"
+  },
+  {
+    "question": "Which team drafted Patrick Mahomes in the 2017 NFL Draft?",
+    "options": [
+      "Kansas City Chiefs",
+      "Chicago Bears",
+      "Cleveland Browns",
+      "Houston Texans"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Which team originally had the pick used to draft Patrick Mahomes?",
+    "options": [
+      "Buffalo Bills",
+      "New York Jets",
+      "Los Angeles Chargers",
+      "Jacksonville Jaguars"
+    ],
+    "answer": "Buffalo Bills"
+  },
+  {
+    "question": "Who was selected 1st overall in the 2018 NFL Draft?",
+    "options": [
+      "Baker Mayfield",
+      "Saquon Barkley",
+      "Sam Darnold",
+      "Josh Allen"
+    ],
+    "answer": "Baker Mayfield"
+  },
+  {
+    "question": "Which team drafted Justin Jefferson in the 2020 NFL Draft?",
+    "options": [
+      "Minnesota Vikings",
+      "Philadelphia Eagles",
+      "San Francisco 49ers",
+      "Green Bay Packers"
+    ],
+    "answer": "Minnesota Vikings"
+  },
+  {
+    "question": "Which two teams were involved in the 2004 draft trade of Eli Manning and Philip Rivers?",
+    "options": [
+      "Giants and Chargers",
+      "Giants and Steelers",
+      "Chargers and Dolphins",
+      "Raiders and Giants"
+    ],
+    "answer": "Giants and Chargers"
+  },
+  {
+    "question": "Which team selected Myles Garrett 1st overall in the 2017 NFL Draft?",
+    "options": [
+      "Cleveland Browns",
+      "San Francisco 49ers",
+      "Chicago Bears",
+      "New York Jets"
+    ],
+    "answer": "Cleveland Browns"
+  },
+  {
+    "question": "Who was selected 1st overall in the 2012 NFL Draft?",
+    "options": [
+      "Andrew Luck",
+      "Robert Griffin III",
+      "Ryan Tannehill",
+      "Russell Wilson"
+    ],
+    "answer": "Andrew Luck"
+  },
+  {
+    "question": "Which team drafted J.J. Watt in the 2011 NFL Draft?",
+    "options": [
+      "Houston Texans",
+      "Green Bay Packers",
+      "New York Giants",
+      "Pittsburgh Steelers"
+    ],
+    "answer": "Houston Texans"
+  },
+  {
+    "question": "Which team drafted Nick Bosa in 2019?",
+    "options": [
+      "San Francisco 49ers",
+      "New York Jets",
+      "Washington Commanders",
+      "Cincinnati Bengals"
+    ],
+    "answer": "San Francisco 49ers"
+  },
+  {
+    "question": "Which quarterback was taken before Patrick Mahomes in the 2017 NFL Draft?",
+    "options": [
+      "Mitchell Trubisky",
+      "Deshaun Watson",
+      "Josh Rosen",
+      "Baker Mayfield"
+    ],
+    "answer": "Mitchell Trubisky"
+  },
+  {
+    "question": "What pick was Lamar Jackson in the 2018 NFL Draft?",
+    "options": [
+      "32nd",
+      "10th",
+      "15th",
+      "5th"
+    ],
+    "answer": "32nd"
+  },
+  {
+    "question": "Who was selected 2nd overall in the 2015 NFL Draft?",
+    "options": [
+      "Marcus Mariota",
+      "Jameis Winston",
+      "Amari Cooper",
+      "Todd Gurley"
+    ],
+    "answer": "Marcus Mariota"
+  },
+  {
+    "question": "What team drafted Aaron Rodgers in the 2005 NFL Draft?",
+    "options": [
+      "Green Bay Packers",
+      "San Francisco 49ers",
+      "New York Jets",
+      "Cleveland Browns"
+    ],
+    "answer": "Green Bay Packers"
+  },
+  {
+    "question": "Which team drafted Calvin Johnson in the 2007 NFL Draft?",
+    "options": [
+      "Detroit Lions",
+      "Cleveland Browns",
+      "Minnesota Vikings",
+      "Buffalo Bills"
+    ],
+    "answer": "Detroit Lions"
+  },
+  {
+    "question": "What team selected Reggie Bush in the 2006 NFL Draft?",
+    "options": [
+      "New Orleans Saints",
+      "Houston Texans",
+      "Miami Dolphins",
+      "New York Jets"
+    ],
+    "answer": "New Orleans Saints"
+  },
+  {
+    "question": "Who was selected 1st overall in the 2004 NFL Draft?",
+    "options": [
+      "Eli Manning",
+      "Larry Fitzgerald",
+      "Ben Roethlisberger",
+      "Philip Rivers"
+    ],
+    "answer": "Eli Manning"
+  },
+  {
+    "question": "Who did the Rams draft 1st overall in 2016?",
+    "options": [
+      "Jared Goff",
+      "Carson Wentz",
+      "Dak Prescott",
+      "Paxton Lynch"
+    ],
+    "answer": "Jared Goff"
+  },
+  {
+    "question": "Who was the last pick in the 2022 NFL Draft (Mr. Irrelevant)?",
+    "options": [
+      "Brock Purdy",
+      "Skylar Thompson",
+      "Bailey Zappe",
+      "Sam Howell"
+    ],
+    "answer": "Brock Purdy"
+  },
+  {
+    "question": "Which team drafted CeeDee Lamb in the 2020 NFL Draft?",
+    "options": [
+      "Dallas Cowboys",
+      "Philadelphia Eagles",
+      "New Orleans Saints",
+      "Minnesota Vikings"
+    ],
+    "answer": "Dallas Cowboys"
+  },
+  {
+    "question": "What pick was Justin Herbert in the 2020 NFL Draft?",
+    "options": [
+      "6th",
+      "2nd",
+      "5th",
+      "10th"
+    ],
+    "answer": "6th"
+  },
+  {
+    "question": "Which team selected Chase Young in the 2020 NFL Draft?",
+    "options": [
+      "Washington Commanders",
+      "Detroit Lions",
+      "New York Jets",
+      "Cincinnati Bengals"
+    ],
+    "answer": "Washington Commanders"
+  },
+  {
+    "question": "Who was the #1 overall pick in the 2001 NFL Draft?",
+    "options": [
+      "Michael Vick",
+      "LaDainian Tomlinson",
+      "Richard Seymour",
+      "Drew Brees"
+    ],
+    "answer": "Michael Vick"
+  },
+  {
+    "question": "Which team drafted Josh Allen in the 2018 NFL Draft?",
+    "options": [
+      "Buffalo Bills",
+      "New York Jets",
+      "Miami Dolphins",
+      "Denver Broncos"
+    ],
+    "answer": "Buffalo Bills"
+  },
+  {
+    "question": "Which team drafted Von Miller in the 2011 NFL Draft?",
+    "options": [
+      "Denver Broncos",
+      "New England Patriots",
+      "Dallas Cowboys",
+      "Chicago Bears"
+    ],
+    "answer": "Denver Broncos"
+  },
+  {
+    "question": "Which team drafted Joe Flacco in 2008?",
+    "options": [
+      "Baltimore Ravens",
+      "Pittsburgh Steelers",
+      "Philadelphia Eagles",
+      "New York Giants"
+    ],
+    "answer": "Baltimore Ravens"
+  },
+  {
+    "question": "Who was drafted 1st overall in the 1998 NFL Draft?",
+    "options": [
+      "Peyton Manning",
+      "Ryan Leaf",
+      "Charles Woodson",
+      "Randy Moss"
+    ],
+    "answer": "Peyton Manning"
+  },
+  {
+    "question": "Who was the 1st overall pick in the 2009 NFL Draft?",
+    "options": [
+      "Matthew Stafford",
+      "Mark Sanchez",
+      "Darrius Heyward-Bey",
+      "Jason Smith"
+    ],
+    "answer": "Matthew Stafford"
+  },
+  {
+    "question": "Which team selected Chris Long 2nd overall in the 2008 NFL Draft?",
+    "options": [
+      "St. Louis Rams",
+      "New York Jets",
+      "New Orleans Saints",
+      "Kansas City Chiefs"
+    ],
+    "answer": "St. Louis Rams"
+  },
+  {
+    "question": "Which team drafted Jayson Tatum in 2017?",
+    "options": [
+      "Boston Celtics",
+      "Philadelphia 76ers",
+      "Phoenix Suns",
+      "Sacramento Kings"
+    ],
+    "answer": "Boston Celtics"
+  },
+  {
+    "question": "Which team selected D'Angelo Russell 2nd overall in 2015?",
+    "options": [
+      "Los Angeles Lakers",
+      "New York Knicks",
+      "Miami Heat",
+      "Charlotte Hornets"
+    ],
+    "answer": "Los Angeles Lakers"
+  },
+  {
+    "question": "Which team drafted Christian McCaffrey in 2017?",
+    "options": [
+      "Carolina Panthers",
+      "New Orleans Saints",
+      "San Francisco 49ers",
+      "Green Bay Packers"
+    ],
+    "answer": "Carolina Panthers"
+  },
+  {
+    "question": "Which team drafted Julio Jones in the 2011 NFL Draft?",
+    "options": [
+      "Atlanta Falcons",
+      "Tennessee Titans",
+      "Cincinnati Bengals",
+      "Detroit Lions"
+    ],
+    "answer": "Atlanta Falcons"
+  },
+  {
+    "question": "Which team drafted Odell Beckham Jr. in 2014?",
+    "options": [
+      "New York Giants",
+      "Cleveland Browns",
+      "Baltimore Ravens",
+      "Philadelphia Eagles"
+    ],
+    "answer": "New York Giants"
+  },
+  {
+    "question": "Who was selected 1st overall in the 2013 NFL Draft?",
+    "options": [
+      "Eric Fisher",
+      "Luke Joeckel",
+      "Lane Johnson",
+      "Ziggy Ansah"
+    ],
+    "answer": "Eric Fisher"
+  },
+  {
+    "question": "Which team drafted T.J. Watt in 2017?",
+    "options": [
+      "Pittsburgh Steelers",
+      "Green Bay Packers",
+      "Dallas Cowboys",
+      "Chicago Bears"
+    ],
+    "answer": "Pittsburgh Steelers"
+  },
+  {
+    "question": "Which team selected Trevor Lawrence 1st overall in 2021?",
+    "options": [
+      "Jacksonville Jaguars",
+      "New York Jets",
+      "San Francisco 49ers",
+      "Atlanta Falcons"
+    ],
+    "answer": "Jacksonville Jaguars"
+  },
+  {
+    "question": "What pick was Dak Prescott in the 2016 NFL Draft?",
+    "options": [
+      "135th",
+      "106th",
+      "99th",
+      "75th"
+    ],
+    "answer": "135th"
+  },
+  {
+    "question": "Which team drafted Justin Fields in 2021?",
+    "options": [
+      "Chicago Bears",
+      "Denver Broncos",
+      "San Francisco 49ers",
+      "New England Patriots"
+    ],
+    "answer": "Chicago Bears"
+  },
+  {
+    "question": "Which team originally drafted Russell Wilson?",
+    "options": [
+      "Seattle Seahawks",
+      "Denver Broncos",
+      "Cleveland Browns",
+      "New York Giants"
+    ],
+    "answer": "Seattle Seahawks"
+  },
+  {
+    "question": "Which team drafted Saquon Barkley 2nd overall in 2018?",
+    "options": [
+      "New York Giants",
+      "Cleveland Browns",
+      "New York Jets",
+      "Buffalo Bills"
+    ],
+    "answer": "New York Giants"
+  },
+  {
+    "question": "Which team drafted Sauce Gardner in the 2022 NFL Draft?",
+    "options": [
+      "New York Jets",
+      "New York Giants",
+      "Houston Texans",
+      "Baltimore Ravens"
+    ],
+    "answer": "New York Jets"
+  },
+  {
+    "question": "Which team selected Aidan Hutchinson in the 2022 NFL Draft?",
+    "options": [
+      "Detroit Lions",
+      "Jacksonville Jaguars",
+      "Chicago Bears",
+      "Philadelphia Eagles"
+    ],
+    "answer": "Detroit Lions"
+  },
+  {
+    "question": "What team drafted Tyreek Hill in the 2016 NFL Draft?",
+    "options": [
+      "Kansas City Chiefs",
+      "Green Bay Packers",
+      "Los Angeles Chargers",
+      "Cleveland Browns"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
+    "question": "Which team selected T.J. Watt in the 2017 NFL Draft?",
+    "options": [
+      "Pittsburgh Steelers",
+      "Houston Texans",
+      "Seattle Seahawks",
+      "Arizona Cardinals"
+    ],
+    "answer": "Pittsburgh Steelers"
+  },
+  {
+    "question": "Who was drafted 1st overall in the 2013 NFL Draft?",
+    "options": [
+      "Eric Fisher",
+      "Luke Joeckel",
+      "Lane Johnson",
+      "Dee Milliner"
+    ],
+    "answer": "Eric Fisher"
+  },
+  {
+    "question": "Which team drafted DeVonta Smith in the 2021 NFL Draft?",
+    "options": [
+      "Philadelphia Eagles",
+      "New York Giants",
+      "Dallas Cowboys",
+      "Atlanta Falcons"
+    ],
+    "answer": "Philadelphia Eagles"
+  },
+  {
+    "question": "Which team drafted Trevon Diggs in the 2020 NFL Draft?",
+    "options": [
+      "Dallas Cowboys",
+      "Green Bay Packers",
+      "Detroit Lions",
+      "Cincinnati Bengals"
+    ],
+    "answer": "Dallas Cowboys"
+  },
+  {
+    "question": "Who did the Bengals select 5th overall in the 2021 NFL Draft?",
+    "options": [
+      "Ja'Marr Chase",
+      "Penei Sewell",
+      "Jaylen Waddle",
+      "DeVonta Smith"
+    ],
+    "answer": "Ja'Marr Chase"
+  },
+  {
+    "question": "Which team selected George Pickens in the 2022 NFL Draft?",
+    "options": [
+      "Pittsburgh Steelers",
+      "Kansas City Chiefs",
+      "Chicago Bears",
+      "Buffalo Bills"
+    ],
+    "answer": "Pittsburgh Steelers"
+  },
+  {
+    "question": "Which team drafted Jonathan Taylor in 2020?",
+    "options": [
+      "Indianapolis Colts",
+      "Tennessee Titans",
+      "Cleveland Browns",
+      "Arizona Cardinals"
+    ],
+    "answer": "Indianapolis Colts"
+  },
+  {
+    "question": "Which team drafted Bijan Robinson in the 2023 NFL Draft?",
+    "options": [
+      "Atlanta Falcons",
+      "Philadelphia Eagles",
+      "Dallas Cowboys",
+      "Detroit Lions"
+    ],
+    "answer": "Atlanta Falcons"
+  },
+  {
+    "question": "What pick was C.J. Stroud in the 2023 NFL Draft?",
+    "options": [
+      "2nd",
+      "1st",
+      "3rd",
+      "4th"
+    ],
+    "answer": "2nd"
+  },
+  {
+    "question": "Which team drafted Will Anderson Jr. in the 2023 NFL Draft?",
+    "options": [
+      "Houston Texans",
+      "Arizona Cardinals",
+      "Chicago Bears",
+      "Indianapolis Colts"
+    ],
+    "answer": "Houston Texans"
+  },
+  {
+    "question": "Which team drafted Jordan Addison in the 2023 NFL Draft?",
+    "options": [
+      "Minnesota Vikings",
+      "Pittsburgh Steelers",
+      "Los Angeles Rams",
+      "Tampa Bay Buccaneers"
+    ],
+    "answer": "Minnesota Vikings"
+  },
+  {
+    "question": "What pick was Anthony Richardson in the 2023 NFL Draft?",
+    "options": [
+      "4th",
+      "3rd",
+      "2nd",
+      "5th"
+    ],
+    "answer": "4th"
+  },
+  {
+    "question": "Which team drafted Quentin Johnston in the 2023 NFL Draft?",
+    "options": [
+      "Los Angeles Chargers",
+      "Baltimore Ravens",
+      "Detroit Lions",
+      "New York Jets"
+    ],
+    "answer": "Los Angeles Chargers"
+  },
+  {
+    "question": "Which team selected Jaxon Smith-Njigba in the 2023 NFL Draft?",
+    "options": [
+      "Seattle Seahawks",
+      "Green Bay Packers",
+      "Tennessee Titans",
+      "New England Patriots"
+    ],
+    "answer": "Seattle Seahawks"
+  },
+  {
+    "question": "Who was the first defensive player selected in the 2023 NFL Draft?",
+    "options": [
+      "Will Anderson Jr.",
+      "Jalen Carter",
+      "Devon Witherspoon",
+      "Tyree Wilson"
+    ],
+    "answer": "Will Anderson Jr."
+  },
+  {
+    "question": "Which team selected Jalen Carter in the 2023 NFL Draft?",
+    "options": [
+      "Philadelphia Eagles",
+      "Chicago Bears",
+      "Atlanta Falcons",
+      "Detroit Lions"
+    ],
+    "answer": "Philadelphia Eagles"
+  },
+  {
+    "question": "Which team selected Devon Witherspoon in the 2023 NFL Draft?",
+    "options": [
+      "Seattle Seahawks",
+      "Houston Texans",
+      "Arizona Cardinals",
+      "Green Bay Packers"
+    ],
+    "answer": "Seattle Seahawks"
+  },
+  {
+    "question": "Which team drafted Tyree Wilson in the 2023 NFL Draft?",
+    "options": [
+      "Las Vegas Raiders",
+      "Tampa Bay Buccaneers",
+      "New York Jets",
+      "Detroit Lions"
+    ],
+    "answer": "Las Vegas Raiders"
+  },
+  {
+    "question": "Which team drafted Zay Flowers in the 2023 NFL Draft?",
+    "options": [
+      "Baltimore Ravens",
+      "Kansas City Chiefs",
+      "Cincinnati Bengals",
+      "Buffalo Bills"
+    ],
+    "answer": "Baltimore Ravens"
+  },
+  {
+    "question": "Which team selected Dalton Kincaid in the 2023 NFL Draft?",
+    "options": [
+      "Buffalo Bills",
+      "New England Patriots",
+      "Cincinnati Bengals",
+      "Miami Dolphins"
+    ],
+    "answer": "Buffalo Bills"
+  },
+  {
+    "question": "Which team drafted Jahmyr Gibbs in the 2023 NFL Draft?",
+    "options": [
+      "Detroit Lions",
+      "Atlanta Falcons",
+      "New York Giants",
+      "Dallas Cowboys"
+    ],
+    "answer": "Detroit Lions"
+  },
+  {
+    "question": "Which team drafted Christian Gonzalez in the 2023 NFL Draft?",
+    "options": [
+      "New England Patriots",
+      "Denver Broncos",
+      "Los Angeles Rams",
+      "Arizona Cardinals"
+    ],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which team selected Emmanuel Forbes in the 2023 NFL Draft?",
+    "options": [
+      "Washington Commanders",
+      "Minnesota Vikings",
+      "Cleveland Browns",
+      "Houston Texans"
+    ],
+    "answer": "Washington Commanders"
+  },
+  {
+    "question": "Which team drafted Nolan Smith in the 2023 NFL Draft?",
+    "options": [
+      "Philadelphia Eagles",
+      "New York Giants",
+      "Baltimore Ravens",
+      "Buffalo Bills"
+    ],
+    "answer": "Philadelphia Eagles"
+  },
+  {
+    "question": "Which team drafted Bryan Bresee in the 2023 NFL Draft?",
+    "options": [
+      "New Orleans Saints",
+      "Chicago Bears",
+      "Cleveland Browns",
+      "Tennessee Titans"
+    ],
+    "answer": "New Orleans Saints"
+  },
+  {
+    "question": "Which team selected Myles Murphy in the 2023 NFL Draft?",
+    "options": [
+      "Cincinnati Bengals",
+      "Detroit Lions",
+      "Pittsburgh Steelers",
+      "Kansas City Chiefs"
+    ],
+    "answer": "Cincinnati Bengals"
+  },
+  {
+    "question": "Which team selected Felix Anudike-Uzomah in the 2023 NFL Draft?",
+    "options": [
+      "Kansas City Chiefs",
+      "Los Angeles Chargers",
+      "Houston Texans",
+      "Las Vegas Raiders"
+    ],
+    "answer": "Kansas City Chiefs"
+  },
+  {
     "question": "Which tight end had 88 receptions, 884 yards, and 8 touchdowns in the 2024 season?",
     "choices": [
       "Hunter Henry (NE)",
@@ -20,7 +740,7 @@
     "correct_answer": "Tony Pollard"
   },
   {
-    "question": "Which quarterback had 3568 passing yards, 25 passing touchdowns, and 9 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3727 passing yards, 20 passing touchdowns, and 12 interceptions in the 2024 season?",
     "choices": [
       "Aaron Rodgers",
       "Tua Tagovailoa",
@@ -50,7 +770,7 @@
     "correct_answer": "Jaxon Smith-Njigba"
   },
   {
-    "question": "Which quarterback had 3508 passing yards, 18 passing touchdowns, and 16 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3508 passing yards, 20 passing touchdowns, and 6 interceptions in the 2024 season?",
     "choices": [
       "Kirk Cousins",
       "Bryce Young",
@@ -60,7 +780,7 @@
     "correct_answer": "Caleb Williams"
   },
   {
-    "question": "Which quarterback had 3541 passing yards, 20 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3568 passing yards, 25 passing touchdowns, and 9 interceptions in the 2024 season?",
     "choices": [
       "Jayden Daniels",
       "Lamar Jackson",
@@ -80,7 +800,7 @@
     "correct_answer": "Rico Dowdle"
   },
   {
-    "question": "Which quarterback had 3037 passing yards, 16 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "question": "Which quarterback had 2482 passing yards, 16 passing touchdowns, and 5 interceptions in the 2024 season?",
     "choices": [
       "Matthew Stafford",
       "Bo Nix",
@@ -90,7 +810,7 @@
     "correct_answer": "Russell Wilson"
   },
   {
-    "question": "Which wide receiver had 66 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 68 receptions, 1006 yards, and 7 touchdowns in the 2024 season?",
     "choices": [
       "A.J. Brown",
       "Puka Nacua",
@@ -100,7 +820,7 @@
     "correct_answer": "Nico Collins"
   },
   {
-    "question": "Which wide receiver had 73 receptions, 911 yards, and 10 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 79 receptions, 990 yards, and 3 touchdowns in the 2024 season?",
     "choices": [
       "Puka Nacua",
       "Garrett Wilson",
@@ -120,7 +840,7 @@
     "correct_answer": "Bijan Robinson"
   },
   {
-    "question": "Which wide receiver had 37 receptions, 824 yards, and 7 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 62 receptions, 885 yards, and 8 touchdowns in the 2024 season?",
     "choices": [
       "Amon-Ra St. Brown",
       "Brian Thomas Jr.",
@@ -130,7 +850,7 @@
     "correct_answer": "Marvin Harrison Jr."
   },
   {
-    "question": "Which wide receiver had 59 receptions, 900 yards, and 3 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 77 receptions, 975 yards, and 6 touchdowns in the 2024 season?",
     "choices": [
       "CeeDee Lamb",
       "Rome Odunze",
@@ -144,10 +864,10 @@
     "choices": [
       "Saquon Barkley",
       "Kyren Williams",
-      "D'Andre Swift",
+      "DAndre Swift",
       "Tony Pollard"
     ],
-    "correct_answer": "D'Andre Swift"
+    "correct_answer": "DAndre Swift"
   },
   {
     "question": "Which tight end had 42 receptions, 477 yards, and 6 touchdowns in the 2024 season?",
@@ -184,7 +904,7 @@
     "choices": [
       "Najee Harris",
       "Saquon Barkley",
-      "De'Von Achane",
+      "DeVon Achane",
       "Tony Pollard"
     ],
     "correct_answer": "Najee Harris"
@@ -233,8 +953,8 @@
     "question": "Which running back had 1921 rushing yards and 16 rushing touchdowns in the 2024 season?",
     "choices": [
       "Bucky Irving",
-      "De'Von Achane",
-      "D'Andre Swift",
+      "DeVon Achane",
+      "DAndre Swift",
       "Derrick Henry"
     ],
     "correct_answer": "Derrick Henry"
@@ -274,7 +994,7 @@
     "choices": [
       "Jahmyr Gibbs",
       "Breece Hall",
-      "D'Andre Swift",
+      "DAndre Swift",
       "Joe Mixon"
     ],
     "correct_answer": "Jahmyr Gibbs"
@@ -283,14 +1003,14 @@
     "question": "Which wide receiver had 87 receptions, 1282 yards, and 10 touchdowns in the 2024 season?",
     "choices": [
       "Brian Thomas Jr.",
-      "Ja'Marr Chase",
+      "JaMarr Chase",
       "Marvin Harrison Jr.",
       "Jerry Jeudy"
     ],
     "correct_answer": "Brian Thomas Jr."
   },
   {
-    "question": "Which wide receiver had 68 receptions, 833 yards, and 8 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 59 receptions, 900 yards, and 3 touchdowns in the 2024 season?",
     "choices": [
       "Marvin Harrison Jr.",
       "George Pickens",
@@ -330,7 +1050,7 @@
     "correct_answer": "Justin Jefferson"
   },
   {
-    "question": "Which quarterback had 3202 passing yards, 22 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "question": "Which quarterback had 2903 passing yards, 18 passing touchdowns, and 5 interceptions in the 2024 season?",
     "choices": [
       "Kyler Murray",
       "Caleb Williams",
@@ -370,7 +1090,7 @@
     "correct_answer": "Kyren Williams"
   },
   {
-    "question": "Which quarterback had 3143 passing yards, 25 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "question": "Which quarterback had 2867 passing yards, 19 passing touchdowns, and 7 interceptions in the 2024 season?",
     "choices": [
       "Geno Smith",
       "Brock Purdy",
@@ -400,7 +1120,7 @@
     "correct_answer": "Brock Purdy"
   },
   {
-    "question": "Which quarterback had 3389 passing yards, 25 passing touchdowns, and 11 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3508 passing yards, 18 passing touchdowns, and 16 interceptions in the 2024 season?",
     "choices": [
       "Kirk Cousins",
       "Jayden Daniels",
@@ -410,7 +1130,7 @@
     "correct_answer": "Kirk Cousins"
   },
   {
-    "question": "Which wide receiver had 79 receptions, 990 yards, and 3 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 74 receptions, 1004 yards, and 11 touchdowns in the 2024 season?",
     "choices": [
       "Rome Odunze",
       "Mike Evans",
@@ -450,7 +1170,7 @@
     "correct_answer": "Drake London"
   },
   {
-    "question": "Which wide receiver had 64 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 64 receptions, 1017 yards, and 4 touchdowns in the 2024 season?",
     "choices": [
       "Calvin Ridley",
       "Tee Higgins",
@@ -460,7 +1180,7 @@
     "correct_answer": "Calvin Ridley"
   },
   {
-    "question": "Which quarterback had 3731 passing yards, 28 passing touchdowns, and 6 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3762 passing yards, 20 passing touchdowns, and 8 interceptions in the 2024 season?",
     "choices": [
       "Russell Wilson",
       "Jordan Love",
@@ -510,7 +1230,7 @@
     "correct_answer": "Zay Flowers"
   },
   {
-    "question": "Which wide receiver had 55 receptions, 857 yards, and 6 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 73 receptions, 911 yards, and 10 touchdowns in the 2024 season?",
     "choices": [
       "Ladd McConkey",
       "Davante Adams",
@@ -542,7 +1262,7 @@
   {
     "question": "Which running back had 1122 rushing yards and 8 rushing touchdowns in the 2024 season?",
     "choices": [
-      "De'Von Achane",
+      "DeVon Achane",
       "J.K. Dobbins",
       "Jonathan Taylor",
       "Bucky Irving"
@@ -554,15 +1274,15 @@
     "choices": [
       "Tony Pollard",
       "Josh Jacobs",
-      "De'Von Achane",
+      "DeVon Achane",
       "Najee Harris"
     ],
-    "correct_answer": "De'Von Achane"
+    "correct_answer": "DeVon Achane"
   },
   {
     "question": "Which wide receiver had 81 receptions, 1081 yards, and 8 touchdowns in the 2024 season?",
     "choices": [
-      "Ja'Marr Chase",
+      "JaMarr Chase",
       "Jaxon Smith-Njigba",
       "Darnell Mooney",
       "Courtland Sutton"
@@ -630,7 +1350,7 @@
     "correct_answer": "Aaron Jones"
   },
   {
-    "question": "Which wide receiver had 76 receptions, 821 yards, and 4 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 54 receptions, 734 yards, and 3 touchdowns in the 2024 season?",
     "choices": [
       "Calvin Ridley",
       "Jaxon Smith-Njigba",
@@ -670,7 +1390,7 @@
     "correct_answer": "Brock Bowers (LV)"
   },
   {
-    "question": "Which wide receiver had 81 receptions, 959 yards, and 6 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 66 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
     "choices": [
       "Jerry Jeudy",
       "Jameson Williams",
@@ -680,7 +1400,7 @@
     "correct_answer": "DK Metcalf"
   },
   {
-    "question": "Which wide receiver had 70 receptions, 875 yards, and 9 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 81 receptions, 959 yards, and 6 touchdowns in the 2024 season?",
     "choices": [
       "Amon-Ra St. Brown",
       "Jaxon Smith-Njigba",
@@ -693,14 +1413,14 @@
     "question": "Which running back had 1195 rushing yards and 10 rushing touchdowns in the 2024 season?",
     "choices": [
       "Najee Harris",
-      "D'Andre Swift",
+      "DAndre Swift",
       "James Cook",
       "Chuba Hubbard"
     ],
     "correct_answer": "Chuba Hubbard"
   },
   {
-    "question": "Which quarterback had 2935 passing yards, 18 passing touchdowns, and 5 interceptions in the 2024 season?",
+    "question": "Which quarterback had 2403 passing yards, 15 passing touchdowns, and 9 interceptions in the 2024 season?",
     "choices": [
       "Kirk Cousins",
       "Justin Herbert",
@@ -725,7 +1445,7 @@
       "Jerry Jeudy",
       "Marvin Harrison Jr.",
       "Garrett Wilson",
-      "Ja'Marr Chase"
+      "JaMarr Chase"
     ],
     "correct_answer": "Jerry Jeudy"
   },
@@ -735,9 +1455,9 @@
       "Zay Flowers",
       "DJ Moore",
       "Jakobi Meyers",
-      "Ja'Marr Chase"
+      "JaMarr Chase"
     ],
-    "correct_answer": "Ja'Marr Chase"
+    "correct_answer": "JaMarr Chase"
   },
   {
     "question": "Which running back had 1094 rushing yards and 8 rushing touchdowns in the 2024 season?",
@@ -745,12 +1465,12 @@
       "James Conner",
       "Bijan Robinson",
       "Saquon Barkley",
-      "D'Andre Swift"
+      "DAndre Swift"
     ],
     "correct_answer": "James Conner"
   },
   {
-    "question": "Which quarterback had 3727 passing yards, 20 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3727 passing yards, 28 passing touchdowns, and 6 interceptions in the 2024 season?",
     "choices": [
       "Kyler Murray",
       "Josh Allen",
@@ -760,7 +1480,7 @@
     "correct_answer": "Josh Allen"
   },
   {
-    "question": "Which wide receiver had 58 receptions, 1001 yards, and 7 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 87 receptions, 1027 yards, and 4 touchdowns in the 2024 season?",
     "choices": [
       "A.J. Brown",
       "Nico Collins",
@@ -780,7 +1500,7 @@
     "correct_answer": "Sam Darnold"
   },
   {
-    "question": "Which quarterback had 3317 passing yards, 18 passing touchdowns, and 7 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3389 passing yards, 25 passing touchdowns, and 11 interceptions in the 2024 season?",
     "choices": [
       "Caleb Williams",
       "Matthew Stafford",
@@ -800,7 +1520,7 @@
     "correct_answer": "David Njoku (CLE)"
   },
   {
-    "question": "Which quarterback had 3762 passing yards, 20 passing touchdowns, and 8 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3775 passing yards, 29 passing touchdowns, and 12 interceptions in the 2024 season?",
     "choices": [
       "Bo Nix",
       "Bryce Young",
@@ -820,7 +1540,7 @@
     "correct_answer": "Aaron Rodgers"
   },
   {
-    "question": "Which wide receiver had 77 receptions, 975 yards, and 6 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 58 receptions, 1001 yards, and 7 touchdowns in the 2024 season?",
     "choices": [
       "Tee Higgins",
       "Jameson Williams",
@@ -850,7 +1570,7 @@
     "correct_answer": "Malik Nabers"
   },
   {
-    "question": "Which wide receiver had 64 receptions, 966 yards, and 6 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 64 receptions, 992 yards, and 5 touchdowns in the 2024 season?",
     "choices": [
       "Calvin Ridley",
       "Darnell Mooney",
@@ -880,7 +1600,7 @@
     "correct_answer": "Garrett Wilson"
   },
   {
-    "question": "Which quarterback had 3755 passing yards, 29 passing touchdowns, and 12 interceptions in the 2024 season?",
+    "question": "Which quarterback had 3851 passing yards, 21 passing touchdowns, and 11 interceptions in the 2024 season?",
     "choices": [
       "Russell Wilson",
       "Kyler Murray",
@@ -890,7 +1610,7 @@
     "correct_answer": "Kyler Murray"
   },
   {
-    "question": "Which wide receiver had 62 receptions, 885 yards, and 8 touchdowns in the 2024 season?",
+    "question": "Which wide receiver had 98 receptions, 966 yards, and 6 touchdowns in the 2024 season?",
     "choices": [
       "Rome Odunze",
       "DJ Moore",
@@ -913,7 +1633,7 @@
     "question": "Which wide receiver had 85 receptions, 1063 yards, and 8 touchdowns in the 2024 season?",
     "choices": [
       "Davante Adams",
-      "Ja'Marr Chase",
+      "JaMarr Chase",
       "Jerry Jeudy",
       "A.J. Brown"
     ],

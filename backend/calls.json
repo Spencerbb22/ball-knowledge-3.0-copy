@@ -101,7 +101,7 @@
   {
     "question": "What year was this and who were the Packers playing?",
     "options": [
-      "vs Lions in 2015",
+      "vs the Lions in 2015",
       "vs the Bears in 2016",
       "vs the Lions in 2013",
       "vs the Bears in 2015"
@@ -163,5 +163,192 @@
     ],
     "answer": "Saints",
     "audio": "diggs-sideline.mp3"
+  },
+  {
+    "question": "Who was this fight between?",
+    "options": [
+      "Joe Frazier vs Muhammed Ali",
+      "Joe Frazier vs Ken Norton",
+      "Joe Frazier vs George Foreman",
+      "Joe Frazier vs Ron Lyle"
+    ],
+    "answer": "Joe Frazier vs George Foreman",
+    "audio": "Down-goes-frazier.mp3"
+  },
+  {
+    "question": "What year was this from?",
+    "options": [
+      "2016",
+      "2018",
+      "2015",
+      "2017"
+    ],
+    "answer": "2016",
+    "audio": "Villanova-vs-north-carolina-2016.mp3"
+  },
+  {
+    "question": "Can you name who the Cardinals were playing Pujols hit his 700th HR?",
+    "options": [
+      "Diamondbacks",
+      "Cubs",
+      "Mets",
+      "Dodgers"
+    ],
+    "answer": "Dodgers",
+    "audio": "Albert-pujols700.mp3"
+  },
+  {
+    "question": "Where in the infield did this fight break out?",
+    "options": [
+      "Home Plate",
+      "1st base",
+      "2nd base",
+      "3rd base"
+    ],
+    "answer": "2nd base",
+    "audio": "tim-anderson--jose-ramirez-brawl.mp3"
+  },
+  {
+    "question": "Who did Lebron James posterize on this play?",
+    "options": [
+      "Kendrick Perkins",
+      "Kevin Garnett",
+      "Joakim Noah",
+      "Paul Pierce"
+    ],
+    "answer": "Kevin Garnett",
+    "audio": "Lebron-james-with-no-regard-for-a-human-life.mp3"
+  },
+  {
+    "question": "What year is this from?",
+    "options": [
+      "2014",
+      "2010",
+      "2012",
+      "2008"
+    ],
+    "answer": "2014",
+    "audio": "Nlcs-gm5-giants.mp3"
+  },
+  {
+    "question": "What rookie\u2019s first career HR was this?",
+    "options": [
+      "Julio Rodriguez",
+      "Oneil Cruz",
+      "Elly de la Cruz",
+      "Gunnar Henderson"
+    ],
+    "answer": "Elly de la Cruz",
+    "audio": "Elly-de-la-cruzs-first-career-home-run.mp3"
+  },
+  {
+    "question": "Who did Damian Lillard hit this three pointer over?",
+    "options": [
+      "Russel Westbrook",
+      "Dennis Schroder",
+      "Steven Adams",
+      "Paul George"
+    ],
+    "answer": "Paul George",
+    "audio": "lillard-vs-okc.mp3"
+  },
+  {
+    "question": "What year is this from?",
+    "options": [
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "answer": "2019",
+    "audio": "Kawhi-dagger.mp3"
+  },
+  {
+    "question": "What year is this from?",
+    "options": [
+      "2010",
+      "2011",
+      "2012",
+      "2014"
+    ],
+    "answer": "2012",
+    "audio": "Dt-vs-steelers.mp3"
+  },
+  {
+    "question": "Who\u2019s record did Aaron Judge break for AL single season Homers?",
+    "options": [
+      "Roger Maris",
+      "Babe Ruth",
+      "David Ortiz",
+      "Mickey Mantle"
+    ],
+    "answer": "Roger Maris",
+    "audio": "Judge-62hr.mp3"
+  },
+  {
+    "question": "How long was the Mariners playoff drought that this ended?",
+    "options": [
+      "18 seasons",
+      "22 seasons",
+      "20 seasons",
+      "21 seasons"
+    ],
+    "answer": "21 seasons",
+    "audio": "cal-raleigh-ends-the-drought.mp3"
+  },
+  {
+    "question": "Who were the Titans playing when Derrick Henry had this 99 yard TD run?",
+    "options": [
+      "Giants",
+      "Raiders",
+      "Jaguars",
+      "Ravens"
+    ],
+    "answer": "Jaguars",
+    "audio": "Henry-99-yards.mp3"
+  },
+  {
+    "question": "Who were the Ravens playing when Lamar had this TD run?",
+    "options": [
+      "Brown",
+      "Bengals",
+      "Bucs",
+      "Seahawks"
+    ],
+    "answer": "Bengals",
+    "audio": "Lamar-vs-bengals.mp3"
+  },
+  {
+    "question": "What year did Devin Hester return the opening kick of the Super Bowl for a touchdown?",
+    "options": [
+      "2007",
+      "2009",
+      "2008",
+      "2006"
+    ],
+    "answer": "2007",
+    "audio": "devin-hester-kickoff-return.mp3"
+  },
+  {
+    "question": "What is the name for this iconic play?",
+    "options": [
+      "Minneapolis Miracle",
+      "Miracle in Miami",
+      "Music City Miracle",
+      "The Immaculate Reception"
+    ],
+    "answer": "Music City Miracle",
+    "audio": "Music-city-miracle.mp3"
+  },
+  {
+    "question": "What is the name for this iconic play?",
+    "options": [
+      "Minneapolis Miracle",
+      "Miracle in Miami",
+      "Music City Miracle",
+      "The Immaculate Reception"
+    ],
+    "answer": "Miracle in Miami",
+    "audio": "miracle-in-miami.mp3"
   }
 ]

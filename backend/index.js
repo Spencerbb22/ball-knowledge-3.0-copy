@@ -76,6 +76,18 @@ app.get('/api/nba', (req, res) => {
   res.status(501).send('NBA mode coming soon!');
 });
 
+// NEW: Draft Trivia endpoint
+app.get('/api/draft', (req, res) => {
+  const filePath = path.join(__dirname, 'draft.json');
+  fs.readFile(filePath, 'utf-8', (err, data) => {
+    if (err) {
+      console.error('❌ Error loading Draft Trivia questions:', err);
+      return res.status(500).send('Error loading Draft Trivia questions');
+    }
+    res.json(JSON.parse(data));
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`✅ Ball Knowledge 3.0 running at http://localhost:${PORT}`);
 });
