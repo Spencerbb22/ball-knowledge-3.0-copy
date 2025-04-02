@@ -78,6 +78,14 @@
     .question-card button:hover {
       background-color: #f5e6e6;
     }
+    .question-card input {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: none;
+      margin-right: 10px;
+      width: 60%;
+    }
     .score {
       font-size: 24px;
       margin-top: 20px;
@@ -91,9 +99,9 @@
 <body>
   <div class="overlay">
     <h1>Ball Knowledge</h1>
-
     <div class="menu" id="main-menu">
       <button onclick="loadMode('mixed')">Mixed Sports</button>
+      <button onclick="loadMode('daily')">Daily Challenge</button>
       <button onclick="showSportMenu()">Pick Your Sport</button>
       <button onclick="loadMode('this-or-that')">This or That</button>
       <button onclick="loadMode('calls')">Famous Calls</button>
@@ -103,28 +111,26 @@
     <div class="sub-menu hidden" id="sport-menu">
       <button onclick="loadSport('nfl')">🏈 NFL</button>
       <button onclick="loadSport('mlb')">⚾️ MLB</button>
-      <button onclick="loadSport('epl')">⚽️ English Premier League</button>
+      <button onclick="loadSport('epl')">⚽ English Premier League</button>
       <button onclick="loadSport('nba')">🏀 NBA</button>
       <button onclick="backToMain()">⬅️ Back</button>
     </div>
 
     <div id="question-container"></div>
-
     <audio id="bang-audio" src="bang.mp3" preload="auto"></audio>
   </div>
 
   <script>
     const bangAudio = document.getElementById('bang-audio');
     const usedQuestions = {
-      'this-or-that': [],
-      'calls': [],
-      'nfl': [],
-      'mlb': [],
-      'epl': [],
-      'nba': [],
-      'draft': [],
-      'mixed': []
+      'this-or-that': [], 'calls': [], 'nfl': [], 'mlb': [],
+      'epl': [], 'nba': [], 'draft': [], 'mixed': [], 'daily': []
     };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('main-menu').classList.remove('hidden');
+      document.getElementById('sport-menu').classList.add('hidden');
+    });
 
     function showSportMenu() {
       document.getElementById('main-menu').classList.add('hidden');
@@ -150,6 +156,10 @@
       return newSet;
     }
 
+    function normalize(str) {
+      return str.toLowerCase().replace(/[^a-z0-9]/gi, '').trim();
+    }
+
     function loadMode(mode) {
       const container = document.getElementById('question-container');
       container.innerHTML = '';
@@ -157,23 +167,33 @@
       document.getElementById('sport-menu').classList.add('hidden');
 
       if (mode === 'mixed') {
-        fetch('/api/mixed')
+        Promise.all([
+          fetch('/api/nfl').then(res => res.json()),
+          fetch('/api/nba').then(res => res.json()),
+          fetch('/api/mlb').then(res => res.json()),
+          fetch('/api/epl').then(res => res.json()),
+          fetch('/api/this-or-that').then(res => res.json()),
+          fetch('/api/draft').then(res => res.json())
+        ]).then(([nfl, nba, mlb, epl, tot, draft]) => {
+          const all = [...nfl, ...nba, ...mlb, ...epl, ...tot, ...draft];
+          const questions = getUniqueQuestions(all, usedQuestions['mixed']);
+          showQuiz(questions, mode);
+        }).catch(err => {
+          console.error(err);
+          container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
+        });
+      } else if (mode === 'daily') {
+        fetch('/api/daily')
           .then(res => res.json())
-          .then(data => {
-            const questions = getUniqueQuestions(data, usedQuestions['mixed']);
-            showQuiz(questions, mode);
-          })
+          .then(data => showDailyChallenge(data))
           .catch(err => {
             console.error(err);
-            container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
+            container.innerHTML = `<p>⚠️ Failed to load leaderboard.</p>`;
           });
       } else {
         fetch(`/api/${mode}`)
           .then(res => res.json())
-          .then(data => {
-            const questions = getUniqueQuestions(data, usedQuestions[mode]);
-            showQuiz(questions, mode);
-          })
+          .then(data => showQuiz(getUniqueQuestions(data, usedQuestions[mode]), mode))
           .catch(err => {
             console.error(err);
             container.innerHTML = `<p>⚠️ Failed to load ${mode.toUpperCase()} questions.</p>`;
@@ -183,8 +203,7 @@
 
     function showQuiz(questions, mode) {
       const container = document.getElementById('question-container');
-      let index = 0;
-      let score = 0;
+      let index = 0, score = 0;
 
       function showQuestion() {
         if (index >= questions.length) {
@@ -198,12 +217,9 @@
         container.innerHTML = `<div class="question-card">
           ${mode === 'calls' ? `<audio controls><source src="${q.audio}" type="audio/mp3"></audio>` : ''}
           <p>${q.question}</p>
-          ${allOptions.map(choice => `
-            <button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>
-          `).join('')}
+          ${allOptions.map(choice => `<button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>`).join('')}
           <div class="result" id="result"></div>
-        </div>
-        <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+        </div><button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
       }
 
       window.handleAnswer = function(selected, correct) {
@@ -228,9 +244,50 @@
       showQuestion();
     }
 
+    function showDailyChallenge(questions) {
+      const container = document.getElementById('question-container');
+      let index = 0, triesLeft = 5;
+
+      function showQuestion() {
+        if (index >= questions.length) {
+          container.innerHTML = `<div class="score">🎯 You finished the Daily Challenge!</div>
+            <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+          return;
+        }
+        const q = questions[index];
+        container.innerHTML = `<div class="question-card">
+          <p>${q.question}</p>
+          <input id="fill-blank" type="text" placeholder="Type your answer here" />
+          <button onclick="submitFillAnswer()">Submit</button>
+          <div class="result" id="result"></div>
+        </div><button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+        triesLeft = 5;
+
+        window.submitFillAnswer = function() {
+          const input = document.getElementById('fill-blank').value;
+          const resultDiv = document.getElementById('result');
+          if (normalize(input) === normalize(q.answer)) {
+            resultDiv.innerHTML = '✅ Correct!';
+            setTimeout(() => { index++; showQuestion(); }, 2000);
+          } else {
+            triesLeft--;
+            if (triesLeft > 0) {
+              resultDiv.innerHTML = `❌ Try again (${5 - triesLeft}/5)`;
+            } else {
+              resultDiv.innerHTML = `❌ Out of tries. Correct answer: ${q.answer}`;
+              setTimeout(() => { index++; showQuestion(); }, 2500);
+            }
+          }
+        };
+      }
+
+      showQuestion();
+    }
+
     function loadSport(sport) {
       loadMode(sport);
     }
   </script>
 </body>
 </html>
+

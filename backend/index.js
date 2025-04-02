@@ -29,7 +29,6 @@ app.get('/api/nfl', (req, res) => {
       options: q.options || q.choices || [],
       answer: q.answer || q.correct_answer || ""
     }));
-
     const combined = [...data1, ...data2];
     res.json(combined);
   } catch (err) {
@@ -86,7 +85,6 @@ app.get('/api/draft', (req, res) => {
   });
 });
 
-// ✅ NEW: Mixed mode (pulls from all except "calls")
 app.get('/api/mixed', (req, res) => {
   try {
     const nfl1 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl1.json'), 'utf-8'));
@@ -105,6 +103,52 @@ app.get('/api/mixed', (req, res) => {
   } catch (err) {
     console.error('❌ Error loading mixed mode questions:', err);
     res.status(500).send('Error loading mixed questions');
+  }
+});
+
+// ✅ NEW: Daily Challenge API (3 random Qs that last 24 hours)
+let cachedDaily = null;
+let lastGenerated = 0;
+
+app.get('/api/daily-challenge', (req, res) => {
+  const now = Date.now();
+  const ONE_DAY = 24 * 60 * 60 * 1000;
+
+  if (cachedDaily && now - lastGenerated < ONE_DAY) {
+    return res.json(cachedDaily);
+  }
+
+  try {
+    const sources = [
+      'nfl1.json',
+      'nfl2.json',
+      'mlb.json',
+      'epl.json',
+      'draft.json',
+      'this-or-that.json'
+    ];
+
+    let all = [];
+
+    for (const file of sources) {
+      const filePath = path.join(__dirname, file);
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+      const normalized = data.map(q => ({
+        question: q.question,
+        answer: q.answer || q.correct_answer || ''
+      }));
+
+      all = all.concat(normalized);
+    }
+
+    cachedDaily = all.sort(() => Math.random() - 0.5).slice(0, 3);
+    lastGenerated = now;
+
+    res.json(cachedDaily);
+  } catch (err) {
+    console.error('❌ Error building daily challenge:', err);
+    res.status(500).send('Error generating daily challenge');
   }
 });
 
