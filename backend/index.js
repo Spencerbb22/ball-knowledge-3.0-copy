@@ -2,12 +2,14 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, '../frontend')));
+// ✅ Serve static files from frontend folder (now inside backend/)
+app.use(express.static(path.join(__dirname, 'frontend')));
 
+// ✅ Serve index.html on root
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/index.html'));
+  res.sendFile(path.join(__dirname, 'frontend/index.html'));
 });
 
 app.get('/api/this-or-that', (req, res) => {
@@ -76,7 +78,6 @@ app.get('/api/nba', (req, res) => {
   res.status(501).send('NBA mode coming soon!');
 });
 
-// NEW: Draft Trivia endpoint
 app.get('/api/draft', (req, res) => {
   const filePath = path.join(__dirname, 'draft.json');
   fs.readFile(filePath, 'utf-8', (err, data) => {
