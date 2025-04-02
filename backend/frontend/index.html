@@ -122,7 +122,8 @@
       'mlb': [],
       'epl': [],
       'nba': [],
-      'draft': []
+      'draft': [],
+      'mixed': []
     };
 
     function showSportMenu() {
@@ -155,62 +156,83 @@
       document.getElementById('main-menu').classList.add('hidden');
       document.getElementById('sport-menu').classList.add('hidden');
 
-      fetch(`/api/${mode}`)
-        .then(res => res.json())
-        .then(data => {
-          const questions = getUniqueQuestions(data, usedQuestions[mode]);
-          let index = 0;
-          let score = 0;
-
-          function showQuestion() {
-            if (index >= questions.length) {
-              container.innerHTML = `
-                <div class="score">🏆 You scored ${score} out of ${questions.length}!</div>
-                <button class="replay-button" onclick="loadMode('${mode}')">Play Again</button>
-                <button class="replay-button" onclick="backToMain()">⬅️ Back</button>
-              `;
-              return;
-            }
-            const q = questions[index];
-            const allOptions = shuffleArray(q.options || q.choices);
-            container.innerHTML = `
-              <div class="question-card">
-                ${mode === 'calls' ? `<audio controls><source src="${q.audio}" type="audio/mp3"></audio>` : ''}
-                <p>${q.question}</p>
-                ${allOptions.map(choice => `
-                  <button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>
-                `).join('')}
-                <div class="result" id="result"></div>
-              </div>
-              <button class="replay-button" onclick="backToMain()">⬅️ Back</button>
-            `;
-          }
-
-          window.handleAnswer = function(selected, correct) {
-            const resultDiv = document.getElementById('result');
-            if (selected === correct) {
-              resultDiv.innerHTML = mode === 'calls' ? '✅ Correct!' : '🔊 <strong>BANG! ✅ Correct!</strong>';
-              if (mode !== 'calls') {
-                bangAudio.currentTime = 0;
-                bangAudio.play();
-              }
-              score++;
-            } else {
-              resultDiv.innerHTML = `❌ Incorrect. Correct: ${correct}`;
-            }
-            setTimeout(() => {
-              if (mode !== 'calls') bangAudio.pause();
-              index++;
-              showQuestion();
-            }, 3000);
-          };
-
-          showQuestion();
+      if (mode === 'mixed') {
+        Promise.all([
+          fetch('/api/nfl').then(res => res.json()),
+          fetch('/api/nba').then(res => res.json()),
+          fetch('/api/mlb').then(res => res.json()),
+          fetch('/api/epl').then(res => res.json()),
+          fetch('/api/this-or-that').then(res => res.json()),
+          fetch('/api/draft').then(res => res.json())
+        ])
+        .then(([nfl, nba, mlb, epl, tot, draft]) => {
+          const all = [...nfl, ...nba, ...mlb, ...epl, ...tot, ...draft];
+          const questions = getUniqueQuestions(all, usedQuestions['mixed']);
+          showQuiz(questions, mode);
         })
         .catch(err => {
           console.error(err);
-          container.innerHTML = `<p>⚠️ Failed to load ${mode.toUpperCase()} questions.</p>`;
+          container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
         });
+      } else {
+        fetch(`/api/${mode}`)
+          .then(res => res.json())
+          .then(data => {
+            const questions = getUniqueQuestions(data, usedQuestions[mode]);
+            showQuiz(questions, mode);
+          })
+          .catch(err => {
+            console.error(err);
+            container.innerHTML = `<p>⚠️ Failed to load ${mode.toUpperCase()} questions.</p>`;
+          });
+      }
+    }
+
+    function showQuiz(questions, mode) {
+      const container = document.getElementById('question-container');
+      let index = 0;
+      let score = 0;
+
+      function showQuestion() {
+        if (index >= questions.length) {
+          container.innerHTML = `<div class="score">🏆 You scored ${score} out of ${questions.length}!</div>
+            <button class="replay-button" onclick="loadMode('${mode}')">Play Again</button>
+            <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+          return;
+        }
+        const q = questions[index];
+        const allOptions = shuffleArray(q.options || q.choices);
+        container.innerHTML = `<div class="question-card">
+          ${mode === 'calls' ? `<audio controls><source src="${q.audio}" type="audio/mp3"></audio>` : ''}
+          <p>${q.question}</p>
+          ${allOptions.map(choice => `
+            <button onclick="handleAnswer('${choice}', '${q.answer}')">${choice}</button>
+          `).join('')}
+          <div class="result" id="result"></div>
+        </div>
+        <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+      }
+
+      window.handleAnswer = function(selected, correct) {
+        const resultDiv = document.getElementById('result');
+        if (selected === correct) {
+          resultDiv.innerHTML = mode === 'calls' ? '✅ Correct!' : '🔊 <strong>BANG! ✅ Correct!</strong>';
+          if (mode !== 'calls') {
+            bangAudio.currentTime = 0;
+            bangAudio.play();
+          }
+          score++;
+        } else {
+          resultDiv.innerHTML = `❌ Incorrect. Correct: ${correct}`;
+        }
+        setTimeout(() => {
+          if (mode !== 'calls') bangAudio.pause();
+          index++;
+          showQuestion();
+        }, 3000);
+      };
+
+      showQuestion();
     }
 
     function loadSport(sport) {
@@ -219,4 +241,3 @@
   </script>
 </body>
 </html>
-
