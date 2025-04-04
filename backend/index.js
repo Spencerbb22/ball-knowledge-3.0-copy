@@ -126,9 +126,8 @@ app.get('/api/daily-challenge', (req, res) => {
     const mlb = JSON.parse(fs.readFileSync(path.join(__dirname, 'mlb.json'), 'utf-8'));
     const epl = JSON.parse(fs.readFileSync(path.join(__dirname, 'epl.json'), 'utf-8'));
     const draft = JSON.parse(fs.readFileSync(path.join(__dirname, 'draft.json'), 'utf-8'));
-    const thisOrThat = JSON.parse(fs.readFileSync(path.join(__dirname, 'this-or-that.json'), 'utf-8'));
 
-    const all = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft, ...thisOrThat];
+    const all = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft];
     const shuffled = all.sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, 3);
 
