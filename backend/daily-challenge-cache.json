@@ -1,0 +1,35 @@
+{
+  "date": "2025-04-04",
+  "questions": [
+    {
+      "question": "Who was the top scorer in the 2011/12 Premier League season?",
+      "options": [
+        "Wayne Rooney",
+        "Sergio Aguero",
+        "Demba Ba",
+        "Robin van Persie"
+      ],
+      "answer": "Robin van Persie"
+    },
+    {
+      "question": "Who won NFL MVP in 2016?",
+      "options": [
+        "Derek Carr",
+        "Tom Brady",
+        "Matt Ryan",
+        "Aaron Rodgers"
+      ],
+      "answer": "Matt Ryan"
+    },
+    {
+      "question": "Which WR led the league in receptions in 2018?",
+      "options": [
+        "Michael Thomas",
+        "DeAndre Hopkins",
+        "Antonio Brown",
+        "Julio Jones"
+      ],
+      "answer": "Michael Thomas"
+    }
+  ]
+}
