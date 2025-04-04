@@ -101,6 +101,7 @@
 
     <div class="top-right">
       <button class="top-right-btn" onclick="window.location.href='leaderboard.html'">Enter Username to View Leaderboards</button>
+      <button class="top-right-btn" onclick="toggleMikeBreenAudio()">Toggle Mike Breen Audio</button>
     </div>
 
     <div class="menu" id="main-menu">
@@ -125,6 +126,7 @@
 
   <script>
     const bangAudio = document.getElementById('bang-audio');
+    let mikeBreenEnabled = true;  // Default state for Mike Breen audio
     const usedQuestions = {
       'this-or-that': [],
       'calls': [],
@@ -135,6 +137,11 @@
       'mixed': [],
       'daily': []
     };
+
+    function toggleMikeBreenAudio() {
+      mikeBreenEnabled = !mikeBreenEnabled;
+      alert(mikeBreenEnabled ? "Mike Breen Audio Enabled" : "Mike Breen Audio Disabled");
+    }
 
     function showSportMenu() {
       document.getElementById('main-menu').classList.add('hidden');
@@ -154,7 +161,7 @@
 
     function getUniqueQuestions(all, used, count = 5) {
       const remaining = all.filter(q => !used.includes(q.question));
-      if (remaining.length < count) used.length = 0;
+      if (remaining.length < count) used.length = 0; // Reset the used questions if all have been asked
       const newSet = shuffleArray(all.filter(q => !used.includes(q.question))).slice(0, count);
       used.push(...newSet.map(q => q.question));
       return newSet;
@@ -241,6 +248,7 @@
               <button onclick="submitDailyAnswer()">Submit</button>
               <div class="result" id="result"></div>
             </div>
+            <button class="replay-button" onclick="backToMain()">⬅️ Back</button>
           `;
 
           attempts = 0;
@@ -284,9 +292,10 @@
         const resultDiv = document.getElementById('result');
         if (selected === correct) {
           resultDiv.innerHTML = mode === 'calls' ? '✅ Correct!' : '🔊 <strong>BANG! ✅ Correct!</strong>';
-          if (mode !== 'calls') {
+          if (mode !== 'calls' && mikeBreenEnabled) {
             bangAudio.currentTime = 0;
             bangAudio.play();
+            setTimeout(() => bangAudio.pause(), 3500); // Play Mike Breen sound for 3.5 seconds
           }
           score++;
         } else {
@@ -296,7 +305,7 @@
           if (mode !== 'calls') bangAudio.pause();
           index++;
           showQuestion();
-        }, 2500);
+        }, 3500); // Increased wait time by 1 second
       };
 
       showQuestion();
