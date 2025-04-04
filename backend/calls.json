@@ -1,5 +1,115 @@
 [
   {
+    "question": "What year was this Kemba Walker game winner?",
+    "options": [
+      "2010",
+      "2012",
+      "2009",
+      "2008"
+    ],
+    "answer": "2010",
+    "audio": "cardiackemba.mp3"
+  },
+  {
+    "question": "Who did David Freese hit this walk off HR against in the World Series",
+    "options": [
+      "Blue Jays",
+      "Yankees",
+      "Rangers",
+      "Red Sox"
+    ],
+    "answer": "Rangers",
+    "audio": "freese-we-will-see-you-tomorrow-night.mp3"
+  },
+  {
+    "question": "Who was D Rose and the Bulls playing when he hit this game winner in the Eastern Conference Semi Finals?",
+    "options": [
+      "Bucks",
+      "Cavs",
+      "Knicks",
+      "Pistons"
+    ],
+    "answer": "Cavs",
+    "audio": "drose-buzzer.mp3"
+  },
+  {
+    "question": "Who were the Phillies playing in the NLCS when Bryce Harper hit this HR?",
+    "options": [
+      "Braves",
+      "Dodgers",
+      "Mets",
+      "Padres"
+    ],
+    "answer": "Padres",
+    "audio": "swing-of-his-life.mp3"
+  },
+  {
+    "question": "What announcer is known for saying this?",
+    "options": [
+      "Eric Collins",
+      "Mike Breen",
+      "Walt Frazier",
+      "Marv Albert"
+    ],
+    "answer": "Eric Collins",
+    "audio": "eric-collins.mp3"
+  },
+  {
+    "question": "Who were the Ravens playing when Tylan Wallace had this walk off punt return TD?",
+    "options": [
+      "Titans",
+      "Giants",
+      "Rams",
+      "Raiders"
+    ],
+    "answer": "Rams",
+    "audio": "wallace-walk-offpunt.mp3"
+  },
+  {
+    "question": "What were the Giants record in 2008 when they beat the 16-0 Patriots in the Super Bowl?",
+    "options": [
+      "11-5",
+      "10-6",
+      "14-2",
+      "13-3"
+    ],
+    "answer": "10-6",
+    "audio": "manning-tyree-catch.mp3"
+  },
+  {
+    "question": "Who were the Commanders playing when Jayden Daniels threw this hail mary touchdown?",
+    "options": [
+      "Bears",
+      "Jags",
+      "Ravens",
+      "Eagles"
+    ],
+    "answer": "Bears",
+    "audio": "jayden-hail-mary.mp3"
+  },
+  {
+    "question": "How far did this Shohei Ohtani HR go?",
+    "options": [
+      "428 ft",
+      "401 ft",
+      "467 ft",
+      "441 ft"
+    ],
+    "answer": "441 ft",
+    "audio": "shohei-shotgun.mp3"
+  },
+  {
+    "question": "Who did Jhonkensy Noel hit this HR against?",
+    "options": [
+      "Dodgers",
+      "Yankees",
+      "Astros",
+      "Phillies"
+    ],
+    "answer": "Yankees",
+    "audio": "big-christmas.mp3"
+  }, 
+  {
     "question": "Who did Auburn beat in this game and what year was it?",
     "options": [
       "2013 vs Michigan",
