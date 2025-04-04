@@ -1,16 +1,34 @@
 {
-  "nfl": [],
-  "nba": [],
-  "mlb": [],
-  "epl": [],
+  "nfl": [
+    {
+      "username": "Player1",
+      "score": 10,
+      "date": "2025-04-03T20:00:00.000Z"
+    },
+    {
+      "username": "Player2",
+      "score": 5,
+      "date": "2025-04-02T20:00:00.000Z"
+    }
+  ],
+  "mlb": [
+    {
+      "username": "Player3",
+      "score": 15,
+      "date": "2025-04-03T20:00:00.000Z"
+    }
+  ],
+  "epl": [
+    {
+      "username": "Player4",
+      "score": 12,
+      "date": "2025-04-01T20:00:00.000Z"
+    }
+  ],
   "draft": [],
   "mixed": [],
-  "daily-challenge": [],
-  "calls": [
-    {
-      "username": "spencer",
-      "score": 4,
-      "date": "2025-04-04"
-    }
-  ]
+  "daily": [],
+  "this-or-that": [],
+  "calls": []
 }
+

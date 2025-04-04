@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Enter Username</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 18px;
+      margin-top: 15px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background: #f0f0f0;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enter a Username</h1>
+  <input id="username" placeholder="Your username" />
+  <button onclick="submitUsername()">Submit</button>
+  <p id="message"></p>
+
+  <script>
+    function submitUsername() {
+      const name = document.getElementById("username").value.trim();
+      if (!name) return;
+
+      fetch(`/api/check-username/${name}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.exists) {
+            document.getElementById("message").innerText = "Username already taken. Please choose another.";
+          } else {
+            localStorage.setItem("username", name);
+            window.location.href = "/leaderboard.html";
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          document.getElementById("message").innerText = "Something went wrong.";
+        });
+    }
+  </script>
+</body>
+</html>
+

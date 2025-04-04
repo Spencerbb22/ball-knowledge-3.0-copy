@@ -2,152 +2,162 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, 'frontend')));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'frontend')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'frontend/index.html'));
 });
 
-app.get('/api/this-or-that', (req, res) => {
-  const filePath = path.join(__dirname, 'this-or-that.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading This or That questions');
-    res.json(JSON.parse(data));
-  });
-});
+function readJSON(file) {
+  return JSON.parse(fs.readFileSync(path.join(__dirname, file), 'utf-8'));
+}
 
+// ✅ Trivia API Endpoints
 app.get('/api/nfl', (req, res) => {
-  const file1 = path.join(__dirname, 'nfl1.json');
-  const file2 = path.join(__dirname, 'nfl2.json');
   try {
-    const data1 = JSON.parse(fs.readFileSync(file1, 'utf-8'));
-    const data2 = JSON.parse(fs.readFileSync(file2, 'utf-8')).map(q => ({
+    const nfl1 = readJSON('nfl1.json');
+    const nfl2 = readJSON('nfl2.json').map(q => ({
       question: q.question,
       options: q.options || q.choices || [],
       answer: q.answer || q.correct_answer || ""
     }));
-    const combined = [...data1, ...data2];
-    res.json(combined);
+    res.json([...nfl1, ...nfl2]);
   } catch (err) {
-    console.error('❌ Error loading NFL files:', err);
+    console.error('❌ NFL load error:', err);
     res.status(500).send('Error loading NFL questions');
   }
 });
 
-app.get('/api/epl', (req, res) => {
-  const filePath = path.join(__dirname, 'epl.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading EPL questions');
-    res.json(JSON.parse(data));
-  });
-});
-
 app.get('/api/mlb', (req, res) => {
-  const filePath = path.join(__dirname, 'mlb.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading MLB questions');
-    res.json(JSON.parse(data));
-  });
+  try {
+    res.json(readJSON('mlb.json'));
+  } catch {
+    res.status(500).send('Error loading MLB questions');
+  }
 });
 
-app.get('/api/calls', (req, res) => {
-  const filePath = path.join(__dirname, 'calls.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading Famous Calls questions');
-    res.json(JSON.parse(data));
-  });
-});
-
-app.get('/api/nba', (req, res) => {
-  const filePath = path.join(__dirname, 'nba.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading NBA questions');
-    res.json(JSON.parse(data));
-  });
+app.get('/api/epl', (req, res) => {
+  try {
+    res.json(readJSON('epl.json'));
+  } catch {
+    res.status(500).send('Error loading EPL questions');
+  }
 });
 
 app.get('/api/draft', (req, res) => {
-  const filePath = path.join(__dirname, 'draft.json');
-  fs.readFile(filePath, 'utf-8', (err, data) => {
-    if (err) return res.status(500).send('Error loading Draft questions');
-    res.json(JSON.parse(data));
-  });
+  try {
+    res.json(readJSON('draft.json'));
+  } catch {
+    res.status(500).send('Error loading Draft questions');
+  }
 });
 
+app.get('/api/this-or-that', (req, res) => {
+  try {
+    res.json(readJSON('this-or-that.json'));
+  } catch {
+    res.status(500).send('Error loading This or That questions');
+  }
+});
+
+app.get('/api/calls', (req, res) => {
+  try {
+    res.json(readJSON('calls.json'));
+  } catch {
+    res.status(500).send('Error loading Calls questions');
+  }
+});
+
+// ✅ Remove NBA from mixed
 app.get('/api/mixed', (req, res) => {
   try {
-    const nfl1 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl1.json'), 'utf-8'));
-    const nfl2 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl2.json'), 'utf-8')).map(q => ({
-      question: q.question,
-      options: q.options || q.choices || [],
-      answer: q.answer || q.correct_answer || ""
-    }));
-    const mlb = JSON.parse(fs.readFileSync(path.join(__dirname, 'mlb.json'), 'utf-8'));
-    const epl = JSON.parse(fs.readFileSync(path.join(__dirname, 'epl.json'), 'utf-8'));
-    const draft = JSON.parse(fs.readFileSync(path.join(__dirname, 'draft.json'), 'utf-8'));
-    const mixed = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft];
+    const nfl1 = readJSON('nfl1.json');
+    const nfl2 = readJSON('nfl2.json');
+    const mlb = readJSON('mlb.json');
+    const epl = readJSON('epl.json');
+    const draft = readJSON('draft.json');
+    const tot = readJSON('this-or-that.json');
+    const mixed = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft, ...tot];
     res.json(mixed);
   } catch (err) {
-    console.error('❌ Error loading mixed mode questions:', err);
-    res.status(500).send('Error loading mixed questions');
+    console.error('❌ Mixed error:', err);
+    res.status(500).send('Error loading mixed mode');
   }
 });
 
+// ✅ Daily Challenge (no NBA, no Calls, no This/That)
+const cachePath = path.join(__dirname, 'daily-challenge-cache.json');
 app.get('/api/daily-challenge', (req, res) => {
-  const cacheFile = path.join(__dirname, 'daily-challenge-cache.json');
-  const now = new Date();
-
-  if (fs.existsSync(cacheFile)) {
-    const cache = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
-    if (cache.date === now.toISOString().slice(0, 10)) {
-      return res.json(cache.questions);
-    }
-  }
-
   try {
-    const nfl1 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl1.json'), 'utf-8'));
-    const nfl2 = JSON.parse(fs.readFileSync(path.join(__dirname, 'nfl2.json'), 'utf-8'));
-    const mlb = JSON.parse(fs.readFileSync(path.join(__dirname, 'mlb.json'), 'utf-8'));
-    const epl = JSON.parse(fs.readFileSync(path.join(__dirname, 'epl.json'), 'utf-8'));
-    const draft = JSON.parse(fs.readFileSync(path.join(__dirname, 'draft.json'), 'utf-8'));
-    const all = [...nfl1, ...nfl2, ...mlb, ...epl, ...draft];
+    const today = new Date().toISOString().slice(0, 10);
+    if (fs.existsSync(cachePath)) {
+      const cache = JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
+      if (cache.date === today) return res.json(cache.questions);
+    }
+
+    const nfl = [...readJSON('nfl1.json'), ...readJSON('nfl2.json')];
+    const mlb = readJSON('mlb.json');
+    const epl = readJSON('epl.json');
+    const draft = readJSON('draft.json');
+
+    const all = [...nfl, ...mlb, ...epl, ...draft];
     const shuffled = all.sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, 3);
-    fs.writeFileSync(cacheFile, JSON.stringify({ date: now.toISOString().slice(0, 10), questions: selected }, null, 2));
+
+    fs.writeFileSync(cachePath, JSON.stringify({ date: today, questions: selected }, null, 2));
     res.json(selected);
   } catch (err) {
-    console.error('❌ Error generating Daily Challenge:', err);
-    res.status(500).send('Error generating daily challenge');
+    console.error('❌ Daily Challenge error:', err);
+    res.status(500).send('Error loading daily challenge');
   }
 });
+
+// ✅ Leaderboard
+const leaderboardPath = path.join(__dirname, 'leaderboard.json');
 
 app.post('/api/save-score', (req, res) => {
   const { username, mode, score } = req.body;
   if (!username || !mode || typeof score !== 'number') {
-    return res.status(400).send('Missing required fields');
+    return res.status(400).send('Invalid score payload');
   }
-  const filePath = path.join(__dirname, 'leaderboard.json');
-  let data = {};
-  if (fs.existsSync(filePath)) {
-    data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  }
+
+  const data = fs.existsSync(leaderboardPath)
+    ? JSON.parse(fs.readFileSync(leaderboardPath, 'utf-8'))
+    : {};
+
   if (!data[mode]) data[mode] = [];
-  data[mode].push({ username, score, date: new Date().toISOString().slice(0, 10) });
-  data[mode] = data[mode].sort((a, b) => b.score - a.score).slice(0, 5);
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  data[mode].push({ username, score, date: new Date().toISOString().split('T')[0] });
+  data[mode].sort((a, b) => b.score - a.score);
+  data[mode] = data[mode].slice(0, 5);
+
+  fs.writeFileSync(leaderboardPath, JSON.stringify(data, null, 2));
   res.sendStatus(200);
 });
 
 app.get('/api/leaderboard', (req, res) => {
-  const filePath = path.join(__dirname, 'leaderboard.json');
-  if (!fs.existsSync(filePath)) return res.json({});
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  res.json(data);
+  try {
+    if (!fs.existsSync(leaderboardPath)) return res.json({});
+    const data = JSON.parse(fs.readFileSync(leaderboardPath, 'utf-8'));
+    res.json(data);
+  } catch {
+    res.status(500).send('Error loading leaderboard');
+  }
 });
+app.get('/api/check-username/:name', (req, res) => {
+  const name = req.params.name;
+  const leaderboardPath = path.join(__dirname, 'leaderboard.json');
 
+  if (!fs.existsSync(leaderboardPath)) {
+    return res.json({ exists: false });
+  }
+
+  const data = JSON.parse(fs.readFileSync(leaderboardPath, 'utf-8'));
+  const usernames = Object.keys(data);
+  res.json({ exists: usernames.includes(name) });
+});
 app.listen(PORT, () => {
   console.log(`✅ Ball Knowledge 3.0 running at http://localhost:${PORT}`);
 });

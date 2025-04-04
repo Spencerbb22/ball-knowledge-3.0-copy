@@ -21,17 +21,12 @@
       padding-top: 40px;
       position: relative;
     }
-    .top-right-button {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
     h1 {
       font-size: 48px;
       margin-bottom: 30px;
       cursor: pointer;
     }
-    .menu, .sub-menu, .leaderboard {
+    .menu, .sub-menu, .leaderboard-section {
       background: #5e1e1e;
       padding: 20px 30px;
       border-radius: 15px;
@@ -42,7 +37,7 @@
       gap: 15px;
       margin-bottom: 30px;
     }
-    button, .replay-button {
+    .menu button, .sub-menu button, .replay-button, .top-right-btn {
       background: white;
       color: #5e1e1e;
       font-size: 18px;
@@ -54,15 +49,8 @@
       width: 220px;
       transition: background 0.3s ease;
     }
-    button:hover, .replay-button:hover {
+    .menu button:hover, .sub-menu button:hover, .replay-button:hover, .top-right-btn:hover {
       background: #f3dada;
-    }
-    input[type="text"] {
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 6px;
-      border: none;
-      width: 200px;
     }
     #question-container {
       width: 80%;
@@ -75,6 +63,23 @@
       padding: 20px;
       margin-bottom: 30px;
     }
+    .question-card p {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .question-card button {
+      margin: 6px;
+      padding: 8px 18px;
+      font-size: 16px;
+      background-color: white;
+      color: #5e1e1e;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .question-card button:hover {
+      background-color: #f5e6e6;
+    }
     .score {
       font-size: 24px;
       margin-top: 20px;
@@ -83,43 +88,53 @@
     .hidden {
       display: none;
     }
+    .top-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <h1 onclick="goHome()">Ball Knowledge</h1>
+    <h1 onclick="backToMain()">Ball Knowledge</h1>
 
-    <div class="top-right-button">
-      <button onclick="promptUsername()">Enter Username to View Leaderboards</button>
+    <div class="top-right">
+      <button class="top-right-btn" onclick="window.location.href='leaderboard.html'">Enter Username to View Leaderboards</button>
     </div>
 
     <div class="menu" id="main-menu">
       <button onclick="loadMode('mixed')">Mixed Sports</button>
       <button onclick="showSportMenu()">Pick Your Sport</button>
+      <button onclick="loadMode('this-or-that')">This or That</button>
       <button onclick="loadMode('calls')">Famous Calls</button>
       <button onclick="loadMode('draft')">Draft Trivia</button>
-      <button onclick="loadMode('daily')">Daily Challenge</button>
+      <button onclick="loadDailyChallenge()">Daily Challenge</button>
     </div>
 
     <div class="sub-menu hidden" id="sport-menu">
-      <button onclick="loadMode('nfl')">🏈 NFL</button>
-      <button onclick="loadMode('mlb')">⚾️ MLB</button>
-      <button onclick="loadMode('epl')">⚽️ EPL</button>
-      <button onclick="loadMode('nba')">🏀 NBA</button>
+      <button onclick="loadSport('nfl')">🏈 NFL</button>
+      <button onclick="loadSport('mlb')">⚾️ MLB</button>
+      <button onclick="loadSport('epl')">⚽️ English Premier League</button>
       <button onclick="backToMain()">⬅️ Back</button>
     </div>
 
     <div id="question-container"></div>
+    <audio id="bang-audio" src="bang.mp3" preload="auto"></audio>
   </div>
 
   <script>
-    let currentUsername = null;
-
-    function goHome() {
-      document.getElementById('main-menu').classList.remove('hidden');
-      document.getElementById('sport-menu').classList.add('hidden');
-      document.getElementById('question-container').innerHTML = '';
-    }
+    const bangAudio = document.getElementById('bang-audio');
+    const usedQuestions = {
+      'this-or-that': [],
+      'calls': [],
+      'nfl': [],
+      'mlb': [],
+      'epl': [],
+      'draft': [],
+      'mixed': [],
+      'daily': []
+    };
 
     function showSportMenu() {
       document.getElementById('main-menu').classList.add('hidden');
@@ -128,64 +143,163 @@
     }
 
     function backToMain() {
-      document.getElementById('sport-menu').classList.add('hidden');
       document.getElementById('main-menu').classList.remove('hidden');
+      document.getElementById('sport-menu').classList.add('hidden');
       document.getElementById('question-container').innerHTML = '';
     }
 
-    function promptUsername() {
+    function shuffleArray(arr) {
+      return [...arr].sort(() => Math.random() - 0.5);
+    }
+
+    function getUniqueQuestions(all, used, count = 5) {
+      const remaining = all.filter(q => !used.includes(q.question));
+      if (remaining.length < count) used.length = 0;
+      const newSet = shuffleArray(all.filter(q => !used.includes(q.question))).slice(0, count);
+      used.push(...newSet.map(q => q.question));
+      return newSet;
+    }
+
+    function loadMode(mode) {
       const container = document.getElementById('question-container');
-      container.innerHTML = `
-        <div>
-          <input type="text" id="username" placeholder="Enter username" />
-          <button onclick="saveUsername()">Save</button>
-        </div>
-      `;
+      container.innerHTML = '';
+      document.getElementById('main-menu').classList.add('hidden');
+      document.getElementById('sport-menu').classList.add('hidden');
+
+      if (mode === 'mixed') {
+        Promise.all([
+          fetch('/api/nfl').then(res => res.json()),
+          fetch('/api/mlb').then(res => res.json()),
+          fetch('/api/epl').then(res => res.json()),
+          fetch('/api/this-or-that').then(res => res.json()),
+          fetch('/api/draft').then(res => res.json())
+        ])
+        .then(([nfl, mlb, epl, tot, draft]) => {
+          const all = [...nfl, ...mlb, ...epl, ...tot, ...draft];
+          const questions = getUniqueQuestions(all, usedQuestions['mixed']);
+          showQuiz(questions, mode);
+        })
+        .catch(err => {
+          console.error(err);
+          container.innerHTML = `<p>⚠️ Failed to load Mixed questions.</p>`;
+        });
+      } else {
+        fetch(`/api/${mode}`)
+          .then(res => res.json())
+          .then(data => {
+            const questions = getUniqueQuestions(data, usedQuestions[mode]);
+            showQuiz(questions, mode);
+          })
+          .catch(err => {
+            console.error(err);
+            container.innerHTML = `<p>⚠️ Failed to load ${mode.toUpperCase()} questions.</p>`;
+          });
+      }
     }
 
-    function saveUsername() {
-      const input = document.getElementById('username');
-      const username = input.value.trim();
-      if (!username) return alert("Please enter a valid username");
-
-      fetch('/api/save-username', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({ username })
-      })
-      .then(res => res.text())
-      .then(response => {
-        if (response === 'duplicate') {
-          alert('Username already taken. Please choose another.');
-        } else {
-          currentUsername = username;
-          loadLeaderboard();
-        }
-      })
-      .catch(err => alert("Error saving username"));
+    function loadSport(sport) {
+      loadMode(sport);
     }
 
-    function loadLeaderboard() {
-      fetch('/api/leaderboard')
+    function loadDailyChallenge() {
+      document.getElementById('main-menu').classList.add('hidden');
+      document.getElementById('sport-menu').classList.add('hidden');
+      document.getElementById('question-container').innerHTML = '';
+
+      fetch('/api/daily-challenge')
         .then(res => res.json())
         .then(data => {
-          const container = document.getElementById('question-container');
-          container.innerHTML = `<div class="leaderboard">
-            <h2>🏆 Leaderboards</h2>
-            ${Object.keys(data).map(mode => `
-              <h3>${mode.toUpperCase()}</h3>
-              <ul>
-                ${data[mode].map(entry => `
-                  <li>${entry.username} - ${entry.score} (${entry.date})</li>
-                `).join('')}
-              </ul>
-            `).join('')}
-            <button onclick="goHome()">⬅️ Back</button>
-          </div>`;
+          showQuiz(data, 'daily');
         })
-        .catch(() => {
-          document.getElementById('question-container').innerHTML = '<p>⚠️ Failed to load leaderboard.</p>';
+        .catch(err => {
+          console.error(err);
+          document.getElementById('question-container').innerHTML = '<p>⚠️ Failed to load daily challenge.</p>';
         });
+    }
+
+    function showQuiz(questions, mode) {
+      const container = document.getElementById('question-container');
+      let index = 0;
+      let score = 0;
+      let attempts = 0;
+
+      function showQuestion() {
+        if (index >= questions.length) {
+          container.innerHTML = `<div class="score">🏆 You scored ${score} out of ${questions.length}!</div>
+            <button class="replay-button" onclick="loadMode('${mode}')">Play Again</button>
+            <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+          return;
+        }
+        const q = questions[index];
+        const allOptions = shuffleArray(q.options || q.choices);
+
+        if (mode === 'daily') {
+          container.innerHTML = `
+            <div class="question-card">
+              <p>${q.question}</p>
+              <input type="text" id="user-answer" placeholder="Type your answer here" style="padding: 10px; font-size: 16px;" />
+              <button onclick="submitDailyAnswer()">Submit</button>
+              <div class="result" id="result"></div>
+            </div>
+          `;
+
+          attempts = 0;
+
+          window.submitDailyAnswer = function() {
+            const userAnswer = document.getElementById('user-answer').value.trim().toLowerCase();
+            const correct = q.answer.trim().toLowerCase();
+            const resultDiv = document.getElementById('result');
+
+            if (userAnswer === correct) {
+              resultDiv.innerHTML = '✅ Correct!';
+              score++;
+              index++;
+              setTimeout(showQuestion, 1500);
+            } else {
+              attempts++;
+              if (attempts >= 5) {
+                resultDiv.innerHTML = `❌ Out of tries. Correct: ${q.answer}`;
+                index++;
+                setTimeout(showQuestion, 2500);
+              } else {
+                resultDiv.innerHTML = `❌ Try again (${attempts}/5)`;
+              }
+            }
+          };
+
+        } else {
+          container.innerHTML = `<div class="question-card">
+            ${mode === 'calls' ? `<audio controls><source src="${q.audio}" type="audio/mp3"></audio>` : ''}
+            <p>${q.question}</p>
+            ${allOptions.map(choice => `
+              <button onclick="handleAnswer('${choice}', '${q.answer}', '${mode}')">${choice}</button>
+            `).join('')}
+            <div class="result" id="result"></div>
+          </div>
+          <button class="replay-button" onclick="backToMain()">⬅️ Back</button>`;
+        }
+      }
+
+      window.handleAnswer = function(selected, correct, mode) {
+        const resultDiv = document.getElementById('result');
+        if (selected === correct) {
+          resultDiv.innerHTML = mode === 'calls' ? '✅ Correct!' : '🔊 <strong>BANG! ✅ Correct!</strong>';
+          if (mode !== 'calls') {
+            bangAudio.currentTime = 0;
+            bangAudio.play();
+          }
+          score++;
+        } else {
+          resultDiv.innerHTML = `❌ Incorrect. Correct: ${correct}`;
+        }
+        setTimeout(() => {
+          if (mode !== 'calls') bangAudio.pause();
+          index++;
+          showQuestion();
+        }, 2500);
+      };
+
+      showQuestion();
     }
   </script>
 </body>
